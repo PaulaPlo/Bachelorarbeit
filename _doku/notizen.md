@@ -1,17 +1,6 @@
 ======= STAND DER TECHNIK ===================================================================================
 ======= AUFBAU DER VERKEHRSSIUMLATION =======================================================================
  
-1. OSM-Gebiet für Passau herunterladen (Innstadt)
-
-2. Passau-Netz erzeugen: (Powershell)
-netconvert --osm-files passau.osm -o passau.net.xml
-
-3. in sumo-gui öffnen: (Powershell)
-sumo-gui -n passau.net.xml
-
-4. Bauen von city_bus --> Welche Busroute soll betrachet werden?
-
-
 TraCI: Traffic COntrol Interface
 Programmierschnittstelle zwischen Python und Sumo
 
@@ -40,6 +29,14 @@ route-files:
     - edges = "..." ehthält die Folge der Straßenabschnitte
 - Fahrzeuge müssen nach ihren Abfahrtrs- oder Beginnzeiten sortiert sein, weil Sumo Routendateien schrittweise einliest.
 - Beschreibt nicht das Straßennetz, sondern die Nutzung des Netzes durch Verkehrsteilnehmende
+
+Ordnerstruktur:
+configuration --> sumocfg & Startdateien
+corridor --> Netzreduktion
+demand --> Hintergrundverkehr
+infrastructure --> Haltestellen, Detektoren, Additional Files
+net --> Straßennetz
+output --> Simulationsergebnisse
 
 ======= FAHRERMODELLENTWICKLUNG =============================================================================
 
