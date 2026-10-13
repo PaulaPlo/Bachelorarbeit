@@ -1,0 +1,25 @@
+Warning: Rail signal at junction '13430644055' does not control any links
+Warning: Rail signal at junction '5052244175' does not control any links
+Warning: Rail signal at junction '5052244176' does not control any links
+Warning: At actuated tlLogic 'cluster_10186005748_10186005749_1495583418_253121748_#2more', linkIndex 11,12,48,49 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_105409715_12644806496_12644806497_12644806498_#11more', actuated phase 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_105409715_12644806496_12644806497_12644806498_#11more', linkIndex 18,19,20,41,42,43,44 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_11262696586_11262696587_1183185884_17064543_#2more', actuated phase 7 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_11262696586_11262696587_1183185884_17064543_#2more', linkIndex 2,3,4 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1157470056_4041864620_4754620525_595011_#2more', linkIndex 5,6,7,8,17,44,49,50,51 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1639172639_1877762858_369843061', linkIndex 15,16 has no controlling detector.
+Warning: Vehicle '87_bus_6106:0' performs emergency braking on lane '-813802906_1' with decel=7.00, wished=4.00, severity=1.00, time=1007.00.
+Warning: Vehicle '87_bus_6106:0' performs emergency stop at the end of lane '-813802906_1' because there is no connection to the next edge (decel=-13.00, offset=4.11), time=1007.00.
+Warning: Vehicle '88_bus_6106:1' performs emergency braking on lane '-813802906_1' with decel=7.00, wished=4.00, severity=1.00, time=1058.00.
+Warning: Vehicle '88_bus_6106:1' performs emergency stop at the end of lane '-813802906_1' because there is no connection to the next edge (decel=-12.80, offset=3.23), time=1058.00.
+Warning: Vehicle '95_bus_6106:8' performs emergency braking on lane '-813802906_1' with decel=7.00, wished=4.00, severity=1.00, time=1282.00.
+Warning: Vehicle '95_bus_6106:8' performs emergency stop at the end of lane '-813802906_1' because there is no connection to the next edge (decel=-12.62, offset=3.02), time=1282.00.
+Warning: Teleporting vehicle '43_bus_K1:4'; waited too long (wrong lane), lane='327067841_2', time=1635.00.
+Warning: Vehicle '43_bus_K1:4' skips stop on lane '327067841_1' time=1635.00.
+Warning: Vehicle '43_bus_K1:4' ends teleporting on edge '11773623', time=1635.00.
+Warning: Teleporting vehicle '62_bus_7:2'; waited too long (wrong lane), lane='327067841_2', time=1969.00.
+Warning: Vehicle '62_bus_7:2' skips stop on lane '327067841_1' time=1969.00.
+Warning: Vehicle '62_bus_7:2' ends teleporting on edge '325965601#0', time=1969.00.
+Warning: Teleporting vehicle '45_bus_K1:6'; waited too long (yield), lane='315611846#0_1', time=1985.00.
+Warning: Vehicle '45_bus_K1:6' ends teleporting on edge '401915000', time=1985.00.
+Warning: 7 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.

@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-12 07:59:26.397668 by Eclipse SUMO $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ v1_27_0+0000-e238ea04b71
+<configuration>
+    <net-file value="osm.net.xml.gz"/>
+    <ptlines-file value="osm_ptlines.xml"/>
+    <ptstops-file value="osm_stops.add.xml"/>
+    <output-file value="osm_pt.rou.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <types value="bus,tram,subway,light_rail,train,trolleybus,monorail,minibus,share_taxi,ferry,aerialway"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_tram" vClass="tram" speedFactor="1.0"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_minibus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_share_taxi" vClass="taxi" speedFactor="0.95"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <trip id="0_bus_N881:0" type="pt_bus" depart="3.0" departLane="best" from="655396745" to="655396745">
+        <stop busStop="6140602300" duration="30"/>  <!-- Passau, Hbf. (13) -->
+    </trip>
+    <trip id="1_bus_N881:1" type="pt_bus" depart="6.0" departLane="best" from="655396745" to="655396745">
+        <stop busStop="6140602300" duration="30"/>  <!-- Passau, Hbf. (13) -->
+    </trip>
+    <trip id="2_bus_Oberhausbus:0" type="pt_bus" depart="15.0" departLane="best" from="-73509516" to="7864016#1">
+        <stop busStop="-751886353" duration="30"/>  <!-- Oberhausmuseum -->
+        <stop busStop="-7006629640" duration="30"/>  <!-- Oberhaus -->
+        <stop busStop="1917278843" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="7008380704" duration="30"/>  <!-- Rathausplatz -->
+    </trip>
+    <trip id="3_bus_Oberhausbus:1" type="pt_bus" depart="15.0" departLane="best" from="-7864016#1" to="60398823">
+        <stop busStop="-1917278843" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="-7008380704" duration="30"/>  <!-- Rathausplatz -->
+        <stop busStop="751886353" duration="30"/>  <!-- Oberhausmuseum -->
+        <stop busStop="7006629640" duration="30"/>  <!-- Oberhaus -->
+    </trip>
+    <trip id="4_bus_City-Bus:0" type="pt_bus" depart="17.0" departLane="best" from="24291254" to="1185727578">
+        <stop busStop="595054" duration="30"/>  <!-- Passau, Parkhaus Bahnhofstraße -->
+        <stop busStop="2413642564" duration="30"/>  <!-- Rindermarkt -->
+        <stop busStop="7006674999" duration="30"/>  <!-- Domplatz -->
+        <stop busStop="7008117773" duration="30"/>  <!-- Residenzplatz -->
+        <stop busStop="864720683" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="57866399" duration="30"/>  <!-- Nagelschmiedgasse -->
+        <stop busStop="595054" duration="30"/>  <!-- Passau, Parkhaus Bahnhofstraße -->
+    </trip>
+    <trip id="5_train_ICE_91:0" type="pt_train" depart="19.0" departLane="best" from="96103236#0" to="96103236#0">
+        <stop busStop="2541104524" duration="30"/>  <!-- Passau Hbf -->
+    </trip>
+    <trip id="6_bus_10:0" type="pt_bus" depart="27.0" departLane="best" from="48923952" to="203121593#1">
+        <stop busStop="864752771" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="13973265319" duration="30"/>  <!-- Passau, Bahnhofstraße -->
+        <stop busStop="13973265305" duration="30"/>  <!-- Passau, Hbf. (10) -->
+        <stop busStop="864886640" duration="30"/>  <!-- Passau, Stelzhamerstraße -->
+        <stop busStop="871152626" duration="30"/>  <!-- Passau, Steinbachmühle -->
+        <stop busStop="-56307442" duration="30"/>  <!-- Passau, Westendstraße -->
+        <stop busStop="865390319" duration="30"/>  <!-- Passau, Holzmannstraße -->
+    </trip>
+    <trip id="7_bus_10:1" type="pt_bus" depart="28.0" departLane="best" from="-203121593#1" to="48923952">
+        <stop busStop="-865390290" duration="30"/>  <!-- Passau, Holzmannstraße -->
+        <stop busStop="-49890259" duration="30"/>  <!-- Passau, Westendstraße -->
+        <stop busStop="-871152581" duration="30"/>  <!-- Passau, Steinbachmühle -->
+        <stop busStop="-864886640" duration="30"/>  <!-- Passau, Stelzhamerstraße -->
+        <stop busStop="595054" duration="30"/>  <!-- Passau, Parkhaus Bahnhofstraße -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="-13973265306" duration="30"/>  <!-- Passau, Bahnhofstraße -->
+        <stop busStop="864752771" duration="30"/>  <!-- Passau, ZOB -->
+    </trip>
+    <trip id="8_bus_2:0" type="pt_bus" depart="38.0" departLane="best" from="-9205548" to="-73317815">
+        <stop busStop="-864720694" duration="30"/>  <!-- Wilhelm-Niedermayer-Straße -->
+        <stop busStop="864720570" duration="30"/>  <!-- Säumerweg -->
+        <stop busStop="-864720698" duration="30"/>  <!-- Englmeierstraße -->
+        <stop busStop="-864720544" duration="30"/>  <!-- Waldschmidtstraße -->
+        <stop busStop="-620900510" duration="30"/>  <!-- Am Hochpegel -->
+        <stop busStop="-864720576" duration="30"/>  <!-- Prinz-Eugen-Straße -->
+        <stop busStop="-334242478" duration="30"/>  <!-- Josef-Wenzl-Straße -->
+        <stop busStop="-864720584" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="-13975862725" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="-864752870" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="83690900" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="616834745" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="83692945" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="83698004" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="83699722" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="506699277" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="869650533" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="865463058" duration="30"/>  <!-- Dr.-Emil-Brichta-Straße -->
+        <stop busStop="-869558313" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+    </trip>
+    <trip id="9_bus_2:1" type="pt_bus" depart="47.0" departLane="best" from="73317825#7" to="9205548">
+        <stop busStop="869558744" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+        <stop busStop="-865463056" duration="30"/>  <!-- Dr.-Emil-Brichta-Straße -->
+        <stop busStop="-869650520" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699281" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-294243061" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-83698004" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-83692945" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="-616834745" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="864752823" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="297613355" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="335990743" duration="30"/>  <!-- Hängebrücke -->
+        <stop busStop="68714921" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="864720584" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="334242478" duration="30"/>  <!-- Josef-Wenzl-Straße -->
+        <stop busStop="864720658" duration="30"/>  <!-- Prinz-Eugen-Straße -->
+        <stop busStop="334242484" duration="30"/>  <!-- Am Hochpegel -->
+        <stop busStop="864720544" duration="30"/>  <!-- Waldschmidtstraße -->
+        <stop busStop="334440331" duration="30"/>  <!-- Englmeierstraße -->
+        <stop busStop="-864720570" duration="30"/>  <!-- Säumerweg -->
+    </trip>
+    <trip id="10_bus_6122/19:0" type="pt_bus" depart="52.0" departLane="best" from="1173765306#1" to="-72865046#0">
+        <stop busStop="4714252625" duration="30"/>  <!-- Passau, Hbf. (1) -->
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="297613355" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="-57866399" duration="30"/>  <!-- Nagelschmiedgasse -->
+        <stop busStop="-864720683" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="864720584" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="-1639081949" duration="30"/>  <!-- Witikostraße -->
+        <stop busStop="68714921" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="-1503984042" duration="30"/>  <!-- Schulbergstraße -->
+        <stop busStop="-864720570" duration="30"/>  <!-- Säumerweg -->
+    </trip>
+    <trip id="11_bus_7:0" type="pt_bus" depart="54.0" departLane="best" from="-203121593#1" to="-1111767774">
+        <stop busStop="-865390290" duration="30"/>  <!-- Passau, Holzmannstraße -->
+        <stop busStop="-49890259" duration="30"/>  <!-- Passau, Westendstraße -->
+        <stop busStop="-13973265308" duration="30"/>  <!-- Passau, Äußere Spitalhofstraße -->
+        <stop busStop="620882486" duration="30"/>  <!-- Passau, Danziger Straße -->
+        <stop busStop="620882487" duration="30"/>  <!-- Passau, Dr.-Geiger-Weg -->
+        <stop busStop="2441642048" duration="30"/>  <!-- Westerburgerstraße -->
+        <stop busStop="620882489" duration="30"/>  <!-- Kraftstraße -->
+        <stop busStop="620882492" duration="30"/>  <!-- Sailerwöhr -->
+        <stop busStop="620882493" duration="30"/>  <!-- Auerspergstraße -->
+        <stop busStop="620882496" duration="30"/>  <!-- Lambergstraße -->
+        <stop busStop="620882500" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="11302178682" duration="30"/>  <!-- Passau, Leopoldstraße -->
+        <stop busStop="864752710" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="865262951" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="872833459" duration="30"/>  <!-- Fürstenweg -->
+        <stop busStop="872833288" duration="30"/>  <!-- Schulstraße -->
+        <stop busStop="872833429" duration="30"/>  <!-- Glockenstraße -->
+        <stop busStop="81080408" duration="30"/>  <!-- Plantage -->
+        <stop busStop="872833336" duration="30"/>  <!-- Gertraudstraße -->
+        <stop busStop="872833328" duration="30"/>  <!-- Grillenöd -->
+        <stop busStop="6210628284" duration="30"/>  <!-- Sturmsölden -->
+        <stop busStop="-865390339" duration="30"/>  <!-- Ries -->
+    </trip>
+    <trip id="12_bus_11:0" type="pt_bus" depart="55.0" departLane="best" from="48923952" to="129997888">
+        <stop busStop="864752892" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="13973265319" duration="30"/>  <!-- Passau, Bahnhofstraße -->
+        <stop busStop="13973265305" duration="30"/>  <!-- Passau, Hbf. (10) -->
+        <stop busStop="864886640" duration="30"/>  <!-- Passau, Stelzhamerstraße -->
+        <stop busStop="871152626" duration="30"/>  <!-- Passau, Steinbachmühle -->
+        <stop busStop="871152653" duration="30"/>  <!-- Hacklstein -->
+        <stop busStop="57647857" duration="30"/>  <!-- Kachlet -->
+    </trip>
+    <trip id="13_bus_9:0" type="pt_bus" depart="58.0" departLane="best" from="-129997888" to="-73317815">
+        <stop busStop="-871152667" duration="30"/>  <!-- Kachlet -->
+        <stop busStop="-871152668" duration="30"/>  <!-- Hacklstein -->
+        <stop busStop="-871152581" duration="30"/>  <!-- Passau, Steinbachmühle -->
+        <stop busStop="-864886640" duration="30"/>  <!-- Passau, Stelzhamerstraße -->
+        <stop busStop="595054" duration="30"/>  <!-- Passau, Parkhaus Bahnhofstraße -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="-13973265306" duration="30"/>  <!-- Passau, Bahnhofstraße -->
+        <stop busStop="864752719" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="-871152554" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="-514738093" duration="30"/>  <!-- Universität -->
+        <stop busStop="-506699300" duration="30"/>  <!-- Wörthstraße -->
+        <stop busStop="-506699289" duration="30"/>  <!-- Klinikum -->
+        <stop busStop="-13981624056" duration="30"/>  <!-- Apfelkoch -->
+        <stop busStop="280240900" duration="30"/>  <!-- Weinleitenweg -->
+        <stop busStop="255946042" duration="30"/>  <!-- Graf-Salm-Straße -->
+        <stop busStop="506699277" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="869558465" duration="30"/>  <!-- Söldenpeterweg -->
+        <stop busStop="-874761645" duration="30"/>  <!-- Königsberger Straße -->
+        <stop busStop="-874762106" duration="30"/>  <!-- Vornholz -->
+        <stop busStop="-874762087" duration="30"/>  <!-- Birkhamerstraße -->
+        <stop busStop="874762126" duration="30"/>  <!-- Simmerlingweg -->
+        <stop busStop="-869558313" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+    </trip>
+    <trip id="14_bus_7599:0" type="pt_bus" depart="60.0" departLane="best" from="7864512#0" to="726823073">
+        <stop busStop="620900508" duration="30"/>  <!-- Römerplatz -->
+        <stop busStop="603030416" duration="30"/>  <!-- Lindau -->
+    </trip>
+    <trip id="15_bus_8:0" type="pt_bus" depart="65.0" departLane="best" from="-129997888" to="-73317815">
+        <stop busStop="-871152667" duration="30"/>  <!-- Kachlet -->
+        <stop busStop="-871152668" duration="30"/>  <!-- Hacklstein -->
+        <stop busStop="-871152581" duration="30"/>  <!-- Passau, Steinbachmühle -->
+        <stop busStop="-864886640" duration="30"/>  <!-- Passau, Stelzhamerstraße -->
+        <stop busStop="595054" duration="30"/>  <!-- Passau, Parkhaus Bahnhofstraße -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="-13973265306" duration="30"/>  <!-- Passau, Bahnhofstraße -->
+        <stop busStop="864752719" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="-871152554" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="-514738093" duration="30"/>  <!-- Universität -->
+        <stop busStop="-506699300" duration="30"/>  <!-- Wörthstraße -->
+        <stop busStop="-506699289" duration="30"/>  <!-- Klinikum -->
+        <stop busStop="-13981624056" duration="30"/>  <!-- Apfelkoch -->
+        <stop busStop="280240900" duration="30"/>  <!-- Weinleitenweg -->
+        <stop busStop="255946042" duration="30"/>  <!-- Graf-Salm-Straße -->
+        <stop busStop="506699277" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-874761867" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-874761645" duration="30"/>  <!-- Königsberger Straße -->
+        <stop busStop="-874762106" duration="30"/>  <!-- Vornholz -->
+        <stop busStop="-874762087" duration="30"/>  <!-- Birkhamerstraße -->
+        <stop busStop="874762126" duration="30"/>  <!-- Simmerlingweg -->
+        <stop busStop="-869558313" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+    </trip>
+    <trip id="16_bus_9:1" type="pt_bus" depart="66.0" departLane="best" from="73317825#7" to="129997888">
+        <stop busStop="869558744" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+        <stop busStop="-874761888" duration="30"/>  <!-- Simmerlingweg -->
+        <stop busStop="874761680" duration="30"/>  <!-- Birkhamerstraße -->
+        <stop busStop="874762106" duration="30"/>  <!-- Vornholz -->
+        <stop busStop="874761975" duration="30"/>  <!-- Königsberger Straße -->
+        <stop busStop="-869558696" duration="30"/>  <!-- Söldenpeterweg -->
+        <stop busStop="-506699281" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-864886619" duration="30"/>  <!-- Graf-Salm-Straße -->
+        <stop busStop="-54137478" duration="30"/>  <!-- Weinleitenweg -->
+        <stop busStop="280241166" duration="30"/>  <!-- Apfelkoch -->
+        <stop busStop="506699288" duration="30"/>  <!-- Klinikum -->
+        <stop busStop="267837460" duration="30"/>  <!-- Wörthstraße -->
+        <stop busStop="514738087" duration="30"/>  <!-- Universität -->
+        <stop busStop="871152575" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="864752864" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="13973265319" duration="30"/>  <!-- Passau, Bahnhofstraße -->
+        <stop busStop="13973265305" duration="30"/>  <!-- Passau, Hbf. (10) -->
+        <stop busStop="864886640" duration="30"/>  <!-- Passau, Stelzhamerstraße -->
+        <stop busStop="871152626" duration="30"/>  <!-- Passau, Steinbachmühle -->
+        <stop busStop="871152653" duration="30"/>  <!-- Hacklstein -->
+        <stop busStop="57647857" duration="30"/>  <!-- Kachlet -->
+    </trip>
+    <trip id="17_bus_6121/18:0" type="pt_bus" depart="93.0" departLane="best" from="327067841" to="-137550632#0">
+        <stop busStop="865262951" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="-874761893" duration="30"/>  <!-- Ries-Wasserturm -->
+    </trip>
+    <trip id="18_bus_5:0" type="pt_bus" depart="98.0" departLane="best" from="137550632#0" to="153181405">
+        <stop busStop="7553299149" duration="30"/>  <!-- Ries-Wasserturm -->
+        <stop busStop="865390281" duration="30"/>  <!-- Ries -->
+        <stop busStop="-13979947181" duration="30"/>  <!-- Ries-Rennweg -->
+        <stop busStop="-10905868563" duration="30"/>  <!-- Ries, Rennweg -->
+        <stop busStop="-2556045926" duration="30"/>  <!-- Abzw. Freudenhain -->
+        <stop busStop="865390335" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="864752780" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="-620882501" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="-620882497" duration="30"/>  <!-- Lambergstraße -->
+        <stop busStop="-411322659" duration="30"/>  <!-- Auerspergstraße -->
+        <stop busStop="-620882491" duration="30"/>  <!-- Sailerwöhr -->
+        <stop busStop="-620882490" duration="30"/>  <!-- Kraftstraße -->
+        <stop busStop="-2441642048" duration="30"/>  <!-- Westerburgerstraße -->
+        <stop busStop="-620882488" duration="30"/>  <!-- Dr.-Geiger-Weg -->
+        <stop busStop="-13973265307" duration="30"/>  <!-- Passau, Danziger Straße -->
+        <stop busStop="869558570" duration="30"/>  <!-- Kubinstraße -->
+        <stop busStop="60767989" duration="30"/>  <!-- Passavia -->
+        <stop busStop="869558813" duration="30"/>  <!-- Donau-Schwaben-Straße -->
+        <stop busStop="874762126" duration="30"/>  <!-- Simmerlingweg -->
+        <stop busStop="-869558313" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+        <stop busStop="-869558149" duration="30"/>  <!-- Dr.-Ernst-Derra-Straße -->
+        <stop busStop="-869558650" duration="30"/>  <!-- Gretli-Fuchs-Straße -->
+        <stop busStop="60637997" duration="30"/>  <!-- Kohlbruck/Brücke -->
+        <stop busStop="869558412" duration="30"/>  <!-- Kohlbruck -->
+    </trip>
+    <trip id="19_bus_11:1" type="pt_bus" depart="102.0" departLane="best" from="-129997888" to="48923952">
+        <stop busStop="-871152667" duration="30"/>  <!-- Kachlet -->
+        <stop busStop="-871152668" duration="30"/>  <!-- Hacklstein -->
+        <stop busStop="-871152581" duration="30"/>  <!-- Passau, Steinbachmühle -->
+        <stop busStop="-864886640" duration="30"/>  <!-- Passau, Stelzhamerstraße -->
+        <stop busStop="595054" duration="30"/>  <!-- Passau, Parkhaus Bahnhofstraße -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="-13973265306" duration="30"/>  <!-- Passau, Bahnhofstraße -->
+        <stop busStop="864752892" duration="30"/>  <!-- Passau, ZOB -->
+    </trip>
+    <trip id="20_bus_7599:1" type="pt_bus" depart="119.0" departLane="best" from="-726823073" to="-151047162">
+        <stop busStop="864720683" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="57866399" duration="30"/>  <!-- Nagelschmiedgasse -->
+        <stop busStop="-865263090" duration="30"/>  <!-- Lindau -->
+    </trip>
+    <trip id="21_train_12888:0" type="pt_train" depart="125.0" departLane="best" from="247179222#0" to="102407087#1">
+        <stop busStop="2875973802" duration="30"/>  <!-- Passau Hbf -->
+    </trip>
+    <trip id="22_bus_817:0" type="pt_bus" depart="126.0" departLane="best" from="-929628064#1" to="929628064#1">
+        <stop busStop="-13983773767" duration="30"/>  <!-- Mayrhof b. Schardenberg -->
+    </trip>
+    <trip id="23_bus_4:0" type="pt_bus" depart="131.0" departLane="best" from="-100431595#7" to="320161863">
+        <stop busStop="-1492369919" duration="30"/>  <!-- Achleiten -->
+        <stop busStop="-1492596950" duration="30"/>  <!-- Haibach -->
+        <stop busStop="-13976270688" duration="30"/>  <!-- Auenweg -->
+        <stop busStop="-268843569" duration="30"/>  <!-- Kremser Straße -->
+        <stop busStop="-13976270687" duration="30"/>  <!-- Hörnerweg -->
+        <stop busStop="13976270686" duration="30"/>  <!-- Schwendistraße -->
+        <stop busStop="-1492612721" duration="30"/>  <!-- Johann-Bergler-Straße -->
+        <stop busStop="-1492612720" duration="30"/>  <!-- Jesuitenschlößl -->
+        <stop busStop="-753520955" duration="30"/>  <!-- Mühltalstraße -->
+        <stop busStop="13976270685" duration="30"/>  <!-- Schmiedgasse -->
+        <stop busStop="-13976270684" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="-13976270683" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="864752887" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="297613355" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="335990743" duration="30"/>  <!-- Hängebrücke -->
+        <stop busStop="68714921" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="864720584" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="-56307384" duration="30"/>  <!-- Ilzleite -->
+        <stop busStop="-1492229040" duration="30"/>  <!-- Oetkersiedlung -->
+        <stop busStop="-2434285697" duration="30"/>  <!-- Rosensteig -->
+        <stop busStop="-13977703012" duration="30"/>  <!-- Achatiusstraße -->
+        <stop busStop="75847235" duration="30"/>  <!-- Landrichterstraße -->
+        <stop busStop="1303947458" duration="30"/>  <!-- Hals -->
+    </trip>
+    <trip id="24_train_RE_3:0" type="pt_train" depart="131.0" departLane="best" from="297770260" to="-1536202785">
+        <stop busStop="-5225575205" duration="30"/>  <!-- Passau Hbf -->
+    </trip>
+    <trip id="25_train_RE_3:1" type="pt_train" depart="132.0" departLane="best" from="247179222#0" to="101189619#2">
+        <stop busStop="2875973802" duration="30"/>  <!-- Passau Hbf -->
+    </trip>
+    <trip id="26_bus_7710/000048:0" type="pt_bus" depart="133.0" departLane="best" from="1173765306#1" to="-137550632#0">
+        <stop busStop="10905868556" duration="30"/>  <!-- Passau, Hbf. (2) -->
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="865262951" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="10907896491" duration="30"/>  <!-- Sturmbergweg -->
+        <stop busStop="10905868559" duration="30"/>  <!-- Abzw. Freudenhain -->
+        <stop busStop="2559626456" duration="30"/>  <!-- Ries-Rennweg -->
+        <stop busStop="-874761893" duration="30"/>  <!-- Ries-Wasserturm -->
+    </trip>
+    <trip id="27_train_931:0" type="pt_train" depart="136.0" departLane="best" from="96103236#0" to="96103236#0">
+        <stop busStop="2541104524" duration="30"/>  <!-- Passau Hbf -->
+    </trip>
+    <trip id="28_bus_4:1" type="pt_bus" depart="137.0" departLane="best" from="-320161863" to="135980448">
+        <stop busStop="-1303947458" duration="30"/>  <!-- Hals -->
+        <stop busStop="-75847235" duration="30"/>  <!-- Landrichterstraße -->
+        <stop busStop="13977703011" duration="30"/>  <!-- Achatiusstraße -->
+        <stop busStop="13977703010" duration="30"/>  <!-- Rosensteig -->
+        <stop busStop="1492229040" duration="30"/>  <!-- Oetkersiedlung -->
+        <stop busStop="-13977703013" duration="30"/>  <!-- Ilzleite -->
+        <stop busStop="-864720584" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="-13975862725" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="864752736" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="1641256218" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="11377269006" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="1492367442" duration="30"/>  <!-- Kirchenplatz -->
+        <stop busStop="13976270692" duration="30"/>  <!-- Jahnstraße -->
+        <stop busStop="753520955" duration="30"/>  <!-- Mühltalstraße -->
+        <stop busStop="13976270691" duration="30"/>  <!-- Jesuitenschlößl -->
+        <stop busStop="1492612721" duration="30"/>  <!-- Johann-Bergler-Straße -->
+        <stop busStop="-1492602360" duration="30"/>  <!-- Schwendistraße -->
+        <stop busStop="268289479" duration="30"/>  <!-- Hörnerweg -->
+        <stop busStop="13976270690" duration="30"/>  <!-- Kremser Straße -->
+        <stop busStop="13976270689" duration="30"/>  <!-- Auenweg -->
+        <stop busStop="61196795" duration="30"/>  <!-- Haibach -->
+        <stop busStop="1492369919" duration="30"/>  <!-- Achleiten -->
+    </trip>
+    <trip id="29_train_ICE_39:0" type="pt_train" depart="139.0" departLane="best" from="28445208#1" to="101189619#2">
+        <stop busStop="2875973801" duration="30"/>  <!-- Passau Hbf -->
+    </trip>
+    <trip id="30_train_ICE_91:1" type="pt_train" depart="147.0" departLane="best" from="244885906" to="101189619#2">
+        <stop busStop="2875973801" duration="30"/>  <!-- Passau Hbf -->
+    </trip>
+    <trip id="31_bus_6110:0" type="pt_bus" depart="157.0" departLane="best" from="327067841" to="-137550632#0">
+        <stop busStop="865262951" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="-874761893" duration="30"/>  <!-- Ries-Wasserturm -->
+    </trip>
+    <trip id="32_bus_3:0" type="pt_bus" depart="158.0" departLane="best" from="-100431595#7" to="-150943947#0">
+        <stop busStop="-1492369919" duration="30"/>  <!-- Achleiten -->
+        <stop busStop="-1492596950" duration="30"/>  <!-- Haibach -->
+        <stop busStop="-13976270688" duration="30"/>  <!-- Auenweg -->
+        <stop busStop="-268843569" duration="30"/>  <!-- Kremser Straße -->
+        <stop busStop="-13976270687" duration="30"/>  <!-- Hörnerweg -->
+        <stop busStop="13976270686" duration="30"/>  <!-- Schwendistraße -->
+        <stop busStop="-1492612721" duration="30"/>  <!-- Johann-Bergler-Straße -->
+        <stop busStop="-1492612720" duration="30"/>  <!-- Jesuitenschlößl -->
+        <stop busStop="-753520955" duration="30"/>  <!-- Mühltalstraße -->
+        <stop busStop="13976270685" duration="30"/>  <!-- Schmiedgasse -->
+        <stop busStop="-13976270684" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="-13976270683" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="864752887" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="297613355" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="335990743" duration="30"/>  <!-- Hängebrücke -->
+        <stop busStop="17064590" duration="30"/>  <!-- Passau, Aufischer -->
+        <stop busStop="1638034295" duration="30"/>  <!-- Zahnradfabrik Werk 1 -->
+        <stop busStop="865263168" duration="30"/>  <!-- Lindau -->
+        <stop busStop="-13976270693" duration="30"/>  <!-- Passau, Garhammerweg -->
+        <stop busStop="-1638047782" duration="30"/>  <!-- Obere Schneckenbergstraße -->
+        <stop busStop="-11286206579" duration="30"/>  <!-- Passau, Obere Schneckenbergstraße -->
+        <stop busStop="-13976270695" duration="30"/>  <!-- Evangelische Kirche -->
+        <stop busStop="-1638047784" duration="30"/>  <!-- Jägersteig -->
+        <stop busStop="-1416895619" duration="30"/>  <!-- Bäckerholz -->
+    </trip>
+    <trip id="33_bus_K2:0" type="pt_bus" depart="158.0" departLane="best" from="48923952" to="-151069930#0">
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="297613355" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="-57866399" duration="30"/>  <!-- Nagelschmiedgasse -->
+        <stop busStop="-864720683" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="57869798" duration="30"/>  <!-- Römerplatz -->
+        <stop busStop="68714921" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="864720584" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="-1639081949" duration="30"/>  <!-- Witikostraße -->
+        <stop busStop="-856960735" duration="30"/>  <!-- Sieglgut -->
+    </trip>
+    <trip id="34_bus_K2:1" type="pt_bus" depart="160.0" departLane="best" from="-151069930#0" to="48923952">
+        <stop busStop="-856960735" duration="30"/>  <!-- Sieglgut -->
+        <stop busStop="-335638119" duration="30"/>  <!-- Sieglberg I -->
+        <stop busStop="1639081949" duration="30"/>  <!-- Witikostraße -->
+        <stop busStop="-864720584" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="-13975862725" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="-6995651096" duration="30"/>  <!-- Römerplatz -->
+        <stop busStop="13987132250" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="57866399" duration="30"/>  <!-- Nagelschmiedgasse -->
+        <stop busStop="-1638973207" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+    </trip>
+    <trip id="35_bus_K1:0" type="pt_bus" depart="160.0" departLane="best" from="154656379#0" to="-117690832">
+        <stop busStop="395569574" duration="30"/>  <!-- Lüftlberg -->
+        <stop busStop="13020194024" duration="30"/>  <!-- Aumühlweg -->
+        <stop busStop="-13981750087" duration="30"/>  <!-- Passau, Donauweg -->
+        <stop busStop="865390335" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="1641256218" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="11377269006" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="1492367442" duration="30"/>  <!-- Kirchenplatz -->
+        <stop busStop="13976270692" duration="30"/>  <!-- Jahnstraße -->
+        <stop busStop="1641256227" duration="30"/>  <!-- Mozartstraße -->
+        <stop busStop="13340651075" duration="30"/>  <!-- Muffatstraße -->
+        <stop busStop="13981750084" duration="30"/>  <!-- Schärdinger Straße -->
+        <stop busStop="13340723176" duration="30"/>  <!-- Mariahilf-Grenzstation -->
+        <stop busStop="-10177454491" duration="30"/>  <!-- Mayrhof b. Schardenberg -->
+    </trip>
+    <trip id="36_bus_K1:1" type="pt_bus" depart="160.0" departLane="best" from="-117690832" to="-154656379#0">
+        <stop busStop="-10177454491@2079387" duration="30"/>  <!-- Mayrhof b. Schardenberg -->
+        <stop busStop="-13340723176" duration="30"/>  <!-- Mariahilf-Grenzstation -->
+        <stop busStop="-13981750085" duration="30"/>  <!-- Schärdinger Straße -->
+        <stop busStop="13340651085" duration="30"/>  <!-- Muffatstraße -->
+        <stop busStop="-1641256230" duration="30"/>  <!-- Mozartstraße -->
+        <stop busStop="-13983773766" duration="30"/>  <!-- Jahnstraße -->
+        <stop busStop="13976270685" duration="30"/>  <!-- Schmiedgasse -->
+        <stop busStop="-13976270684" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="-13976270683" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="13981750086" duration="30"/>  <!-- Anger -->
+        <stop busStop="872833288" duration="30"/>  <!-- Schulstraße -->
+        <stop busStop="13981750087" duration="30"/>  <!-- Passau, Donauweg -->
+        <stop busStop="-13983773765" duration="30"/>  <!-- Aumühlweg -->
+        <stop busStop="-395569574" duration="30"/>  <!-- Lüftlberg -->
+    </trip>
+    <trip id="37_bus_K4:0" type="pt_bus" depart="165.0" departLane="best" from="-203121593#1" to="48923952">
+        <stop busStop="-865390290" duration="30"/>  <!-- Passau, Holzmannstraße -->
+        <stop busStop="-49890259" duration="30"/>  <!-- Passau, Westendstraße -->
+        <stop busStop="-13973265308" duration="30"/>  <!-- Passau, Äußere Spitalhofstraße -->
+        <stop busStop="620882486" duration="30"/>  <!-- Passau, Danziger Straße -->
+        <stop busStop="620882487" duration="30"/>  <!-- Passau, Dr.-Geiger-Weg -->
+        <stop busStop="-55185506" duration="30"/>  <!-- Passau, Holzheimerstraße -->
+        <stop busStop="-13973265318" duration="30"/>  <!-- Passau, Bernhard-Setzer-Straße -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="-13973265306" duration="30"/>  <!-- Passau, Bahnhofstraße -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+    </trip>
+    <trip id="38_bus_K4:1" type="pt_bus" depart="166.0" departLane="best" from="48923952" to="203121593#1">
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="13973265319" duration="30"/>  <!-- Passau, Bahnhofstraße -->
+        <stop busStop="13973265305" duration="30"/>  <!-- Passau, Hbf. (10) -->
+        <stop busStop="13973265318" duration="30"/>  <!-- Passau, Bernhard-Setzer-Straße -->
+        <stop busStop="13973265317" duration="30"/>  <!-- Passau, Holzheimerstraße -->
+        <stop busStop="13973265316" duration="30"/>  <!-- Passau, Dr.-Geiger-Weg -->
+        <stop busStop="-13973265307" duration="30"/>  <!-- Passau, Danziger Straße -->
+        <stop busStop="865390282" duration="30"/>  <!-- Passau, Äußere Spitalhofstraße -->
+        <stop busStop="865390319" duration="30"/>  <!-- Passau, Holzmannstraße -->
+    </trip>
+    <trip id="39_bus_6:0" type="pt_bus" depart="173.0" departLane="best" from="-129997892#1" to="153181405">
+        <stop busStop="2167432260" duration="30"/>  <!-- Passau, Maierhof -->
+        <stop busStop="13980045357" duration="30"/>  <!-- Passau, Kachletstraße -->
+        <stop busStop="13980045359" duration="30"/>  <!-- Passau, Stelzlhof -->
+        <stop busStop="13980045360" duration="30"/>  <!-- Lüftlbergstraße -->
+        <stop busStop="-872833374" duration="30"/>  <!-- Schulstraße -->
+        <stop busStop="-872833356" duration="30"/>  <!-- Fürstenweg -->
+        <stop busStop="865390335" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="864752780" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="-620882501" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="-620882497" duration="30"/>  <!-- Lambergstraße -->
+        <stop busStop="-411322659" duration="30"/>  <!-- Auerspergstraße -->
+        <stop busStop="-620882491" duration="30"/>  <!-- Sailerwöhr -->
+        <stop busStop="-620882490" duration="30"/>  <!-- Kraftstraße -->
+        <stop busStop="-2441642048" duration="30"/>  <!-- Westerburgerstraße -->
+        <stop busStop="-620882488" duration="30"/>  <!-- Dr.-Geiger-Weg -->
+        <stop busStop="-13973265307" duration="30"/>  <!-- Passau, Danziger Straße -->
+        <stop busStop="869558570" duration="30"/>  <!-- Kubinstraße -->
+        <stop busStop="60767989" duration="30"/>  <!-- Passavia -->
+        <stop busStop="869558813" duration="30"/>  <!-- Donau-Schwaben-Straße -->
+        <stop busStop="874762126" duration="30"/>  <!-- Simmerlingweg -->
+        <stop busStop="-869558313" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+        <stop busStop="-869558149" duration="30"/>  <!-- Dr.-Ernst-Derra-Straße -->
+        <stop busStop="-869558650" duration="30"/>  <!-- Gretli-Fuchs-Straße -->
+        <stop busStop="60637997" duration="30"/>  <!-- Kohlbruck/Brücke -->
+        <stop busStop="869558412" duration="30"/>  <!-- Kohlbruck -->
+    </trip>
+    <trip id="40_bus_6:1" type="pt_bus" depart="188.0" departLane="best" from="153181405" to="129997892#1">
+        <stop busStop="869558412" duration="30"/>  <!-- Kohlbruck -->
+        <stop busStop="-60637997" duration="30"/>  <!-- Kohlbruck/Brücke -->
+        <stop busStop="869558801" duration="30"/>  <!-- Betty-Pfleger-Straße -->
+        <stop busStop="869558491" duration="30"/>  <!-- Gretli-Fuchs-Straße -->
+        <stop busStop="869558307" duration="30"/>  <!-- Dr.-Ernst-Derra-Straße -->
+        <stop busStop="869558744" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+        <stop busStop="-874761836" duration="30"/>  <!-- Simmerlingweg -->
+        <stop busStop="-869558813" duration="30"/>  <!-- Donau-Schwaben-Straße -->
+        <stop busStop="-869558725" duration="30"/>  <!-- Passavia -->
+        <stop busStop="869558820" duration="30"/>  <!-- Kubinstraße -->
+        <stop busStop="620882486" duration="30"/>  <!-- Passau, Danziger Straße -->
+        <stop busStop="620882487" duration="30"/>  <!-- Passau, Dr.-Geiger-Weg -->
+        <stop busStop="2441642048" duration="30"/>  <!-- Westerburgerstraße -->
+        <stop busStop="620882489" duration="30"/>  <!-- Kraftstraße -->
+        <stop busStop="620882492" duration="30"/>  <!-- Sailerwöhr -->
+        <stop busStop="620882493" duration="30"/>  <!-- Auerspergstraße -->
+        <stop busStop="620882496" duration="30"/>  <!-- Lambergstraße -->
+        <stop busStop="620882500" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="11302178682" duration="30"/>  <!-- Passau, Leopoldstraße -->
+        <stop busStop="864752853" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="865262951" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="872833459" duration="30"/>  <!-- Fürstenweg -->
+        <stop busStop="872833288" duration="30"/>  <!-- Schulstraße -->
+        <stop busStop="13980045361" duration="30"/>  <!-- Lüftlbergstraße -->
+        <stop busStop="13980045358" duration="30"/>  <!-- Passau, Stelzlhof -->
+        <stop busStop="-4568486136" duration="30"/>  <!-- Passau, Hornbach -->
+        <stop busStop="-13980045357" duration="30"/>  <!-- Passau, Kachletstraße -->
+        <stop busStop="-13980045355" duration="30"/>  <!-- Passau, Maierhof -->
+        <stop busStop="1809193907" duration="30"/>  <!-- Wörth -->
+    </trip>
+    <trip id="41_bus_K1:2" type="pt_bus" depart="189.0" departLane="best" from="154656379#0" to="48923952">
+        <stop busStop="395569574" duration="30"/>  <!-- Lüftlberg -->
+        <stop busStop="13020194024" duration="30"/>  <!-- Aumühlweg -->
+        <stop busStop="-13981750087" duration="30"/>  <!-- Passau, Donauweg -->
+        <stop busStop="-872833374" duration="30"/>  <!-- Schulstraße -->
+        <stop busStop="-872833356" duration="30"/>  <!-- Fürstenweg -->
+        <stop busStop="865390335" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+    </trip>
+    <trip id="42_bus_K1:3" type="pt_bus" depart="201.0" departLane="best" from="154656379#0" to="-117690832">
+        <stop busStop="395569574" duration="30"/>  <!-- Lüftlberg -->
+        <stop busStop="13020194024" duration="30"/>  <!-- Aumühlweg -->
+        <stop busStop="-13981750087" duration="30"/>  <!-- Passau, Donauweg -->
+        <stop busStop="13981750086" duration="30"/>  <!-- Anger -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="1641256218" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="11377269006" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="1492367442" duration="30"/>  <!-- Kirchenplatz -->
+        <stop busStop="13976270692" duration="30"/>  <!-- Jahnstraße -->
+        <stop busStop="1641256227" duration="30"/>  <!-- Mozartstraße -->
+        <stop busStop="13340651075" duration="30"/>  <!-- Muffatstraße -->
+        <stop busStop="13981750084" duration="30"/>  <!-- Schärdinger Straße -->
+        <stop busStop="13340723176" duration="30"/>  <!-- Mariahilf-Grenzstation -->
+        <stop busStop="-10177454491" duration="30"/>  <!-- Mayrhof b. Schardenberg -->
+    </trip>
+    <trip id="43_bus_K1:4" type="pt_bus" depart="204.0" departLane="best" from="-117690832" to="-154656379#0">
+        <stop busStop="-10177454491@2079387" duration="30"/>  <!-- Mayrhof b. Schardenberg -->
+        <stop busStop="-13340723176" duration="30"/>  <!-- Mariahilf-Grenzstation -->
+        <stop busStop="-13981750085" duration="30"/>  <!-- Schärdinger Straße -->
+        <stop busStop="13340651085" duration="30"/>  <!-- Muffatstraße -->
+        <stop busStop="-1641256230" duration="30"/>  <!-- Mozartstraße -->
+        <stop busStop="-13983773766" duration="30"/>  <!-- Jahnstraße -->
+        <stop busStop="13976270685" duration="30"/>  <!-- Schmiedgasse -->
+        <stop busStop="-13976270684" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="-13976270683" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="865262951" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="13981750087" duration="30"/>  <!-- Passau, Donauweg -->
+        <stop busStop="-13983773765" duration="30"/>  <!-- Aumühlweg -->
+        <stop busStop="-395569574" duration="30"/>  <!-- Lüftlberg -->
+    </trip>
+    <trip id="44_bus_K1:5" type="pt_bus" depart="218.0" departLane="best" from="-117690832" to="-154656379#0">
+        <stop busStop="-10177454491@2079387" duration="30"/>  <!-- Mayrhof b. Schardenberg -->
+        <stop busStop="-13340723176" duration="30"/>  <!-- Mariahilf-Grenzstation -->
+        <stop busStop="-13981750085" duration="30"/>  <!-- Schärdinger Straße -->
+        <stop busStop="13340651085" duration="30"/>  <!-- Muffatstraße -->
+        <stop busStop="-1641256230" duration="30"/>  <!-- Mozartstraße -->
+        <stop busStop="-13983773766" duration="30"/>  <!-- Jahnstraße -->
+        <stop busStop="13976270685" duration="30"/>  <!-- Schmiedgasse -->
+        <stop busStop="-13976270684" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="-13976270683" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="865262951" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="872833288" duration="30"/>  <!-- Schulstraße -->
+        <stop busStop="13981750087" duration="30"/>  <!-- Passau, Donauweg -->
+        <stop busStop="-13983773765" duration="30"/>  <!-- Aumühlweg -->
+        <stop busStop="-395569574" duration="30"/>  <!-- Lüftlberg -->
+    </trip>
+    <trip id="45_bus_K1:6" type="pt_bus" depart="222.0" departLane="best" from="-117690832" to="-154656379#0">
+        <stop busStop="-10177454491@2079387" duration="30"/>  <!-- Mayrhof b. Schardenberg -->
+        <stop busStop="-13340723176" duration="30"/>  <!-- Mariahilf-Grenzstation -->
+        <stop busStop="-13981750085" duration="30"/>  <!-- Schärdinger Straße -->
+        <stop busStop="13340651085" duration="30"/>  <!-- Muffatstraße -->
+        <stop busStop="-1641256230" duration="30"/>  <!-- Mozartstraße -->
+        <stop busStop="-13983773766" duration="30"/>  <!-- Jahnstraße -->
+        <stop busStop="13976270685" duration="30"/>  <!-- Schmiedgasse -->
+        <stop busStop="-13976270684" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="-13976270683" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="13981750086" duration="30"/>  <!-- Anger -->
+        <stop busStop="13981750087" duration="30"/>  <!-- Passau, Donauweg -->
+        <stop busStop="-13983773765" duration="30"/>  <!-- Aumühlweg -->
+        <stop busStop="-395569574" duration="30"/>  <!-- Lüftlberg -->
+    </trip>
+    <trip id="46_bus_K2:2" type="pt_bus" depart="227.0" departLane="best" from="-1409159993#0" to="48923952">
+        <stop busStop="-4754814743" duration="30"/>  <!-- Lindental 2 -->
+        <stop busStop="13987132243" duration="30"/>  <!-- Kirchenplatz -->
+        <stop busStop="-13976270684" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="-13976270683" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+    </trip>
+    <trip id="47_bus_K2:3" type="pt_bus" depart="227.0" departLane="best" from="48923952" to="-1409159993#0">
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="1641256218" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="11377269006" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="1492367442" duration="30"/>  <!-- Kirchenplatz -->
+        <stop busStop="13987132246" duration="30"/>  <!-- Voglau -->
+        <stop busStop="-13987132245" duration="30"/>  <!-- Passau, Kühberg -->
+        <stop busStop="-13987132244" duration="30"/>  <!-- Lindental 1 -->
+        <stop busStop="-4754814743" duration="30"/>  <!-- Lindental 2 -->
+    </trip>
+    <trip id="48_bus_K2:4" type="pt_bus" depart="228.0" departLane="best" from="1409201535#0" to="48923952">
+        <stop busStop="13987132247" duration="30"/>  <!-- Passau, Saming/Zollamt -->
+        <stop busStop="13987132248" duration="30"/>  <!-- Passau, Mühltal -->
+        <stop busStop="-753520955" duration="30"/>  <!-- Mühltalstraße -->
+        <stop busStop="13976270685" duration="30"/>  <!-- Schmiedgasse -->
+        <stop busStop="-13976270684" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="-13976270683" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+    </trip>
+    <trip id="49_bus_K2:5" type="pt_bus" depart="237.0" departLane="best" from="48923952" to="-1409201535#0">
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="1641256218" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="11377269006" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="1492367442" duration="30"/>  <!-- Kirchenplatz -->
+        <stop busStop="13976270692" duration="30"/>  <!-- Jahnstraße -->
+        <stop busStop="753520955" duration="30"/>  <!-- Mühltalstraße -->
+        <stop busStop="1116715599" duration="30"/>  <!-- Passau, Klafterbrunnweg -->
+        <stop busStop="13987132249" duration="30"/>  <!-- Linzer Straße -->
+        <stop busStop="-13987132248" duration="30"/>  <!-- Passau, Mühltal -->
+        <stop busStop="-13987132247" duration="30"/>  <!-- Passau, Saming/Zollamt -->
+    </trip>
+    <trip id="50_bus_K3:0" type="pt_bus" depart="239.0" departLane="best" from="48923952" to="-367617512#0">
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="83690900" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="616834745" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="3383649979" duration="30"/>  <!-- Hochstraße -->
+        <stop busStop="3383649982" duration="30"/>  <!-- Wörthstraße -->
+        <stop busStop="13994483827" duration="30"/>  <!-- Passau, Bischof-Altmann-Straße -->
+        <stop busStop="-506699289" duration="30"/>  <!-- Klinikum -->
+        <stop busStop="-13981624056" duration="30"/>  <!-- Apfelkoch -->
+        <stop busStop="-58930398" duration="30"/>  <!-- Passau, Eduard-Hamm-Straße -->
+        <stop busStop="-3715261129" duration="30"/>  <!-- Passau, Ingling -->
+    </trip>
+    <trip id="51_bus_K3:1" type="pt_bus" depart="253.0" departLane="best" from="48923952" to="100440648#2">
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="297613355" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="-57866399" duration="30"/>  <!-- Nagelschmiedgasse -->
+        <stop busStop="-864720683" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="620900508" duration="30"/>  <!-- Römerplatz -->
+        <stop busStop="17064590" duration="30"/>  <!-- Passau, Aufischer -->
+        <stop busStop="-13987881840" duration="30"/>  <!-- Passau, Untere Schneckenbergstraße -->
+        <stop busStop="-13987881843" duration="30"/>  <!-- Untere Schneckenbergstraße A -->
+        <stop busStop="-7837317926" duration="30"/>  <!-- Untere Schneckenbergstraße B -->
+        <stop busStop="-13987881846" duration="30"/>  <!-- Passau, Untere Schneckenbergstraße C -->
+        <stop busStop="-865263168" duration="30"/>  <!-- Lindau -->
+    </trip>
+    <trip id="52_bus_K3:2" type="pt_bus" depart="253.0" departLane="best" from="-1535179604#0" to="48923952">
+        <stop busStop="-345157968" duration="30"/>  <!-- Passau, Am Högl -->
+        <stop busStop="-13987881849" duration="30"/>  <!-- Passau, Sulzsteg/Am Högl -->
+        <stop busStop="865263168" duration="30"/>  <!-- Lindau -->
+        <stop busStop="7837317909" duration="30"/>  <!-- Passau, Untere Schneckenbergstraße C -->
+        <stop busStop="13987881845" duration="30"/>  <!-- Untere Schneckenbergstraße B -->
+        <stop busStop="13987881844" duration="30"/>  <!-- Untere Schneckenbergstraße A -->
+        <stop busStop="13987881839" duration="30"/>  <!-- Passau, Untere Schneckenbergstraße -->
+        <stop busStop="-865263086" duration="30"/>  <!-- Passau, Aufischer -->
+        <stop busStop="-6995651096" duration="30"/>  <!-- Römerplatz -->
+        <stop busStop="13987132250" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="57866399" duration="30"/>  <!-- Nagelschmiedgasse -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+    </trip>
+    <trip id="53_bus_K3:3" type="pt_bus" depart="260.0" departLane="best" from="1536115939" to="48923952">
+        <stop busStop="13994483830" duration="30"/>  <!-- Passau, Ingling -->
+        <stop busStop="13987881838" duration="30"/>  <!-- Passau, Eduard-Hamm-Straße -->
+        <stop busStop="280241166" duration="30"/>  <!-- Apfelkoch -->
+        <stop busStop="506699288" duration="30"/>  <!-- Klinikum -->
+        <stop busStop="-13994483827" duration="30"/>  <!-- Passau, Bischof-Altmann-Straße -->
+        <stop busStop="-3383649982" duration="30"/>  <!-- Wörthstraße -->
+        <stop busStop="-3383649979" duration="30"/>  <!-- Hochstraße -->
+        <stop busStop="-616834745" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+    </trip>
+    <trip id="54_bus_100:0" type="pt_bus" depart="272.0" departLane="best" from="1173765296" to="1110734244">
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="297613355" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="335990743" duration="30"/>  <!-- Hängebrücke -->
+        <stop busStop="68714921" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="864720584" duration="30"/>  <!-- Christdobl -->
+    </trip>
+    <trip id="55_bus_3:1" type="pt_bus" depart="275.0" departLane="best" from="150943947#0" to="135980448">
+        <stop busStop="1416895619" duration="30"/>  <!-- Bäckerholz -->
+        <stop busStop="1638047784" duration="30"/>  <!-- Jägersteig -->
+        <stop busStop="1608644965" duration="30"/>  <!-- Evangelische Kirche -->
+        <stop busStop="13976270694" duration="30"/>  <!-- Passau, Obere Schneckenbergstraße -->
+        <stop busStop="1638047783" duration="30"/>  <!-- Garhammerweg -->
+        <stop busStop="11286246807" duration="30"/>  <!-- Passau, Garhammerweg -->
+        <stop busStop="-865263168" duration="30"/>  <!-- Lindau -->
+        <stop busStop="1638897590" duration="30"/>  <!-- Zahnradfabrik, Werk 1 -->
+        <stop busStop="1638897583" duration="30"/>  <!-- Zahnradfabrik Werk 1 -->
+        <stop busStop="-865263086" duration="30"/>  <!-- Passau, Aufischer -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638973207" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="864752736" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="1641256218" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="11377269006" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="1492367442" duration="30"/>  <!-- Kirchenplatz -->
+        <stop busStop="13976270692" duration="30"/>  <!-- Jahnstraße -->
+        <stop busStop="753520955" duration="30"/>  <!-- Mühltalstraße -->
+        <stop busStop="13976270691" duration="30"/>  <!-- Jesuitenschlößl -->
+        <stop busStop="1492612721" duration="30"/>  <!-- Johann-Bergler-Straße -->
+        <stop busStop="-1492602360" duration="30"/>  <!-- Schwendistraße -->
+        <stop busStop="268289479" duration="30"/>  <!-- Hörnerweg -->
+        <stop busStop="13976270690" duration="30"/>  <!-- Kremser Straße -->
+        <stop busStop="13976270689" duration="30"/>  <!-- Auenweg -->
+        <stop busStop="61196795" duration="30"/>  <!-- Haibach -->
+        <stop busStop="1492369919" duration="30"/>  <!-- Achleiten -->
+    </trip>
+    <trip id="56_bus_6121/18:1" type="pt_bus" depart="303.0" departLane="best" from="137550632#0" to="1173765296">
+        <stop busStop="874761893" duration="30"/>  <!-- Ries-Wasserturm -->
+        <stop busStop="-2559626456" duration="30"/>  <!-- Ries-Rennweg -->
+        <stop busStop="-2556045926" duration="30"/>  <!-- Abzw. Freudenhain -->
+        <stop busStop="-870980277" duration="30"/>  <!-- Eggendobl(Ortmeier) -->
+        <stop busStop="-514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="57_bus_1:0" type="pt_bus" depart="305.0" departLane="best" from="151044891#1" to="-73317815">
+        <stop busStop="1638897590@389736" duration="30"/>  <!-- Zahnradfabrik, Werk 1 -->
+        <stop busStop="1638897583" duration="30"/>  <!-- Zahnradfabrik Werk 1 -->
+        <stop busStop="865263168" duration="30"/>  <!-- Lindau -->
+        <stop busStop="-865262924" duration="30"/>  <!-- Firmiangut -->
+        <stop busStop="-1503999470" duration="30"/>  <!-- Abteistraße -->
+        <stop busStop="-1503984052" duration="30"/>  <!-- Laimgrub -->
+        <stop busStop="-864720698" duration="30"/>  <!-- Englmeierstraße -->
+        <stop busStop="-864720544" duration="30"/>  <!-- Waldschmidtstraße -->
+        <stop busStop="-620900510" duration="30"/>  <!-- Am Hochpegel -->
+        <stop busStop="-864720576" duration="30"/>  <!-- Prinz-Eugen-Straße -->
+        <stop busStop="-334242478" duration="30"/>  <!-- Josef-Wenzl-Straße -->
+        <stop busStop="-864720584" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="-13975862725" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="-864752870" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="83690900" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="616834745" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="83692945" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="83698004" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="83699722" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="506699277" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="869650533" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="865463058" duration="30"/>  <!-- Dr.-Emil-Brichta-Straße -->
+        <stop busStop="-869558313" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+    </trip>
+    <trip id="58_bus_1:1" type="pt_bus" depart="317.0" departLane="best" from="73317825#7" to="151044891#1">
+        <stop busStop="869558744" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+        <stop busStop="-865463056" duration="30"/>  <!-- Dr.-Emil-Brichta-Straße -->
+        <stop busStop="-869650520" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699281" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-294243061" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-83698004" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-83692945" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="-616834745" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="864752823" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="297613355" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="335990743" duration="30"/>  <!-- Hängebrücke -->
+        <stop busStop="68714921" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="864720584" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="334242478" duration="30"/>  <!-- Josef-Wenzl-Straße -->
+        <stop busStop="864720658" duration="30"/>  <!-- Prinz-Eugen-Straße -->
+        <stop busStop="334242484" duration="30"/>  <!-- Am Hochpegel -->
+        <stop busStop="864720544" duration="30"/>  <!-- Waldschmidtstraße -->
+        <stop busStop="334440331" duration="30"/>  <!-- Englmeierstraße -->
+        <stop busStop="1503984052" duration="30"/>  <!-- Laimgrub -->
+        <stop busStop="1503999470" duration="30"/>  <!-- Abteistraße -->
+        <stop busStop="865262924" duration="30"/>  <!-- Firmiangut -->
+        <stop busStop="-865263168" duration="30"/>  <!-- Lindau -->
+        <stop busStop="1638897590" duration="30"/>  <!-- Zahnradfabrik, Werk 1 -->
+        <stop busStop="1638897583@389737" duration="30"/>  <!-- Zahnradfabrik Werk 1 -->
+    </trip>
+    <trip id="59_bus_5:1" type="pt_bus" depart="321.0" departLane="best" from="137550632#0" to="153181405">
+        <stop busStop="7553299149" duration="30"/>  <!-- Ries-Wasserturm -->
+        <stop busStop="-865390339" duration="30"/>  <!-- Ries -->
+        <stop busStop="-6210628284" duration="30"/>  <!-- Sturmsölden -->
+        <stop busStop="-321566930" duration="30"/>  <!-- Grillenöd -->
+        <stop busStop="-872833426" duration="30"/>  <!-- Gertraudstraße -->
+        <stop busStop="-872833516" duration="30"/>  <!-- Plantage -->
+        <stop busStop="-872833283" duration="30"/>  <!-- Glockenstraße -->
+        <stop busStop="-872833374" duration="30"/>  <!-- Schulstraße -->
+        <stop busStop="-872833356" duration="30"/>  <!-- Fürstenweg -->
+        <stop busStop="865390335" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="864752780" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="-620882501" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="-620882497" duration="30"/>  <!-- Lambergstraße -->
+        <stop busStop="-411322659" duration="30"/>  <!-- Auerspergstraße -->
+        <stop busStop="-620882491" duration="30"/>  <!-- Sailerwöhr -->
+        <stop busStop="-620882490" duration="30"/>  <!-- Kraftstraße -->
+        <stop busStop="-2441642048" duration="30"/>  <!-- Westerburgerstraße -->
+        <stop busStop="-620882488" duration="30"/>  <!-- Dr.-Geiger-Weg -->
+        <stop busStop="-13973265307" duration="30"/>  <!-- Passau, Danziger Straße -->
+        <stop busStop="869558570" duration="30"/>  <!-- Kubinstraße -->
+        <stop busStop="60767989" duration="30"/>  <!-- Passavia -->
+        <stop busStop="869558813" duration="30"/>  <!-- Donau-Schwaben-Straße -->
+        <stop busStop="874762126" duration="30"/>  <!-- Simmerlingweg -->
+        <stop busStop="-869558313" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+        <stop busStop="-869558149" duration="30"/>  <!-- Dr.-Ernst-Derra-Straße -->
+        <stop busStop="-869558650" duration="30"/>  <!-- Gretli-Fuchs-Straße -->
+        <stop busStop="60637997" duration="30"/>  <!-- Kohlbruck/Brücke -->
+        <stop busStop="869558412" duration="30"/>  <!-- Kohlbruck -->
+    </trip>
+    <trip id="60_bus_7:1" type="pt_bus" depart="322.0" departLane="best" from="-1111767774" to="203121593#1">
+        <stop busStop="-865390339@399098" duration="30"/>  <!-- Ries -->
+        <stop busStop="-6210628284" duration="30"/>  <!-- Sturmsölden -->
+        <stop busStop="-321566930" duration="30"/>  <!-- Grillenöd -->
+        <stop busStop="-872833426" duration="30"/>  <!-- Gertraudstraße -->
+        <stop busStop="-872833516" duration="30"/>  <!-- Plantage -->
+        <stop busStop="-872833283" duration="30"/>  <!-- Glockenstraße -->
+        <stop busStop="-872833374" duration="30"/>  <!-- Schulstraße -->
+        <stop busStop="-872833356" duration="30"/>  <!-- Fürstenweg -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="865390335" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="864752834" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="-620882501" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="-620882497" duration="30"/>  <!-- Lambergstraße -->
+        <stop busStop="-411322659" duration="30"/>  <!-- Auerspergstraße -->
+        <stop busStop="-620882491" duration="30"/>  <!-- Sailerwöhr -->
+        <stop busStop="-620882490" duration="30"/>  <!-- Kraftstraße -->
+        <stop busStop="-2441642048" duration="30"/>  <!-- Westerburgerstraße -->
+        <stop busStop="-620882488" duration="30"/>  <!-- Dr.-Geiger-Weg -->
+        <stop busStop="-13973265307" duration="30"/>  <!-- Passau, Danziger Straße -->
+        <stop busStop="865390282" duration="30"/>  <!-- Passau, Äußere Spitalhofstraße -->
+        <stop busStop="865390319" duration="30"/>  <!-- Passau, Holzmannstraße -->
+    </trip>
+    <trip id="61_bus_5:2" type="pt_bus" depart="326.0" departLane="best" from="153181405" to="-137550632#0">
+        <stop busStop="869558412" duration="30"/>  <!-- Kohlbruck -->
+        <stop busStop="-60637997" duration="30"/>  <!-- Kohlbruck/Brücke -->
+        <stop busStop="869558801" duration="30"/>  <!-- Betty-Pfleger-Straße -->
+        <stop busStop="869558491" duration="30"/>  <!-- Gretli-Fuchs-Straße -->
+        <stop busStop="869558307" duration="30"/>  <!-- Dr.-Ernst-Derra-Straße -->
+        <stop busStop="869558744" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+        <stop busStop="-874761836" duration="30"/>  <!-- Simmerlingweg -->
+        <stop busStop="-869558813" duration="30"/>  <!-- Donau-Schwaben-Straße -->
+        <stop busStop="-869558725" duration="30"/>  <!-- Passavia -->
+        <stop busStop="869558820" duration="30"/>  <!-- Kubinstraße -->
+        <stop busStop="620882486" duration="30"/>  <!-- Passau, Danziger Straße -->
+        <stop busStop="620882487" duration="30"/>  <!-- Passau, Dr.-Geiger-Weg -->
+        <stop busStop="2441642048" duration="30"/>  <!-- Westerburgerstraße -->
+        <stop busStop="620882489" duration="30"/>  <!-- Kraftstraße -->
+        <stop busStop="620882492" duration="30"/>  <!-- Sailerwöhr -->
+        <stop busStop="620882493" duration="30"/>  <!-- Auerspergstraße -->
+        <stop busStop="620882496" duration="30"/>  <!-- Lambergstraße -->
+        <stop busStop="620882500" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="11302178682" duration="30"/>  <!-- Passau, Leopoldstraße -->
+        <stop busStop="864752853" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="865262951" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="872833459" duration="30"/>  <!-- Fürstenweg -->
+        <stop busStop="872833288" duration="30"/>  <!-- Schulstraße -->
+        <stop busStop="872833429" duration="30"/>  <!-- Glockenstraße -->
+        <stop busStop="81080408" duration="30"/>  <!-- Plantage -->
+        <stop busStop="872833336" duration="30"/>  <!-- Gertraudstraße -->
+        <stop busStop="872833328" duration="30"/>  <!-- Grillenöd -->
+        <stop busStop="6210628284" duration="30"/>  <!-- Sturmsölden -->
+        <stop busStop="872833279" duration="30"/>  <!-- Ries -->
+        <stop busStop="-874761893" duration="30"/>  <!-- Ries-Wasserturm -->
+    </trip>
+    <trip id="62_bus_7:2" type="pt_bus" depart="331.0" departLane="best" from="-203121593#1" to="-1111767774">
+        <stop busStop="-865390290" duration="30"/>  <!-- Passau, Holzmannstraße -->
+        <stop busStop="-49890259" duration="30"/>  <!-- Passau, Westendstraße -->
+        <stop busStop="-13973265308" duration="30"/>  <!-- Passau, Äußere Spitalhofstraße -->
+        <stop busStop="620882486" duration="30"/>  <!-- Passau, Danziger Straße -->
+        <stop busStop="620882487" duration="30"/>  <!-- Passau, Dr.-Geiger-Weg -->
+        <stop busStop="2441642048" duration="30"/>  <!-- Westerburgerstraße -->
+        <stop busStop="620882489" duration="30"/>  <!-- Kraftstraße -->
+        <stop busStop="620882492" duration="30"/>  <!-- Sailerwöhr -->
+        <stop busStop="620882493" duration="30"/>  <!-- Auerspergstraße -->
+        <stop busStop="620882496" duration="30"/>  <!-- Lambergstraße -->
+        <stop busStop="620882500" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="11302178682" duration="30"/>  <!-- Passau, Leopoldstraße -->
+        <stop busStop="864752710" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="865262951" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="10907896491" duration="30"/>  <!-- Sturmbergweg -->
+        <stop busStop="13981391048" duration="30"/>  <!-- Bockhofweg -->
+        <stop busStop="10905868559" duration="30"/>  <!-- Abzw. Freudenhain -->
+        <stop busStop="2559626456" duration="30"/>  <!-- Ries-Rennweg -->
+        <stop busStop="-865390339" duration="30"/>  <!-- Ries -->
+    </trip>
+    <trip id="63_bus_8:1" type="pt_bus" depart="334.0" departLane="best" from="73317825#7" to="129997888">
+        <stop busStop="869558744" duration="30"/>  <!-- Kohlbruck/Erlebnisbad -->
+        <stop busStop="-874761888" duration="30"/>  <!-- Simmerlingweg -->
+        <stop busStop="874761680" duration="30"/>  <!-- Birkhamerstraße -->
+        <stop busStop="874762106" duration="30"/>  <!-- Vornholz -->
+        <stop busStop="874761975" duration="30"/>  <!-- Königsberger Straße -->
+        <stop busStop="874762090" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699281" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-864886619" duration="30"/>  <!-- Graf-Salm-Straße -->
+        <stop busStop="-54137478" duration="30"/>  <!-- Weinleitenweg -->
+        <stop busStop="280241166" duration="30"/>  <!-- Apfelkoch -->
+        <stop busStop="506699288" duration="30"/>  <!-- Klinikum -->
+        <stop busStop="267837460" duration="30"/>  <!-- Wörthstraße -->
+        <stop busStop="514738087" duration="30"/>  <!-- Universität -->
+        <stop busStop="871152575" duration="30"/>  <!-- Augustinergasse -->
+        <stop busStop="864752864" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="13973265319" duration="30"/>  <!-- Passau, Bahnhofstraße -->
+        <stop busStop="13973265305" duration="30"/>  <!-- Passau, Hbf. (10) -->
+        <stop busStop="864886640" duration="30"/>  <!-- Passau, Stelzhamerstraße -->
+        <stop busStop="871152626" duration="30"/>  <!-- Passau, Steinbachmühle -->
+        <stop busStop="871152653" duration="30"/>  <!-- Hacklstein -->
+        <stop busStop="57647857" duration="30"/>  <!-- Kachlet -->
+    </trip>
+    <trip id="64_bus_670:0" type="pt_bus" depart="336.0" departLane="best" from="-100431595#7" to="-7801742#0">
+        <stop busStop="-1766198090" duration="30"/>  <!-- Auenweg -->
+        <stop busStop="1936532938" duration="30"/>  <!-- Schmiedgasse -->
+        <stop busStop="-1145382913" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="-6140602300" duration="30"/>  <!-- Passau, Hbf. (13) -->
+    </trip>
+    <trip id="65_bus_670:1" type="pt_bus" depart="346.0" departLane="best" from="655396745" to="100431595#7">
+        <stop busStop="6140602300" duration="30"/>  <!-- Passau, Hbf. (13) -->
+        <stop busStop="1145382917" duration="30"/>  <!-- Stadttheater -->
+        <stop busStop="1766198081" duration="30"/>  <!-- Auenweg -->
+    </trip>
+    <trip id="66_bus_6121/18:2" type="pt_bus" depart="350.0" departLane="best" from="137550632#0" to="1173765296">
+        <stop busStop="874761893" duration="30"/>  <!-- Ries-Wasserturm -->
+        <stop busStop="-2559626456" duration="30"/>  <!-- Ries-Rennweg -->
+        <stop busStop="-2556045926" duration="30"/>  <!-- Abzw. Freudenhain -->
+        <stop busStop="-870980277" duration="30"/>  <!-- Eggendobl(Ortmeier) -->
+        <stop busStop="865390335" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="67_bus_7710/000048:1" type="pt_bus" depart="353.0" departLane="best" from="1173765306#1" to="-137550632#0">
+        <stop busStop="10905868556" duration="30"/>  <!-- Passau, Hbf. (2) -->
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="865262951" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="10907896491" duration="30"/>  <!-- Sturmbergweg -->
+        <stop busStop="10905868559" duration="30"/>  <!-- Abzw. Freudenhain -->
+        <stop busStop="2559626456" duration="30"/>  <!-- Ries-Rennweg -->
+        <stop busStop="-874761893" duration="30"/>  <!-- Ries-Wasserturm -->
+    </trip>
+    <trip id="68_bus_6110:1" type="pt_bus" depart="362.0" departLane="best" from="137550632#0" to="1173765296">
+        <stop busStop="874761893" duration="30"/>  <!-- Ries-Wasserturm -->
+        <stop busStop="-2559626456" duration="30"/>  <!-- Ries-Rennweg -->
+        <stop busStop="-2556045926" duration="30"/>  <!-- Abzw. Freudenhain -->
+        <stop busStop="-870980277" duration="30"/>  <!-- Eggendobl(Ortmeier) -->
+        <stop busStop="865390335" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="69_bus_6130:0" type="pt_bus" depart="365.0" departLane="best" from="72865046#0" to="48923952">
+        <stop busStop="864720570" duration="30"/>  <!-- Säumerweg -->
+        <stop busStop="1503984042" duration="30"/>  <!-- Schulbergstraße -->
+        <stop busStop="1639081949" duration="30"/>  <!-- Witikostraße -->
+        <stop busStop="-864720584" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="335986457" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="-620900508" duration="30"/>  <!-- Römerplatz -->
+        <stop busStop="864720683" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="57866399" duration="30"/>  <!-- Nagelschmiedgasse -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+    </trip>
+    <trip id="70_bus_6131:0" type="pt_bus" depart="371.0" departLane="best" from="388880471" to="-72865046#0">
+        <stop busStop="864752790" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="297613355" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="-57866399" duration="30"/>  <!-- Nagelschmiedgasse -->
+        <stop busStop="-864720683" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="57869798" duration="30"/>  <!-- Römerplatz -->
+        <stop busStop="68714921" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="864720584" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="-1639081949" duration="30"/>  <!-- Witikostraße -->
+        <stop busStop="-1503984042" duration="30"/>  <!-- Schulbergstraße -->
+        <stop busStop="-864720570" duration="30"/>  <!-- Säumerweg -->
+    </trip>
+    <trip id="71_bus_6101/001:0" type="pt_bus" depart="376.0" departLane="best" from="-726823073" to="1173765296">
+        <stop busStop="-620900511" duration="30"/>  <!-- Passau, Lindau -->
+        <stop busStop="-865263090" duration="30"/>  <!-- Lindau -->
+        <stop busStop="1638897590" duration="30"/>  <!-- Zahnradfabrik, Werk 1 -->
+        <stop busStop="1638897583" duration="30"/>  <!-- Zahnradfabrik Werk 1 -->
+        <stop busStop="-17064590" duration="30"/>  <!-- Passau, Aufischer -->
+        <stop busStop="335986457" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="-6995651096" duration="30"/>  <!-- Römerplatz -->
+        <stop busStop="864720683" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="57866399" duration="30"/>  <!-- Nagelschmiedgasse -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="-514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="72_bus_7710/000048:2" type="pt_bus" depart="381.0" departLane="best" from="137550632#0" to="1173765306#1">
+        <stop busStop="874761893" duration="30"/>  <!-- Ries-Wasserturm -->
+        <stop busStop="-2559626456" duration="30"/>  <!-- Ries-Rennweg -->
+        <stop busStop="-10905868563" duration="30"/>  <!-- Ries, Rennweg -->
+        <stop busStop="-2556045926" duration="30"/>  <!-- Abzw. Freudenhain -->
+        <stop busStop="-870980277" duration="30"/>  <!-- Eggendobl(Ortmeier) -->
+        <stop busStop="865390335" duration="30"/>  <!-- Eggendobl -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="10905868556" duration="30"/>  <!-- Passau, Hbf. (2) -->
+    </trip>
+    <trip id="73_bus_6135:0" type="pt_bus" depart="383.0" departLane="best" from="72865046#0" to="48923952">
+        <stop busStop="864720589" duration="30"/>  <!-- Säumerweg -->
+        <stop busStop="4714252629" duration="30"/>  <!-- Schulbergstraße -->
+        <stop busStop="4714252628" duration="30"/>  <!-- Witikostraße -->
+        <stop busStop="-864720632" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="1504035666" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="-6995651096" duration="30"/>  <!-- Römerplatz -->
+        <stop busStop="1638932584" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="1638922321" duration="30"/>  <!-- Nagelschmiedgasse -->
+        <stop busStop="-1638974799" duration="30"/>  <!-- Am Schanzl (Turm) -->
+        <stop busStop="864752814" duration="30"/>  <!-- Passau, ZOB -->
+    </trip>
+    <trip id="74_bus_6131:1" type="pt_bus" depart="383.0" departLane="best" from="72865046#0" to="-380345923#0">
+        <stop busStop="864720570" duration="30"/>  <!-- Säumerweg -->
+        <stop busStop="1503984042" duration="30"/>  <!-- Schulbergstraße -->
+        <stop busStop="1639081949" duration="30"/>  <!-- Witikostraße -->
+        <stop busStop="-864720584" duration="30"/>  <!-- Christdobl -->
+        <stop busStop="335986457" duration="30"/>  <!-- Ilzbrücke -->
+        <stop busStop="-620900508" duration="30"/>  <!-- Römerplatz -->
+        <stop busStop="864720683" duration="30"/>  <!-- Rathaus -->
+        <stop busStop="57866399" duration="30"/>  <!-- Nagelschmiedgasse -->
+        <stop busStop="-595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="-864752884" duration="30"/>  <!-- Passau, ZOB -->
+    </trip>
+    <trip id="75_bus_6209:0" type="pt_bus" depart="384.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="-4229492989" duration="30"/>  <!-- Passau, Kohlbruck -->
+        <stop busStop="-3197867468" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="-869650520" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699281" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-294243061" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-83698004" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-83692945" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="-616834745" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="864752887" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="-514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="76_bus_6209:1" type="pt_bus" depart="388.0" departLane="best" from="1173765296" to="77770178#1">
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="864752887" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="83690900" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="616834745" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="83692945" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="83698004" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="83699722" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="506699277" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="869650520" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="12809601545" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="4229489688" duration="30"/>  <!-- Passau, Kohlbruck -->
+    </trip>
+    <trip id="77_bus_6209:2" type="pt_bus" depart="389.0" departLane="best" from="1173765296" to="77770178#1">
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="864752887" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="83690900" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="616834745" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="83692945" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="83698004" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="83699722" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="506699277" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="869650520" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="12809601545" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="4229489688" duration="30"/>  <!-- Passau, Kohlbruck -->
+    </trip>
+    <trip id="78_bus_6209:3" type="pt_bus" depart="393.0" departLane="best" from="34756724" to="-390408259#0">
+        <stop busStop="-514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+    </trip>
+    <trip id="79_bus_6105:0" type="pt_bus" depart="406.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="-4126855868" duration="30"/>  <!-- Passau, Kohlbruck -->
+        <stop busStop="-4126861691" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="-869650577" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699282" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-347168455" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-364344636" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-364344624" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="4714253509" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="80_bus_6105:1" type="pt_bus" depart="409.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="-4126855868" duration="30"/>  <!-- Passau, Kohlbruck -->
+        <stop busStop="-4126861691" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="-869650577" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699282" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-347168455" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-364344636" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-364344624" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="4714253509" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="81_bus_6105:2" type="pt_bus" depart="410.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="-4126855868" duration="30"/>  <!-- Passau, Kohlbruck -->
+        <stop busStop="-4126861691" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="-869650577" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699282" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-347168455" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-364344636" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-364344624" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="864752710" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="82_bus_6105:3" type="pt_bus" depart="418.0" departLane="best" from="1173765306#1" to="77770178#1">
+        <stop busStop="4714252625" duration="30"/>  <!-- Passau, Hbf. (1) -->
+        <stop busStop="3715175223" duration="30"/>  <!-- Passau, Hbf. (2) -->
+        <stop busStop="864752887" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="364344621" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="364344628" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="364344633" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="364344641" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="347168456" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="506699280" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="1638912565" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="4126861692" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="4126855867" duration="30"/>  <!-- Passau, Kohlbruck -->
+    </trip>
+    <trip id="83_bus_6105:4" type="pt_bus" depart="422.0" departLane="best" from="1173765306#1" to="77770178#1">
+        <stop busStop="4714252625" duration="30"/>  <!-- Passau, Hbf. (1) -->
+        <stop busStop="3715175223" duration="30"/>  <!-- Passau, Hbf. (2) -->
+        <stop busStop="864752887" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="364344621" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="364344628" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="364344633" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="364344641" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="347168456" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="506699280" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="1638912565" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="4126861692" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="4126855867" duration="30"/>  <!-- Passau, Kohlbruck -->
+    </trip>
+    <trip id="84_bus_6105:5" type="pt_bus" depart="432.0" departLane="best" from="1173765306#1" to="77770178#1">
+        <stop busStop="4714252625" duration="30"/>  <!-- Passau, Hbf. (1) -->
+        <stop busStop="3715175223" duration="30"/>  <!-- Passau, Hbf. (2) -->
+        <stop busStop="864752887" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="364344621" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="364344628" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="364344633" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="364344641" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="347168456" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="506699280" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="1638912565" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="4126861692" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="4126855867" duration="30"/>  <!-- Passau, Kohlbruck -->
+    </trip>
+    <trip id="85_bus_6105:6" type="pt_bus" depart="437.0" departLane="best" from="1173765306#1" to="77770178#1">
+        <stop busStop="4714252625" duration="30"/>  <!-- Passau, Hbf. (1) -->
+        <stop busStop="3715175223" duration="30"/>  <!-- Passau, Hbf. (2) -->
+        <stop busStop="864752887" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="364344621" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="364344628" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="364344633" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="364344641" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="347168456" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="506699280" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="1638912565" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="4126861692" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="4126855867" duration="30"/>  <!-- Passau, Kohlbruck -->
+    </trip>
+    <trip id="86_bus_6105:7" type="pt_bus" depart="437.0" departLane="best" from="1173765306#1" to="77770178#1">
+        <stop busStop="4714252625" duration="30"/>  <!-- Passau, Hbf. (1) -->
+        <stop busStop="3715175223" duration="30"/>  <!-- Passau, Hbf. (2) -->
+        <stop busStop="864752887" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="364344621" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="364344628" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="364344633" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="364344641" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="347168456" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="506699280" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="1638912565" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="4126861692" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="4126855867" duration="30"/>  <!-- Passau, Kohlbruck -->
+    </trip>
+    <trip id="87_bus_6106:0" type="pt_bus" depart="441.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="-4126855868" duration="30"/>  <!-- Passau, Kohlbruck -->
+        <stop busStop="-4126861691" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="-869650577" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699282" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-347168455" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-364344636" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-364344631" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="-364344624" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="864752719" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="88_bus_6106:1" type="pt_bus" depart="465.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="-4126855868" duration="30"/>  <!-- Passau, Kohlbruck -->
+        <stop busStop="-4126861691" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="-869650577" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699282" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-347168455" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-364344636" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-364344631" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="-364344624" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="864752864" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="89_bus_6106:2" type="pt_bus" depart="475.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="-4126855868" duration="30"/>  <!-- Passau, Kohlbruck -->
+        <stop busStop="-4126861691" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="-869650577" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699282" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-347168455" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-364344636" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-364344631" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="-364344624" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="864752864" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="90_bus_6106:3" type="pt_bus" depart="483.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="-4126855868" duration="30"/>  <!-- Passau, Kohlbruck -->
+        <stop busStop="-4126861691" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="-869650577" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699282" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-347168455" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-364344636" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-364344631" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="-364344624" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="864752864" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="91_bus_6106:4" type="pt_bus" depart="484.0" departLane="best" from="1173765296" to="77770178#1">
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="864752719" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="364344621" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="364344628" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="364344633" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="364344641" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="347168456" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="506699280" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="1638912565" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="4126861692" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="4126855867" duration="30"/>  <!-- Passau, Kohlbruck -->
+    </trip>
+    <trip id="92_bus_6106:5" type="pt_bus" depart="485.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="93_bus_6106:6" type="pt_bus" depart="497.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="-4126855868" duration="30"/>  <!-- Passau, Kohlbruck -->
+        <stop busStop="-4126861691" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="-869650577" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699282" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-347168455" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-364344636" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-364344631" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="-364344624" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="864752864" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="94_bus_6106:7" type="pt_bus" depart="505.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="-4126855868" duration="30"/>  <!-- Passau, Kohlbruck -->
+        <stop busStop="-4126861691" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="-869650577" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699282" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-347168455" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-364344636" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-364344631" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="-364344624" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="864752864" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="95_bus_6106:8" type="pt_bus" depart="508.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="-4126855868" duration="30"/>  <!-- Passau, Kohlbruck -->
+        <stop busStop="-4126861691" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="-869650577" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699282" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-347168455" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-364344636" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-364344631" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="-364344624" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="4714253509" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="96_bus_6106:9" type="pt_bus" depart="516.0" departLane="best" from="-77770178#1" to="1173765296">
+        <stop busStop="-4126855868" duration="30"/>  <!-- Passau, Kohlbruck -->
+        <stop busStop="-4126861691" duration="30"/>  <!-- Passau, Traminer Straße -->
+        <stop busStop="-869650577" duration="30"/>  <!-- Breslauer Straße -->
+        <stop busStop="-506699282" duration="30"/>  <!-- Schönleitnerweg -->
+        <stop busStop="-347168455" duration="30"/>  <!-- Kainzenweg -->
+        <stop busStop="-364344636" duration="30"/>  <!-- Schulzentrum / AOK -->
+        <stop busStop="-364344631" duration="30"/>  <!-- St. Anton -->
+        <stop busStop="-364344624" duration="30"/>  <!-- Giselastraße -->
+        <stop busStop="-11302178681" duration="30"/>  <!-- Leopoldstraße -->
+        <stop busStop="864752887" duration="30"/>  <!-- Passau, ZOB -->
+        <stop busStop="514738106" duration="30"/>  <!-- Passau, Hbf. (9) -->
+        <stop busStop="4714253508" duration="30"/>  <!-- Passau, Hbf. (8) -->
+    </trip>
+    <trip id="97_bus_100:1" type="pt_bus" depart="517.0" departLane="best" from="7864512#0" to="1110734244">
+        <stop busStop="57869798" duration="30"/>  <!-- Römerplatz -->
+    </trip>
+    <trip id="98_train_RB_46:0" type="pt_train" depart="525.0" departLane="best" from="96103236#0" to="96103236#0">
+        <stop busStop="2541104524" duration="30"/>  <!-- Passau Hbf -->
+    </trip>
+    <trip id="99_train_RB_46:1" type="pt_train" depart="525.0" departLane="best" from="96103236#0" to="1518112408">
+        <stop busStop="2541104524" duration="30"/>  <!-- Passau Hbf -->
+    </trip>
+    <trip id="100_bus_6148:0" type="pt_bus" depart="535.0" departLane="best" from="27355971#0" to="129997888">
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="-3715175207" duration="30"/>  <!-- Passau, Hbf. (12) -->
+        <stop busStop="-3715175221" duration="30"/>  <!-- Passau, Hbf. (15) -->
+        <stop busStop="595030" duration="30"/>  <!-- Am Schanzl -->
+        <stop busStop="626111415" duration="30"/>  <!-- Passau, Stelzhamerstraße -->
+        <stop busStop="871152549" duration="30"/>  <!-- Hacklstein -->
+        <stop busStop="871152550" duration="30"/>  <!-- Kachlet -->
+    </trip>
+    <trip id="101_bus_6147:0" type="pt_bus" depart="538.0" departLane="best" from="27355971#0" to="129997888">
+        <stop busStop="300319161" duration="30"/>  <!-- Am Schanzl (Busbucht) -->
+        <stop busStop="3715175211" duration="30"/>  <!-- Passau, Hbf. (11) -->
+        <stop busStop="626111415" duration="30"/>  <!-- Passau, Stelzhamerstraße -->
+        <stop busStop="871152549" duration="30"/>  <!-- Hacklstein -->
+        <stop busStop="871152550" duration="30"/>  <!-- Kachlet -->
+    </trip>
+    <trip id="102_bus_041:0" type="pt_bus" depart="548.0" departLane="best" from="655396745" to="655396745">
+        <stop busStop="6140602300" duration="30"/>  <!-- Passau, Hbf. (13) -->
+    </trip>
+    <trip id="103_bus_041:1" type="pt_bus" depart="561.0" departLane="best" from="151042171" to="-7801742#0">
+        <stop busStop="-6140602300" duration="30"/>  <!-- Passau, Hbf. (13) -->
+    </trip>
+    <trip id="104_train_NJ_40421:0" type="pt_train" depart="565.0" departLane="best" from="96103236#0" to="96103236#0">
+        <stop busStop="2541104524" duration="30"/>  <!-- Passau Hbf -->
+    </trip>
+    <trip id="105_train_NJ_491:0" type="pt_train" depart="572.0" departLane="best" from="96103236#0" to="96103236#0">
+        <stop busStop="2541104524" duration="30"/>  <!-- Passau Hbf -->
+    </trip>
+    <trip id="106_bus_161:0" type="pt_bus" depart="574.0" departLane="best" from="34756724" to="-151042171">
+        <stop busStop="-6140602300" duration="30"/>  <!-- Passau, Hbf. (13) -->
+    </trip>
+    <trip id="107_bus_161:1" type="pt_bus" depart="582.0" departLane="best" from="151042171" to="-34756724">
+        <stop busStop="-6140602300" duration="30"/>  <!-- Passau, Hbf. (13) -->
+    </trip>
+    <trip id="108_bus_N161:0" type="pt_bus" depart="583.0" departLane="best" from="34756724" to="-151042171">
+        <stop busStop="-6140602300" duration="30"/>  <!-- Passau, Hbf. (13) -->
+    </trip>
+    <trip id="109_bus_N161:1" type="pt_bus" depart="593.0" departLane="best" from="151042171" to="-34756724">
+        <stop busStop="-6140602300" duration="30"/>  <!-- Passau, Hbf. (13) -->
+    </trip>
+    <trip id="110_bus_N61:0" type="pt_bus" depart="597.0" departLane="best" from="151042171" to="-34756724">
+        <stop busStop="-6140602300" duration="30"/>  <!-- Passau, Hbf. (13) -->
+    </trip>
+    <trip id="111_bus_N61:1" type="pt_bus" depart="598.0" departLane="best" from="34756724" to="-151042171">
+        <stop busStop="-6140602300" duration="30"/>  <!-- Passau, Hbf. (13) -->
+    </trip>
+</routes>

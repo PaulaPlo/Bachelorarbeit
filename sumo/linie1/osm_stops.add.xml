@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-13T07:59:25.680989+01:00 by Eclipse SUMO netedit 1.27.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="-10177454491" name="Mayrhof b. Schardenberg" lane="-117690832_0" startPos="3.07" endPos="18.07" friendlyPos="1" lines="K1"/>
+    <busStop id="-10177454491@2079387" name="Mayrhof b. Schardenberg" lane="-117690832_0" startPos="3.07" endPos="18.07" friendlyPos="1" lines="K1"/>
+    <busStop id="-10905868563" name="Ries, Rennweg" lane="-9934786#1_0" startPos="73.63" endPos="88.63" friendlyPos="1" lines="5 7710/000048">
+        <access lane="-147689304#1_0" pos="54.15" friendlyPos="1" length="16.82"/>
+        <access lane="-747530323#1_0" pos="4.78" friendlyPos="1" length="5.04"/>
+        <access lane="147689304#1_0" pos="0.00" friendlyPos="1" length="12.11"/>
+        <access lane="747530323#1_0" pos="84.10" friendlyPos="1" length="2.04"/>
+        <access lane="747530323#2_0" pos="0.00" friendlyPos="1" length="21.23"/>
+    </busStop>
+    <busStop id="-11286206579" name="Passau, Obere Schneckenbergstraße" lane="-27332796#1_1" startPos="100.00" endPos="115.00" friendlyPos="1" lines="3"/>
+    <busStop id="-11302178681" name="Leopoldstraße" lane="-264781335#3_1" startPos="2.03" endPos="17.03" friendlyPos="1" lines="2 K3 1 6209 6105 6106"/>
+    <busStop id="-1145382913" name="Stadttheater" lane="-174669195_1" startPos="41.40" endPos="56.40" friendlyPos="1" lines="670"/>
+    <busStop id="-1303947458" name="Hals" lane="-9667535#1_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="4">
+        <access lane="-1000886591_0" pos="26.32" friendlyPos="1" length="57.16"/>
+        <access lane="-115394080#0_0" pos="29.53" friendlyPos="1" length="56.80"/>
+        <access lane="-73908850_0" pos="38.63" friendlyPos="1" length="7.57"/>
+        <access lane="1027376622_0" pos="26.76" friendlyPos="1" length="52.00"/>
+        <access lane="73908850_0" pos="0.00" friendlyPos="1" length="7.56"/>
+    </busStop>
+    <busStop id="-13340723176" name="Mariahilf-Grenzstation" lane="-1409206102_0" startPos="208.42" endPos="223.42" friendlyPos="1" lines="K1">
+        <access lane="156247939#4_0" pos="169.07" friendlyPos="1" length="7.05"/>
+    </busStop>
+    <busStop id="-13973265306" name="Passau, Bahnhofstraße" lane="-27392131#1_1" startPos="32.27" endPos="47.27" friendlyPos="1" lines="10 9 8 11 K4"/>
+    <busStop id="-13973265307" name="Passau, Danziger Straße" lane="-7654607#1_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="5 K4 6 7"/>
+    <busStop id="-13973265308" name="Passau, Äußere Spitalhofstraße" lane="-137898810_1" startPos="11.05" endPos="26.05" friendlyPos="1" lines="7 K4"/>
+    <busStop id="-13973265318" name="Passau, Bernhard-Setzer-Straße" lane="-1533358202#1_1" startPos="45.78" endPos="60.78" friendlyPos="1" lines="K4"/>
+    <busStop id="-13975862725" name="Ilzbrücke" lane="-37837476#1_1" startPos="1.80" endPos="16.80" friendlyPos="1" lines="2 4 K2 1"/>
+    <busStop id="-13976270683" name="Augustinergasse" lane="-108277170#1_1" startPos="37.60" endPos="52.60" friendlyPos="1" lines="4 3 K1 K2"/>
+    <busStop id="-13976270684" name="Stadttheater" lane="-174669195_1" startPos="41.28" endPos="56.28" friendlyPos="1" lines="4 3 K1 K2"/>
+    <busStop id="-13976270687" name="Hörnerweg" lane="-136006440#6_1" startPos="0.00" endPos="3.78" friendlyPos="1" lines="4 3"/>
+    <busStop id="-13976270688" name="Auenweg" lane="-108277212#1_1" startPos="69.86" endPos="84.86" friendlyPos="1" lines="4 3"/>
+    <busStop id="-13976270693" name="Passau, Garhammerweg" lane="-27332796#3_1" startPos="0.00" endPos="10.08" friendlyPos="1" lines="3"/>
+    <busStop id="-13976270695" name="Evangelische Kirche" lane="-150943945#2_1" startPos="3.05" endPos="18.05" friendlyPos="1" lines="3"/>
+    <busStop id="-13977703012" name="Achatiusstraße" lane="-71438718#0_0" startPos="4.55" endPos="19.55" friendlyPos="1" lines="4">
+        <access lane="-1077122129#1_0" pos="40.94" friendlyPos="1" length="249.08"/>
+        <access lane="1077122129#1_0" pos="0.00" friendlyPos="1" length="252.70"/>
+        <access lane="200098178_0" pos="114.96" friendlyPos="1" length="153.91"/>
+        <access lane="84453929_0" pos="15.56" friendlyPos="1" length="89.48"/>
+        <access lane="84453968_0" pos="0.00" friendlyPos="1" length="157.54"/>
+    </busStop>
+    <busStop id="-13977703013" name="Ilzleite" lane="-1110732638_1" startPos="17.51" endPos="32.51" friendlyPos="1" lines="4"/>
+    <busStop id="-13979947181" name="Ries-Rennweg" lane="-9934786#1_0" startPos="73.63" endPos="88.63" friendlyPos="1" lines="5">
+        <access lane="-147689304#1_0" pos="54.15" friendlyPos="1" length="18.97"/>
+        <access lane="-747530323#1_0" pos="5.04" friendlyPos="1" length="1.73"/>
+        <access lane="-747530323#2_0" pos="16.85" friendlyPos="1" length="21.08"/>
+        <access lane="147689304#1_0" pos="0.00" friendlyPos="1" length="15.00"/>
+        <access lane="747530323#1_0" pos="83.84" friendlyPos="1" length="4.73"/>
+    </busStop>
+    <busStop id="-13980045355" name="Passau, Maierhof" lane="-746526221#3_1" startPos="43.55" endPos="58.55" friendlyPos="1" lines="6"/>
+    <busStop id="-13980045357" name="Passau, Kachletstraße" lane="-746526221#6_1" startPos="125.73" endPos="140.73" friendlyPos="1" lines="6"/>
+    <busStop id="-13981624056" name="Apfelkoch" lane="-72875605#6_1" startPos="2.26" endPos="17.26" friendlyPos="1" lines="9 8 K3"/>
+    <busStop id="-13981750085" name="Schärdinger Straße" lane="-156247939#0_0" startPos="21.45" endPos="36.45" friendlyPos="1" lines="K1">
+        <access lane="-1079686644_0" pos="0.00" friendlyPos="1" length="53.45"/>
+        <access lane="-223933956_0" pos="0.00" friendlyPos="1" length="46.40"/>
+        <access lane="1079686644_0" pos="34.37" friendlyPos="1" length="48.72"/>
+        <access lane="156247939#0_0" pos="22.65" friendlyPos="1" length="7.05"/>
+        <access lane="223933956_0" pos="64.29" friendlyPos="1" length="51.15"/>
+    </busStop>
+    <busStop id="-13981750087" name="Passau, Donauweg" lane="-9934785#1_0" startPos="0.00" endPos="0.20" friendlyPos="1" lines="K1">
+        <access lane="-38928987#0_0" pos="0.00" friendlyPos="1" length="97.66"/>
+        <access lane="-73499024_0" pos="42.52" friendlyPos="1" length="85.22"/>
+        <access lane="-79513116_0" pos="52.85" friendlyPos="1" length="12.84"/>
+        <access lane="73499024_0" pos="10.94" friendlyPos="1" length="90.10"/>
+        <access lane="79513116_0" pos="0.00" friendlyPos="1" length="15.59"/>
+    </busStop>
+    <busStop id="-13983773765" name="Aumühlweg" lane="-154656377#2_0" startPos="81.17" endPos="96.17" friendlyPos="1" lines="K1">
+        <access lane="-1309163322_0" pos="8.59" friendlyPos="1" length="14.89"/>
+        <access lane="-199709286_0" pos="20.44" friendlyPos="1" length="50.13"/>
+        <access lane="-59309358#1_0" pos="119.53" friendlyPos="1" length="22.33"/>
+        <access lane="1309163322_0" pos="23.37" friendlyPos="1" length="19.69"/>
+        <access lane="59309358#1_0" pos="0.00" friendlyPos="1" length="24.76"/>
+    </busStop>
+    <busStop id="-13983773766" name="Jahnstraße" lane="-1172726822#0_1" startPos="10.22" endPos="25.22" friendlyPos="1" lines="K1"/>
+    <busStop id="-13983773767" name="Mayrhof b. Schardenberg" lane="-117690832_0" startPos="1.63" endPos="16.63" friendlyPos="1" lines="817"/>
+    <busStop id="-13987132244" name="Lindental 1" lane="-52981601#1_0" startPos="5.40" endPos="20.40" friendlyPos="1" lines="K2">
+        <access lane="-54725993#1_0" pos="0.00" friendlyPos="1" length="26.77"/>
+        <access lane="135302103_0" pos="11.90" friendlyPos="1" length="74.64"/>
+        <access lane="52981599#2_0" pos="325.33" friendlyPos="1" length="17.12"/>
+        <access lane="52981599#3_0" pos="0.00" friendlyPos="1" length="17.52"/>
+        <access lane="54725993#1_0" pos="261.52" friendlyPos="1" length="24.26"/>
+    </busStop>
+    <busStop id="-13987132245" name="Passau, Kühberg" lane="-122282769#0_0" startPos="77.16" endPos="92.16" friendlyPos="1" lines="K2">
+        <access lane="-144532124_0" pos="22.45" friendlyPos="1" length="150.50"/>
+        <access lane="-96354701_0" pos="0.00" friendlyPos="1" length="167.70"/>
+        <access lane="144532124_0" pos="0.00" friendlyPos="1" length="151.37"/>
+        <access lane="96354701_0" pos="151.97" friendlyPos="1" length="166.89"/>
+    </busStop>
+    <busStop id="-13987132247" name="Passau, Saming/Zollamt" lane="-1409201535#0_0" startPos="0.00" endPos="10.20" friendlyPos="1" lines="K2">
+        <access lane="-1002424628_0" pos="0.00" friendlyPos="1" length="18.19"/>
+        <access lane="-135293064_0" pos="321.35" friendlyPos="1" length="19.74"/>
+        <access lane="1002424626_0" pos="40.10" friendlyPos="1" length="67.80"/>
+        <access lane="1002424628_0" pos="32.10" friendlyPos="1" length="13.87"/>
+        <access lane="135293064_0" pos="0.00" friendlyPos="1" length="15.93"/>
+    </busStop>
+    <busStop id="-13987132248" name="Passau, Mühltal" lane="-24727886#5_0" startPos="21.73" endPos="36.73" friendlyPos="1" lines="K2">
+        <access lane="-1002424615_0" pos="0.00" friendlyPos="1" length="82.07"/>
+        <access lane="-1002424616_0" pos="2.52" friendlyPos="1" length="52.65"/>
+        <access lane="-1002424618_0" pos="6.79" friendlyPos="1" length="89.55"/>
+        <access lane="1002424615_0" pos="18.78" friendlyPos="1" length="77.30"/>
+        <access lane="1002424616_0" pos="10.10" friendlyPos="1" length="47.85"/>
+    </busStop>
+    <busStop id="-13987881840" name="Passau, Untere Schneckenbergstraße" lane="-27332929#13_0" startPos="14.40" endPos="29.40" friendlyPos="1" lines="K3"/>
+    <busStop id="-13987881843" name="Untere Schneckenbergstraße A" lane="-27332929#10_0" startPos="166.98" endPos="181.98" friendlyPos="1" lines="K3"/>
+    <busStop id="-13987881846" name="Passau, Untere Schneckenbergstraße C" lane="-27332929#1_0" startPos="161.82" endPos="176.82" friendlyPos="1" lines="K3"/>
+    <busStop id="-13987881849" name="Passau, Sulzsteg/Am Högl" lane="-102177001#1_0" startPos="130.89" endPos="145.89" friendlyPos="1" lines="K3">
+        <access lane="-1467547600_0" pos="24.36" friendlyPos="1" length="198.44"/>
+        <access lane="-271193356_0" pos="1851.71" friendlyPos="1" length="116.77"/>
+        <access lane="-72493896_0" pos="0.00" friendlyPos="1" length="77.34"/>
+        <access lane="271193356_0" pos="407.59" friendlyPos="1" length="119.77"/>
+        <access lane="72493896_0" pos="345.97" friendlyPos="1" length="73.70"/>
+    </busStop>
+    <busStop id="-13994483827" name="Passau, Bischof-Altmann-Straße" lane="-7609624#0_1" startPos="15.56" endPos="30.56" friendlyPos="1" lines="K3"/>
+    <busStop id="-1416895619" name="Bäckerholz" lane="-150943947#0_0" startPos="25.35" endPos="40.35" friendlyPos="1" lines="3">
+        <access lane="-136090811_0" pos="0.00" friendlyPos="1" length="70.06"/>
+        <access lane="-147924793_0" pos="31.36" friendlyPos="1" length="109.43"/>
+        <access lane="136090811_0" pos="80.99" friendlyPos="1" length="71.73"/>
+        <access lane="147924793_0" pos="0.00" friendlyPos="1" length="104.67"/>
+        <access lane="147924795_0" pos="81.08" friendlyPos="1" length="151.72"/>
+    </busStop>
+    <busStop id="-1492229040" name="Oetkersiedlung" lane="-71438718#3_0" startPos="85.58" endPos="100.58" friendlyPos="1" lines="4">
+        <access lane="151366583_0" pos="0.00" friendlyPos="1" length="79.29"/>
+        <access lane="84453953_0" pos="57.26" friendlyPos="1" length="85.23"/>
+        <access lane="84453954_0" pos="0.00" friendlyPos="1" length="60.99"/>
+        <access lane="84453970_0" pos="0.00" friendlyPos="1" length="115.81"/>
+        <access lane="98363348_0" pos="28.23" friendlyPos="1" length="149.61"/>
+    </busStop>
+    <busStop id="-1492369919" name="Achleiten" lane="-100431595#4_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="4 3">
+        <access lane="-100437005#4_0" pos="0.00" friendlyPos="1" length="6.93"/>
+        <access lane="-100437005#5_0" pos="369.60" friendlyPos="1" length="13.22"/>
+        <access lane="-175491242#2_0" pos="0.00" friendlyPos="1" length="4.30"/>
+        <access lane="100437005#4_0" pos="158.37" friendlyPos="1" length="9.54"/>
+        <access lane="175491242#2_0" pos="0.20" friendlyPos="1" length="6.58"/>
+    </busStop>
+    <busStop id="-1492596950" name="Haibach" lane="-835236149#1_1" startPos="0.00" endPos="12.33" friendlyPos="1" lines="4 3"/>
+    <busStop id="-1492602360" name="Schwendistraße" lane="-24683072#1_0" startPos="5.67" endPos="20.67" friendlyPos="1" lines="4 3">
+        <access lane="-183266802_0" pos="68.74" friendlyPos="1" length="13.45"/>
+        <access lane="139605725#0_0" pos="0.00" friendlyPos="1" length="33.02"/>
+        <access lane="183266802_0" pos="0.00" friendlyPos="1" length="9.41"/>
+        <access lane="24683072#0_0" pos="70.47" friendlyPos="1" length="17.58"/>
+        <access lane="24683072#1_0" pos="1.68" friendlyPos="1" length="5.32"/>
+    </busStop>
+    <busStop id="-1492612720" name="Jesuitenschlößl" lane="-1409160950#1_2" startPos="17.19" endPos="32.19" friendlyPos="1" lines="4 3"/>
+    <busStop id="-1492612721" name="Johann-Bergler-Straße" lane="-183260794#1_1" startPos="3.80" endPos="18.80" friendlyPos="1" lines="4 3"/>
+    <busStop id="-1503984042" name="Schulbergstraße" lane="-72865053#1_0" startPos="55.19" endPos="70.19" friendlyPos="1" lines="6122/19 6131">
+        <access lane="-1454419259_0" pos="63.22" friendlyPos="1" length="152.80"/>
+        <access lane="-72477577#0_0" pos="83.08" friendlyPos="1" length="167.24"/>
+        <access lane="-80175733#2_0" pos="38.51" friendlyPos="1" length="191.34"/>
+        <access lane="1454419259_0" pos="0.00" friendlyPos="1" length="157.30"/>
+        <access lane="72477577#0_0" pos="0.00" friendlyPos="1" length="166.81"/>
+    </busStop>
+    <busStop id="-1503984052" name="Laimgrub" lane="-320162566#0_1" startPos="49.36" endPos="64.36" friendlyPos="1" lines="1">
+        <access lane="-1454419259_0" pos="29.64" friendlyPos="1" length="163.85"/>
+        <access lane="-72477573_0" pos="0.00" friendlyPos="1" length="88.63"/>
+        <access lane="-72477577#0_0" pos="83.08" friendlyPos="1" length="138.22"/>
+        <access lane="72477573_0" pos="86.50" friendlyPos="1" length="91.63"/>
+        <access lane="72477577#0_0" pos="0.00" friendlyPos="1" length="141.05"/>
+    </busStop>
+    <busStop id="-1503999470" name="Abteistraße" lane="-320162566#2_1" startPos="18.68" endPos="33.68" friendlyPos="1" lines="1">
+        <access lane="-72488378_0" pos="25.15" friendlyPos="1" length="90.08"/>
+        <access lane="-72490858#0_0" pos="17.86" friendlyPos="1" length="89.53"/>
+        <access lane="-89424975_0" pos="100.08" friendlyPos="1" length="62.45"/>
+        <access lane="72488378_0" pos="0.00" friendlyPos="1" length="87.85"/>
+        <access lane="89424975_0" pos="0.00" friendlyPos="1" length="61.59"/>
+    </busStop>
+    <busStop id="-1638047782" name="Obere Schneckenbergstraße" lane="-27332796#1_1" startPos="99.55" endPos="114.55" friendlyPos="1" lines="3"/>
+    <busStop id="-1638047784" name="Jägersteig" lane="-150943947#3_0" startPos="0.00" endPos="14.18" friendlyPos="1" lines="3">
+        <access lane="-128164060#5_0" pos="0.00" friendlyPos="1" length="28.54"/>
+        <access lane="-136090814#0_0" pos="60.60" friendlyPos="1" length="23.79"/>
+        <access lane="128164060#5_0" pos="4.17" friendlyPos="1" length="18.17"/>
+        <access lane="136090809_0" pos="102.91" friendlyPos="1" length="21.91"/>
+        <access lane="136090814#0_0" pos="0.00" friendlyPos="1" length="28.47"/>
+    </busStop>
+    <busStop id="-1638973207" name="Am Schanzl (Turm)" lane="-8118080#0_0" startPos="1.20" endPos="16.20" friendlyPos="1" lines="K2 3">
+        <access lane="-1232438998_0" pos="1.36" friendlyPos="1" length="14.15"/>
+        <access lane="1232438997_0" pos="9.09" friendlyPos="1" length="17.79"/>
+        <access lane="1349224151_0" pos="32.93" friendlyPos="1" length="18.95"/>
+        <access lane="1349224155#1_0" pos="23.56" friendlyPos="1" length="0.00"/>
+        <access lane="24484440#1_0" pos="16.87" friendlyPos="1" length="21.39"/>
+    </busStop>
+    <busStop id="-1638974799" name="Am Schanzl (Turm)" lane="-72865940#1_0" startPos="0.00" endPos="6.72" friendlyPos="1" lines="2 5 4 K1 6 K3 1 7 6101/001 7710/000048 6135">
+        <access lane="-1272603956#1_0" pos="0.00" friendlyPos="1" length="18.98"/>
+        <access lane="-192670439#0_0" pos="4.70" friendlyPos="1" length="10.25"/>
+        <access lane="1280233250_0" pos="15.60" friendlyPos="1" length="11.52"/>
+        <access lane="1349224154_0" pos="17.92" friendlyPos="1" length="3.65"/>
+        <access lane="192670439#0_0" pos="3.58" friendlyPos="1" length="15.05"/>
+    </busStop>
+    <busStop id="-1639081949" name="Witikostraße" lane="-157380038#0_0" startPos="19.26" endPos="34.26" friendlyPos="1" lines="6122/19 K2 6131">
+        <access lane="-11773600_0" pos="27.34" friendlyPos="1" length="23.01"/>
+        <access lane="-9637790#1_0" pos="0.00" friendlyPos="1" length="21.92"/>
+        <access lane="11773600_0" pos="0.00" friendlyPos="1" length="34.95"/>
+        <access lane="139016224_0" pos="128.96" friendlyPos="1" length="47.01"/>
+        <access lane="9637790#1_0" pos="64.14" friendlyPos="1" length="34.20"/>
+    </busStop>
+    <busStop id="-1641256230" name="Mozartstraße" lane="-1409160397_0" startPos="76.38" endPos="91.38" friendlyPos="1" lines="K1">
+        <access lane="-100444254#2_0" pos="0.00" friendlyPos="1" length="27.14"/>
+        <access lane="-1409160374#0_0" pos="0.00" friendlyPos="1" length="21.26"/>
+        <access lane="100444254#2_0" pos="34.89" friendlyPos="1" length="31.65"/>
+        <access lane="1278896162#0_0" pos="0.00" friendlyPos="1" length="12.59"/>
+        <access lane="135254240_0" pos="0.00" friendlyPos="1" length="47.59"/>
+    </busStop>
+    <busStop id="-17064590" name="Passau, Aufischer" lane="-99217161#0_1" startPos="6.35" endPos="21.35" friendlyPos="1" lines="3 K3 6101/001">
+        <access lane="-420222188#1_0" pos="1178.19" friendlyPos="1" length="9.54"/>
+        <access lane="344154886#1_0" pos="13.73" friendlyPos="1" length="9.06"/>
+        <access lane="420222188#1_0" pos="298.75" friendlyPos="1" length="14.42"/>
+        <access lane="99217161#0_0" pos="62.20" friendlyPos="1" length="2.39"/>
+        <access lane="99217161#1_0" pos="0.00" friendlyPos="1" length="38.90"/>
+    </busStop>
+    <busStop id="-1766198090" name="Auenweg" lane="-108277212#1_1" startPos="69.76" endPos="84.76" friendlyPos="1" lines="670"/>
+    <busStop id="-1917278843" name="Rathaus" lane="-7864016#1_2" startPos="0.00" endPos="15.00" friendlyPos="1" lines="Oberhausbus"/>
+    <busStop id="-2434285697" name="Rosensteig" lane="-71438718#2_0" startPos="339.02" endPos="354.02" friendlyPos="1" lines="4">
+        <access lane="-1317094790_0" pos="78.51" friendlyPos="1" length="269.63"/>
+        <access lane="1317094790_0" pos="0.00" friendlyPos="1" length="266.12"/>
+        <access lane="200098178_0" pos="0.00" friendlyPos="1" length="159.52"/>
+        <access lane="84453929_0" pos="23.95" friendlyPos="1" length="228.70"/>
+    </busStop>
+    <busStop id="-2441642048" name="Westerburgerstraße" lane="-26217398#0_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="7 5 6"/>
+    <busStop id="-2556045926" name="Abzw. Freudenhain" lane="-137551265#0_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="5 6121/18 6110 7710/000048">
+        <access lane="-679933250_0" pos="63.10" friendlyPos="1" length="37.63"/>
+        <access lane="-679933251#0_0" pos="8.76" friendlyPos="1" length="13.02"/>
+        <access lane="679933250_0" pos="0.00" friendlyPos="1" length="40.22"/>
+        <access lane="679933251#0_0" pos="0.00" friendlyPos="1" length="16.02"/>
+        <access lane="73500787_0" pos="329.91" friendlyPos="1" length="40.52"/>
+    </busStop>
+    <busStop id="-2559626456" name="Ries-Rennweg" lane="-1111754423#1_0" startPos="74.45" endPos="89.45" friendlyPos="1" lines="7710/000048 6121/18 6110">
+        <access lane="-108019167_0" pos="510.05" friendlyPos="1" length="68.81"/>
+        <access lane="-389290841_0" pos="50.40" friendlyPos="1" length="60.22"/>
+        <access lane="-389290842_0" pos="45.17" friendlyPos="1" length="20.08"/>
+        <access lane="389290841_0" pos="0.00" friendlyPos="1" length="64.67"/>
+        <access lane="389290842_0" pos="0.00" friendlyPos="1" length="24.84"/>
+    </busStop>
+    <busStop id="-268843569" name="Kremser Straße" lane="-136006440#13_1" startPos="0.59" endPos="15.59" friendlyPos="1" lines="4 3"/>
+    <busStop id="-294243061" name="Kainzenweg" lane="-738313800_2" startPos="17.92" endPos="32.92" friendlyPos="1" lines="2 1 6209"/>
+    <busStop id="-3197867468" name="Passau, Traminer Straße" lane="-6757254_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="6209">
+        <access lane="-826832935_0" pos="318.54" friendlyPos="1" length="50.18"/>
+        <access lane="-91002474_0" pos="79.62" friendlyPos="1" length="84.66"/>
+        <access lane="313757711_0" pos="0.00" friendlyPos="1" length="13.24"/>
+        <access lane="6757254_0" pos="70.87" friendlyPos="1" length="13.27"/>
+        <access lane="826832935_0" pos="80.75" friendlyPos="1" length="54.98"/>
+    </busStop>
+    <busStop id="-321566930" name="Grillenöd" lane="-38928987#24_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="5 7"/>
+    <busStop id="-334242478" name="Josef-Wenzl-Straße" lane="-11773596#0_1" startPos="17.97" endPos="32.97" friendlyPos="1" lines="2 1"/>
+    <busStop id="-335638119" name="Sieglberg I" lane="-151069933#0_0" startPos="54.27" endPos="69.27" friendlyPos="1" lines="K2">
+        <access lane="-30412608_0" pos="53.59" friendlyPos="1" length="143.01"/>
+        <access lane="-79513875#0_0" pos="34.91" friendlyPos="1" length="134.08"/>
+        <access lane="100130187_0" pos="21.95" friendlyPos="1" length="189.52"/>
+        <access lane="30412608_0" pos="56.94" friendlyPos="1" length="137.94"/>
+        <access lane="79513875#0_0" pos="0.00" friendlyPos="1" length="134.94"/>
+    </busStop>
+    <busStop id="-3383649979" name="Hochstraße" lane="-7616069#4_1" startPos="0.00" endPos="0.20" friendlyPos="1" lines="K3"/>
+    <busStop id="-3383649982" name="Wörthstraße" lane="-7616072#3_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="K3"/>
+    <busStop id="-345157968" name="Passau, Am Högl" lane="-1535179604#0_0" startPos="1.57" endPos="16.57" friendlyPos="1" lines="K3">
+        <access lane="-1467547591_0" pos="267.24" friendlyPos="1" length="54.09"/>
+        <access lane="-1467613214#1_0" pos="18.22" friendlyPos="1" length="12.51"/>
+        <access lane="1467547591_0" pos="0.00" friendlyPos="1" length="49.99"/>
+        <access lane="1467613214#1_0" pos="88.91" friendlyPos="1" length="17.32"/>
+        <access lane="1467613216_0" pos="41.74" friendlyPos="1" length="107.04"/>
+    </busStop>
+    <busStop id="-347168455" name="Kainzenweg" lane="-738313800_2" startPos="17.93" endPos="32.93" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="-364344624" name="Giselastraße" lane="-264781335#9_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="-364344631" name="St. Anton" lane="-1536115942#3_1" startPos="0.06" endPos="15.06" friendlyPos="1" lines="6106"/>
+    <busStop id="-364344636" name="Schulzentrum / AOK" lane="-664252402#0_2" startPos="0.00" endPos="15.00" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="-3715175207" name="Passau, Hbf. (12)" lane="-1173765302_0" startPos="2.96" endPos="17.96" friendlyPos="1" lines="6148">
+        <access lane="-108277185#1_0" pos="8.93" friendlyPos="1" length="7.18"/>
+        <access lane="-1173765303_0" pos="7.27" friendlyPos="1" length="16.70"/>
+        <access lane="27355982#1_0" pos="6.25" friendlyPos="1" length="15.21"/>
+        <access lane="367608093_0" pos="32.97" friendlyPos="1" length="2.66"/>
+        <access lane="446253927_0" pos="17.33" friendlyPos="1" length="16.09"/>
+    </busStop>
+    <busStop id="-3715175221" name="Passau, Hbf. (15)" lane="-1173765302_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="6148">
+        <access lane="-1173765303_0" pos="7.27" friendlyPos="1" length="8.53"/>
+        <access lane="1173765303_0" pos="0.00" friendlyPos="1" length="3.77"/>
+        <access lane="27355982#5_0" pos="4.04" friendlyPos="1" length="12.52"/>
+        <access lane="27392124_0" pos="0.00" friendlyPos="1" length="12.79"/>
+        <access lane="446253927_0" pos="6.98" friendlyPos="1" length="2.96"/>
+    </busStop>
+    <busStop id="-3715261129" name="Passau, Ingling" lane="-367617512#0_0" startPos="0.73" endPos="15.73" friendlyPos="1" lines="K3">
+        <access lane="-1006927701_0" pos="168.46" friendlyPos="1" length="22.26"/>
+        <access lane="-1282737011#1_0" pos="72.82" friendlyPos="1" length="27.03"/>
+        <access lane="-220345789#5_0" pos="0.00" friendlyPos="1" length="54.30"/>
+        <access lane="1006927701_0" pos="0.00" friendlyPos="1" length="26.90"/>
+        <access lane="1282737011#1_0" pos="35.44" friendlyPos="1" length="31.83"/>
+    </busStop>
+    <busStop id="-395569574" name="Lüftlberg" lane="-154656379#0_0" startPos="36.38" endPos="51.38" friendlyPos="1" lines="K1">
+        <access lane="-102448580_0" pos="0.00" friendlyPos="1" length="9.74"/>
+        <access lane="-102448581#2_0" pos="0.00" friendlyPos="1" length="59.72"/>
+        <access lane="-167783631#1_0" pos="0.00" friendlyPos="1" length="30.61"/>
+        <access lane="102448580_0" pos="35.71" friendlyPos="1" length="9.74"/>
+        <access lane="167783631#1_0" pos="46.36" friendlyPos="1" length="25.94"/>
+    </busStop>
+    <busStop id="-411322659" name="Auerspergstraße" lane="-26217398#25_1" startPos="193.94" endPos="208.94" friendlyPos="1" lines="5 6 7"/>
+    <busStop id="-4126855868" name="Passau, Kohlbruck" lane="-313757721#0_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="6105 6106">
+        <access lane="1217795751_0" pos="0.20" friendlyPos="1" length="1.03"/>
+        <access lane="1217795752_0" pos="0.00" friendlyPos="1" length="34.04"/>
+        <access lane="73312649#0_0" pos="17.93" friendlyPos="1" length="29.53"/>
+        <access lane="73312679#0_0" pos="2.06" friendlyPos="1" length="4.22"/>
+        <access lane="73312679#1_0" pos="0.00" friendlyPos="1" length="3.36"/>
+    </busStop>
+    <busStop id="-4126861691" name="Passau, Traminer Straße" lane="-6757254_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="6105 6106">
+        <access lane="-826832935_0" pos="319.81" friendlyPos="1" length="37.24"/>
+        <access lane="-91002474_0" pos="79.62" friendlyPos="1" length="97.72"/>
+        <access lane="313757711_0" pos="0.00" friendlyPos="1" length="25.46"/>
+        <access lane="6757254_0" pos="70.87" friendlyPos="1" length="25.90"/>
+        <access lane="826832935_0" pos="79.48" friendlyPos="1" length="42.04"/>
+    </busStop>
+    <busStop id="-4229492989" name="Passau, Kohlbruck" lane="-313757721#0_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="6209">
+        <access lane="1217795751_0" pos="0.00" friendlyPos="1" length="9.80"/>
+        <access lane="1217795752_0" pos="0.00" friendlyPos="1" length="27.99"/>
+        <access lane="73312649#0_0" pos="16.45" friendlyPos="1" length="19.90"/>
+        <access lane="73312679#0_0" pos="2.06" friendlyPos="1" length="13.78"/>
+        <access lane="73312679#1_0" pos="0.20" friendlyPos="1" length="6.62"/>
+    </busStop>
+    <busStop id="-4568486136" name="Passau, Hornbach" lane="-136326615_0" startPos="73.63" endPos="88.63" friendlyPos="1" lines="6">
+        <access lane="-1058344108_0" pos="13.36" friendlyPos="1" length="61.57"/>
+        <access lane="-27378503#0_0" pos="10.23" friendlyPos="1" length="53.65"/>
+        <access lane="1058344108_0" pos="0.00" friendlyPos="1" length="64.57"/>
+        <access lane="27378503#0_0" pos="45.24" friendlyPos="1" length="48.85"/>
+        <access lane="27378504_0" pos="43.49" friendlyPos="1" length="61.44"/>
+    </busStop>
+    <busStop id="-4754814743" name="Lindental 2" lane="-1409159993#0_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="K2">
+        <access lane="458123945_0" pos="0.00" friendlyPos="1" length="34.78"/>
+        <access lane="482509843#1_0" pos="16.16" friendlyPos="1" length="42.91"/>
+        <access lane="9660250_0" pos="0.00" friendlyPos="1" length="9.69"/>
+        <access lane="9660251#0_0" pos="0.00" friendlyPos="1" length="17.77"/>
+        <access lane="9660251#1_0" pos="0.00" friendlyPos="1" length="39.74"/>
+    </busStop>
+    <busStop id="-49890259" name="Passau, Westendstraße" lane="-137898812_1" startPos="8.16" endPos="23.16" friendlyPos="1" lines="10 7 K4"/>
+    <busStop id="-506699281" name="Schönleitnerweg" lane="-26823479#7_1" startPos="35.85" endPos="50.85" friendlyPos="1" lines="2 9 1 8 6209"/>
+    <busStop id="-506699282" name="Schönleitnerweg" lane="-26823479#7_1" startPos="34.91" endPos="49.91" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="-506699289" name="Klinikum" lane="-211432506#7_1" startPos="1.85" endPos="16.85" friendlyPos="1" lines="9 8 K3"/>
+    <busStop id="-506699300" name="Wörthstraße" lane="-211432509#3_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="9 8"/>
+    <busStop id="-514738093" name="Universität" lane="-154955356#1_1" startPos="2.73" endPos="17.73" friendlyPos="1" lines="9 8"/>
+    <busStop id="-514738106" name="Passau, Hbf. (9)" lane="-390408259#0_1" startPos="15.31" endPos="30.31" friendlyPos="1" lines="10 9 8 11 K4 100 6121/18 6110 6101/001 6209"/>
+    <busStop id="-54137478" name="Weinleitenweg" lane="-89990547#3_1" startPos="203.86" endPos="218.86" friendlyPos="1" lines="9 8"/>
+    <busStop id="-55185506" name="Passau, Holzheimerstraße" lane="-1533358202#4_1" startPos="208.55" endPos="223.55" friendlyPos="1" lines="K4"/>
+    <busStop id="-56307384" name="Ilzleite" lane="-71438718#6_0" startPos="20.17" endPos="35.17" friendlyPos="1" lines="4">
+        <access lane="-79523184_0" pos="0.00" friendlyPos="1" length="117.58"/>
+        <access lane="-813804570#0_0" pos="0.00" friendlyPos="1" length="101.91"/>
+        <access lane="-813804570#1_0" pos="0.00" friendlyPos="1" length="67.84"/>
+        <access lane="79523184_0" pos="25.07" friendlyPos="1" length="115.87"/>
+        <access lane="84453927_0" pos="0.00" friendlyPos="1" length="129.41"/>
+    </busStop>
+    <busStop id="-56307442" name="Passau, Westendstraße" lane="-850191274_0" startPos="23.20" endPos="38.20" friendlyPos="1" lines="10">
+        <access lane="-125814186#0_0" pos="5.04" friendlyPos="1" length="46.24"/>
+        <access lane="-125814186#1_0" pos="7.32" friendlyPos="1" length="49.31"/>
+        <access lane="125814186#0_0" pos="1.13" friendlyPos="1" length="51.04"/>
+        <access lane="125814186#1_0" pos="0.00" friendlyPos="1" length="54.00"/>
+        <access lane="34755062_0" pos="19.57" friendlyPos="1" length="56.26"/>
+    </busStop>
+    <busStop id="-57866399" name="Nagelschmiedgasse" lane="-88841002#2_1" startPos="56.49" endPos="71.49" friendlyPos="1" lines="City-Bus 6122/19 K2 K3 6131"/>
+    <busStop id="-58930398" name="Passau, Eduard-Hamm-Straße" lane="-32129548#3_1" startPos="43.41" endPos="58.41" friendlyPos="1" lines="K3"/>
+    <busStop id="-595030" name="Am Schanzl" lane="-72865940#1_0" startPos="0.00" endPos="6.72" friendlyPos="1" lines="2 5 4 K1 6 K3 3 1 7 6121/18 6110 6130 6101/001 7710/000048 6131">
+        <access lane="-1272603956#1_0" pos="0.00" friendlyPos="1" length="32.04"/>
+        <access lane="-192670439#0_0" pos="7.61" friendlyPos="1" length="29.86"/>
+        <access lane="1280233250_0" pos="9.79" friendlyPos="1" length="6.59"/>
+        <access lane="1349224154_0" pos="14.82" friendlyPos="1" length="23.20"/>
+        <access lane="1349224155#0_0" pos="5.20" friendlyPos="1" length="26.29"/>
+    </busStop>
+    <busStop id="-60637997" name="Kohlbruck/Brücke" lane="-8093561_0" startPos="121.54" endPos="136.54" friendlyPos="1" lines="5 6">
+        <access lane="1217795751_0" pos="0.20" friendlyPos="1" length="50.24"/>
+        <access lane="1217795752_0" pos="0.20" friendlyPos="1" length="31.27"/>
+        <access lane="73312649#0_0" pos="14.72" friendlyPos="1" length="20.47"/>
+        <access lane="73312649#1_0" pos="0.00" friendlyPos="1" length="32.25"/>
+        <access lane="73312679#1_0" pos="0.20" friendlyPos="1" length="46.72"/>
+    </busStop>
+    <busStop id="-6140602300" name="Passau, Hbf. (13)" lane="-7801742#0_1" startPos="6.52" endPos="21.52" friendlyPos="1" lines="N881 670 041 161 N161 N61"/>
+    <busStop id="-616834745" name="Giselastraße" lane="-264781335#9_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="2 K3 1 6209"/>
+    <busStop id="-620882488" name="Dr.-Geiger-Weg" lane="-1533358200#1_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="5 6 7"/>
+    <busStop id="-620882490" name="Kraftstraße" lane="-26217398#6_1" startPos="45.83" endPos="60.83" friendlyPos="1" lines="5 6 7"/>
+    <busStop id="-620882491" name="Sailerwöhr" lane="-26217398#18_1" startPos="6.28" endPos="21.28" friendlyPos="1" lines="5 6 7"/>
+    <busStop id="-620882497" name="Lambergstraße" lane="-7938074#1_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="5 6 7"/>
+    <busStop id="-620882501" name="Leopoldstraße" lane="-7938074#7_1" startPos="55.23" endPos="70.23" friendlyPos="1" lines="5 6 7"/>
+    <busStop id="-620900508" name="Römerplatz" lane="-7864512#1_1" startPos="0.00" endPos="9.54" friendlyPos="1" lines="7599 K3 6130 6131"/>
+    <busStop id="-620900510" name="Am Hochpegel" lane="-30382735#2_0" startPos="6.51" endPos="21.51" friendlyPos="1" lines="2 1">
+        <access lane="-30382690_0" pos="0.00" friendlyPos="1" length="42.69"/>
+        <access lane="11773604#0_0" pos="8.13" friendlyPos="1" length="55.99"/>
+        <access lane="11773604#1_0" pos="0.00" friendlyPos="1" length="61.92"/>
+        <access lane="11773604#2_0" pos="0.00" friendlyPos="1" length="90.24"/>
+        <access lane="30382690_0" pos="12.49" friendlyPos="1" length="39.01"/>
+    </busStop>
+    <busStop id="-620900511" name="Passau, Lindau" lane="-135575407#1_0" startPos="24.99" endPos="39.99" friendlyPos="1" lines="6101/001">
+        <access lane="-153360831#1_0" pos="0.00" friendlyPos="1" length="77.22"/>
+        <access lane="-420222188#4_0" pos="97.53" friendlyPos="1" length="10.26"/>
+        <access lane="153360831#1_0" pos="37.10" friendlyPos="1" length="75.17"/>
+        <access lane="37862051#1_0" pos="362.06" friendlyPos="1" length="31.84"/>
+        <access lane="420222188#4_0" pos="361.84" friendlyPos="1" length="15.14"/>
+    </busStop>
+    <busStop id="-6210628284" name="Sturmsölden" lane="-38928987#28_1" startPos="38.97" endPos="53.97" friendlyPos="1" lines="7 5"/>
+    <busStop id="-6995651096" name="Römerplatz" lane="-7864512#0_1" startPos="0.00" endPos="13.88" friendlyPos="1" lines="K2 K3 6101/001 6135"/>
+    <busStop id="-7006629640" name="Oberhaus" lane="-73509516_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="Oberhausbus"/>
+    <busStop id="-7008380704" name="Rathausplatz" lane="-7864016#1_2" startPos="0.00" endPos="15.00" friendlyPos="1" lines="Oberhausbus"/>
+    <busStop id="-751886353" name="Oberhausmuseum" lane="-73509516_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="Oberhausbus"/>
+    <busStop id="-753520955" name="Mühltalstraße" lane="-7347445#1_1" startPos="7.53" endPos="22.53" friendlyPos="1" lines="4 3 K2"/>
+    <busStop id="-75847235" name="Landrichterstraße" lane="-43477769#1_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="4">
+        <access lane="-73908850_0" pos="38.63" friendlyPos="1" length="130.62"/>
+        <access lane="1027376622_0" pos="5.98" friendlyPos="1" length="144.52"/>
+        <access lane="115395313_0" pos="31.17" friendlyPos="1" length="99.02"/>
+        <access lane="71438710#1_0" pos="223.50" friendlyPos="1" length="8.94"/>
+        <access lane="73908850_0" pos="0.00" friendlyPos="1" length="134.16"/>
+    </busStop>
+    <busStop id="-7837317926" name="Untere Schneckenbergstraße B" lane="-27332929#6_0" startPos="52.56" endPos="67.56" friendlyPos="1" lines="K3"/>
+    <busStop id="-83692945" name="St. Anton" lane="-1536115942#3_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="2 1 6209"/>
+    <busStop id="-83698004" name="Schulzentrum / AOK" lane="-664252402#0_2" startPos="0.00" endPos="15.00" friendlyPos="1" lines="2 1 6209"/>
+    <busStop id="-856960735" name="Sieglgut" lane="-151069930#0_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="K2"/>
+    <busStop id="-864720544" name="Waldschmidtstraße" lane="-30382711#1_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="2 1">
+        <access lane="-30382702_0" pos="21.24" friendlyPos="1" length="15.85"/>
+        <access lane="-30382708#1_0" pos="0.00" friendlyPos="1" length="52.99"/>
+        <access lane="30382695#0_0" pos="0.00" friendlyPos="1" length="65.31"/>
+        <access lane="30382702_0" pos="0.00" friendlyPos="1" length="20.37"/>
+        <access lane="30382708#1_0" pos="12.51" friendlyPos="1" length="53.52"/>
+    </busStop>
+    <busStop id="-864720570" name="Säumerweg" lane="-320162565#0_0" startPos="25.63" endPos="40.63" friendlyPos="1" lines="2 6122/19 6131">
+        <access lane="-234286278#0_0" pos="2.92" friendlyPos="1" length="60.00"/>
+        <access lane="-778618338_0" pos="41.43" friendlyPos="1" length="40.02"/>
+        <access lane="234286278#0_0" pos="0.00" friendlyPos="1" length="55.35"/>
+        <access lane="234286278#1_0" pos="0.00" friendlyPos="1" length="63.07"/>
+        <access lane="778618338_0" pos="15.13" friendlyPos="1" length="33.12"/>
+    </busStop>
+    <busStop id="-864720576" name="Prinz-Eugen-Straße" lane="-9637790#1_1" startPos="51.47" endPos="66.47" friendlyPos="1" lines="2 1"/>
+    <busStop id="-864720584" name="Christdobl" lane="-314243311_1" startPos="10.32" endPos="25.32" friendlyPos="1" lines="2 4 K2 1 6130 6131"/>
+    <busStop id="-864720632" name="Christdobl" lane="-314243311_1" startPos="9.94" endPos="24.94" friendlyPos="1" lines="6135"/>
+    <busStop id="-864720683" name="Rathaus" lane="-108322891#0_1" startPos="21.80" endPos="36.80" friendlyPos="1" lines="City-Bus 6122/19 K2 K3 6131"/>
+    <busStop id="-864720694" name="Wilhelm-Niedermayer-Straße" lane="-9205548_0" startPos="105.92" endPos="120.92" friendlyPos="1" lines="2">
+        <access lane="-72088157_0" pos="0.00" friendlyPos="1" length="60.24"/>
+        <access lane="-72094493_0" pos="0.00" friendlyPos="1" length="113.42"/>
+        <access lane="71442887_0" pos="68.03" friendlyPos="1" length="59.53"/>
+        <access lane="72094509#1_0" pos="338.34" friendlyPos="1" length="116.24"/>
+        <access lane="778412468_0" pos="47.23" friendlyPos="1" length="142.60"/>
+    </busStop>
+    <busStop id="-864720698" name="Englmeierstraße" lane="-1272893277#0_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="2 1">
+        <access lane="-30382700#0_0" pos="17.60" friendlyPos="1" length="125.48"/>
+        <access lane="-80175733#2_0" pos="14.86" friendlyPos="1" length="105.83"/>
+        <access lane="-80175733#3_0" pos="16.37" friendlyPos="1" length="118.29"/>
+        <access lane="80175733#2_0" pos="82.44" friendlyPos="1" length="110.63"/>
+        <access lane="80175733#3_0" pos="0.00" friendlyPos="1" length="119.58"/>
+    </busStop>
+    <busStop id="-864752870" name="Passau, ZOB" lane="-72868761_0" startPos="3.42" endPos="18.42" friendlyPos="1" lines="2 1"/>
+    <busStop id="-864752884" name="Passau, ZOB" lane="-380345923#0_0" startPos="0.00" endPos="7.77" friendlyPos="1" lines="6131"/>
+    <busStop id="-864886619" name="Graf-Salm-Straße" lane="-729683251_1" startPos="31.87" endPos="46.87" friendlyPos="1" lines="9 8"/>
+    <busStop id="-864886640" name="Passau, Stelzhamerstraße" lane="-1211769013_2" startPos="12.21" endPos="27.21" friendlyPos="1" lines="10 9 8 11"/>
+    <busStop id="-865262924" name="Firmiangut" lane="-137448410#1_1" startPos="28.47" endPos="43.47" friendlyPos="1" lines="1"/>
+    <busStop id="-865263086" name="Passau, Aufischer" lane="-99217161#0_1" startPos="60.72" endPos="75.72" friendlyPos="1" lines="K3 3">
+        <access lane="-314243313_0" pos="0.00" friendlyPos="1" length="9.16"/>
+        <access lane="-420222188#1_0" pos="1245.55" friendlyPos="1" length="10.02"/>
+        <access lane="344154886#1_0" pos="79.02" friendlyPos="1" length="8.63"/>
+        <access lane="7978948#2_0" pos="131.68" friendlyPos="1" length="6.15"/>
+        <access lane="99217161#0_0" pos="0.00" friendlyPos="1" length="6.20"/>
+    </busStop>
+    <busStop id="-865263090" name="Lindau" lane="-135575407#1_0" startPos="29.24" endPos="44.24" friendlyPos="1" lines="7599 6101/001">
+        <access lane="-153360831#1_0" pos="0.00" friendlyPos="1" length="67.16"/>
+        <access lane="-420222188#4_0" pos="101.69" friendlyPos="1" length="23.19"/>
+        <access lane="153360831#1_0" pos="37.10" friendlyPos="1" length="65.79"/>
+        <access lane="37862051#1_0" pos="358.09" friendlyPos="1" length="44.90"/>
+        <access lane="420222188#4_0" pos="357.69" friendlyPos="1" length="28.06"/>
+    </busStop>
+    <busStop id="-865263168" name="Lindau" lane="-72492792#0_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="3 K3 1">
+        <access lane="-1296607215#2_0" pos="0.00" friendlyPos="1" length="57.78"/>
+        <access lane="-153360831#1_0" pos="0.00" friendlyPos="1" length="44.75"/>
+        <access lane="1296607214_0" pos="0.20" friendlyPos="1" length="66.20"/>
+        <access lane="1296607215#2_0" pos="5.31" friendlyPos="1" length="53.14"/>
+        <access lane="153360831#1_0" pos="37.10" friendlyPos="1" length="48.74"/>
+    </busStop>
+    <busStop id="-865390290" name="Passau, Holzmannstraße" lane="-1052136412_1" startPos="21.12" endPos="36.12" friendlyPos="1" lines="10 7 K4"/>
+    <busStop id="-865390339" name="Ries" lane="-1111767774_0" startPos="0.71" endPos="15.71" friendlyPos="1" lines="7 5"/>
+    <busStop id="-865390339@399098" name="Ries" lane="-1111767774_0" startPos="0.71" endPos="15.71" friendlyPos="1" lines="7"/>
+    <busStop id="-865463056" name="Dr.-Emil-Brichta-Straße" lane="-313757720_2" startPos="34.62" endPos="49.62" friendlyPos="1" lines="2 1"/>
+    <busStop id="-869558149" name="Dr.-Ernst-Derra-Straße" lane="-73317825#2_2" startPos="15.79" endPos="30.79" friendlyPos="1" lines="5 6"/>
+    <busStop id="-869558313" name="Kohlbruck/Erlebnisbad" lane="-73317815_2" startPos="4.16" endPos="19.16" friendlyPos="1" lines="2 9 8 5 6 1"/>
+    <busStop id="-869558650" name="Gretli-Fuchs-Straße" lane="-73317825#1_2" startPos="46.23" endPos="61.23" friendlyPos="1" lines="5 6"/>
+    <busStop id="-869558696" name="Söldenpeterweg" lane="-8109358#5_0" startPos="31.24" endPos="46.24" friendlyPos="1" lines="9">
+        <access lane="-919797750_0" pos="0.00" friendlyPos="1" length="185.13"/>
+        <access lane="747219915_0" pos="0.00" friendlyPos="1" length="99.11"/>
+        <access lane="747219916_0" pos="0.00" friendlyPos="1" length="76.82"/>
+        <access lane="747219917_0" pos="0.00" friendlyPos="1" length="86.50"/>
+        <access lane="747219918_0" pos="0.00" friendlyPos="1" length="51.04"/>
+    </busStop>
+    <busStop id="-869558725" name="Passavia" lane="-73317841#6_0" startPos="12.47" endPos="27.47" friendlyPos="1" lines="6 5">
+        <access lane="-242276114_0" pos="91.92" friendlyPos="1" length="40.44"/>
+        <access lane="-98209688_0" pos="90.17" friendlyPos="1" length="34.98"/>
+        <access lane="1057086700#0_0" pos="0.00" friendlyPos="1" length="95.14"/>
+        <access lane="242276114_0" pos="0.00" friendlyPos="1" length="35.80"/>
+        <access lane="98209688_0" pos="29.88" friendlyPos="1" length="30.18"/>
+    </busStop>
+    <busStop id="-869558813" name="Donau-Schwaben-Straße" lane="-73317841#12_0" startPos="21.50" endPos="36.50" friendlyPos="1" lines="5 6">
+        <access lane="-27042217_0" pos="89.25" friendlyPos="1" length="33.36"/>
+        <access lane="-294237725_0" pos="28.79" friendlyPos="1" length="73.57"/>
+        <access lane="27042217_0" pos="1.52" friendlyPos="1" length="38.16"/>
+        <access lane="294237725_0" pos="0.00" friendlyPos="1" length="71.32"/>
+        <access lane="294237727_0" pos="0.00" friendlyPos="1" length="87.27"/>
+    </busStop>
+    <busStop id="-869650520" name="Breslauer Straße" lane="-313742462#1_1" startPos="8.01" endPos="23.01" friendlyPos="1" lines="2 1 6209"/>
+    <busStop id="-869650577" name="Breslauer Straße" lane="-313742462#1_1" startPos="7.45" endPos="22.45" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="-870980277" name="Eggendobl(Ortmeier)" lane="-34729579_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="6121/18 6110 7710/000048"/>
+    <busStop id="-871152554" name="Augustinergasse" lane="-98905801#0_1" startPos="49.90" endPos="64.90" friendlyPos="1" lines="9 8"/>
+    <busStop id="-871152581" name="Passau, Steinbachmühle" lane="-151096030#10_1" startPos="51.15" endPos="66.15" friendlyPos="1" lines="10 9 8 11">
+        <access lane="-1454635709_0" pos="0.00" friendlyPos="1" length="76.25"/>
+        <access lane="-27252226_0" pos="72.27" friendlyPos="1" length="19.68"/>
+        <access lane="1454635709_0" pos="46.75" friendlyPos="1" length="71.50"/>
+        <access lane="27252226_0" pos="0.00" friendlyPos="1" length="23.76"/>
+        <access lane="34912242#0_0" pos="0.00" friendlyPos="1" length="93.60"/>
+    </busStop>
+    <busStop id="-871152667" name="Kachlet" lane="-1099849746_0" startPos="68.43" endPos="83.43" friendlyPos="1" lines="9 8 11">
+        <access lane="-1099849749#0_0" pos="44.13" friendlyPos="1" length="9.24"/>
+        <access lane="-32824826#0_0" pos="431.74" friendlyPos="1" length="12.24"/>
+        <access lane="-7841523#1_0" pos="29.30" friendlyPos="1" length="59.42"/>
+        <access lane="1099849750_0" pos="21.87" friendlyPos="1" length="13.17"/>
+        <access lane="7841523#1_0" pos="53.35" friendlyPos="1" length="62.42"/>
+    </busStop>
+    <busStop id="-871152668" name="Hacklstein" lane="-1185727587_1" startPos="18.05" endPos="33.05" friendlyPos="1" lines="9 8 11"/>
+    <busStop id="-872833283" name="Glockenstraße" lane="-38928987#3_1" startPos="2.01" endPos="17.01" friendlyPos="1" lines="5 7"/>
+    <busStop id="-872833356" name="Fürstenweg" lane="-72928256#1_1" startPos="188.82" endPos="203.82" friendlyPos="1" lines="6 K1 5 7"/>
+    <busStop id="-872833374" name="Schulstraße" lane="-72928256#5_1" startPos="41.06" endPos="56.06" friendlyPos="1" lines="6 K1 5 7"/>
+    <busStop id="-872833426" name="Gertraudstraße" lane="-38928987#17_1" startPos="45.42" endPos="60.42" friendlyPos="1" lines="5 7"/>
+    <busStop id="-872833516" name="Plantage" lane="-38928987#11_1" startPos="54.89" endPos="69.89" friendlyPos="1" lines="5 7"/>
+    <busStop id="-874761645" name="Königsberger Straße" lane="-8109361#11_0" startPos="0.00" endPos="11.71" friendlyPos="1" lines="9 8">
+        <access lane="-27041845_0" pos="0.00" friendlyPos="1" length="8.53"/>
+        <access lane="-27404424#0_0" pos="36.31" friendlyPos="1" length="31.22"/>
+        <access lane="27041845_0" pos="104.59" friendlyPos="1" length="9.65"/>
+        <access lane="27404421_0" pos="0.26" friendlyPos="1" length="50.08"/>
+        <access lane="27404422_0" pos="0.00" friendlyPos="1" length="26.48"/>
+    </busStop>
+    <busStop id="-874761836" name="Simmerlingweg" lane="-73317841#22_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="6 5">
+        <access lane="-1002683503#0_0" pos="3.37" friendlyPos="1" length="50.14"/>
+        <access lane="-98114366#0_0" pos="24.97" friendlyPos="1" length="19.15"/>
+        <access lane="-98114366#1_0" pos="14.60" friendlyPos="1" length="54.38"/>
+        <access lane="98114366#0_0" pos="0.00" friendlyPos="1" length="15.37"/>
+        <access lane="98114366#1_0" pos="0.00" friendlyPos="1" length="53.16"/>
+    </busStop>
+    <busStop id="-874761867" name="Breslauer Straße" lane="-27115441#2_0" startPos="8.46" endPos="23.46" friendlyPos="1" lines="8">
+        <access lane="-27264438_0" pos="49.29" friendlyPos="1" length="29.33"/>
+        <access lane="-27264439_0" pos="62.69" friendlyPos="1" length="24.87"/>
+        <access lane="-27264440_0" pos="0.00" friendlyPos="1" length="64.02"/>
+        <access lane="27264438_0" pos="0.00" friendlyPos="1" length="34.06"/>
+        <access lane="27264439_0" pos="0.00" friendlyPos="1" length="20.26"/>
+    </busStop>
+    <busStop id="-874761888" name="Simmerlingweg" lane="-26589224#1_0" startPos="48.14" endPos="63.14" friendlyPos="1" lines="9 8">
+        <access lane="-1002683498#0_0" pos="12.36" friendlyPos="1" length="9.06"/>
+        <access lane="-1002683498#1_0" pos="8.35" friendlyPos="1" length="26.39"/>
+        <access lane="-896220652#3_0" pos="0.00" friendlyPos="1" length="32.62"/>
+        <access lane="1002683498#0_0" pos="0.00" friendlyPos="1" length="12.89"/>
+        <access lane="1002683498#1_0" pos="0.00" friendlyPos="1" length="30.40"/>
+    </busStop>
+    <busStop id="-874761893" name="Ries-Wasserturm" lane="-73943965#0_0" startPos="29.85" endPos="44.85" friendlyPos="1" lines="6121/18 7710/000048 6110 5"/>
+    <busStop id="-874762087" name="Birkhamerstraße" lane="-8109351#2_0" startPos="34.17" endPos="49.17" friendlyPos="1" lines="9 8">
+        <access lane="-122797025_0" pos="0.00" friendlyPos="1" length="115.88"/>
+        <access lane="-27405971_0" pos="104.29" friendlyPos="1" length="36.22"/>
+        <access lane="-924458049_0" pos="0.00" friendlyPos="1" length="48.78"/>
+        <access lane="27405971_0" pos="0.00" friendlyPos="1" length="31.45"/>
+        <access lane="924458049_0" pos="66.89" friendlyPos="1" length="50.14"/>
+    </busStop>
+    <busStop id="-874762106" name="Vornholz" lane="-8109351#4_0" startPos="11.60" endPos="26.60" friendlyPos="1" lines="9 8">
+        <access lane="-122797026_0" pos="22.29" friendlyPos="1" length="69.48"/>
+        <access lane="122797026_0" pos="0.00" friendlyPos="1" length="67.45"/>
+        <access lane="122797032_0" pos="0.00" friendlyPos="1" length="24.04"/>
+        <access lane="122797033_0" pos="23.05" friendlyPos="1" length="26.56"/>
+        <access lane="122797034_0" pos="8.20" friendlyPos="1" length="23.39"/>
+    </busStop>
+    <busStop id="10905868556" name="Passau, Hbf. (2)" lane="1173765306#1_1" startPos="1.25" endPos="16.25" friendlyPos="1" lines="7710/000048"/>
+    <busStop id="10905868559" name="Abzw. Freudenhain" lane="137551265#1_0" startPos="3.96" endPos="18.96" friendlyPos="1" lines="7710/000048 7">
+        <access lane="-679933251#0_0" pos="8.76" friendlyPos="1" length="27.63"/>
+        <access lane="-679933251#1_0" pos="27.50" friendlyPos="1" length="37.60"/>
+        <access lane="679933250_0" pos="0.00" friendlyPos="1" length="41.45"/>
+        <access lane="679933251#0_0" pos="0.00" friendlyPos="1" length="22.85"/>
+        <access lane="679933251#1_0" pos="0.00" friendlyPos="1" length="33.53"/>
+    </busStop>
+    <busStop id="10907896491" name="Sturmbergweg" lane="1110028459_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="7710/000048 7">
+        <access lane="-401915905_0" pos="16.18" friendlyPos="1" length="103.29"/>
+        <access lane="-96355667_0" pos="96.70" friendlyPos="1" length="35.96"/>
+        <access lane="147841537_0" pos="184.63" friendlyPos="1" length="119.68"/>
+        <access lane="401915905_0" pos="0.00" friendlyPos="1" length="106.13"/>
+        <access lane="96355667_0" pos="0.00" friendlyPos="1" length="33.79"/>
+    </busStop>
+    <busStop id="1116715599" name="Passau, Klafterbrunnweg" lane="102968998#1_0" startPos="155.42" endPos="170.42" friendlyPos="1" lines="K2">
+        <access lane="-317153805_0" pos="185.66" friendlyPos="1" length="15.17"/>
+        <access lane="-96358633_0" pos="30.53" friendlyPos="1" length="199.18"/>
+        <access lane="-96358644#0_0" pos="249.24" friendlyPos="1" length="129.16"/>
+        <access lane="317153805_0" pos="0.00" friendlyPos="1" length="10.95"/>
+        <access lane="96358644#0_0" pos="1.69" friendlyPos="1" length="133.99"/>
+    </busStop>
+    <busStop id="11286246807" name="Passau, Garhammerweg" lane="27332796#4_1" startPos="3.79" endPos="18.79" friendlyPos="1" lines="3"/>
+    <busStop id="11302178682" name="Passau, Leopoldstraße" lane="7938074#7_1" startPos="56.46" endPos="71.46" friendlyPos="1" lines="7 6 5"/>
+    <busStop id="11377269006" name="Stadttheater" lane="104036921#1_1" startPos="46.04" endPos="61.04" friendlyPos="1" lines="4 K1 K2 3"/>
+    <busStop id="1145382917" name="Stadttheater" lane="104036921#1_1" startPos="46.33" endPos="61.33" friendlyPos="1" lines="670"/>
+    <busStop id="12809601545" name="Passau, Traminer Straße" lane="6757254_1" startPos="26.15" endPos="41.15" friendlyPos="1" lines="6209"/>
+    <busStop id="13020194024" name="Aumühlweg" lane="154656377#0_0" startPos="47.19" endPos="62.19" friendlyPos="1" lines="K1">
+        <access lane="-137545740_0" pos="0.00" friendlyPos="1" length="64.27"/>
+        <access lane="-59309353#0_0" pos="26.44" friendlyPos="1" length="83.91"/>
+        <access lane="-59309358#1_0" pos="0.00" friendlyPos="1" length="83.48"/>
+        <access lane="137545740_0" pos="11.06" friendlyPos="1" length="68.53"/>
+        <access lane="1451756121_0" pos="26.49" friendlyPos="1" length="32.23"/>
+    </busStop>
+    <busStop id="1303947458" name="Hals" lane="9667535#1_0" startPos="16.48" endPos="31.48" friendlyPos="1" lines="4">
+        <access lane="-1000886591_0" pos="26.32" friendlyPos="1" length="57.16"/>
+        <access lane="-115394080#0_0" pos="29.53" friendlyPos="1" length="56.80"/>
+        <access lane="-73908850_0" pos="38.63" friendlyPos="1" length="7.57"/>
+        <access lane="1027376622_0" pos="26.76" friendlyPos="1" length="52.00"/>
+        <access lane="73908850_0" pos="0.00" friendlyPos="1" length="7.56"/>
+    </busStop>
+    <busStop id="13340651075" name="Muffatstraße" lane="86387484#3_0" startPos="3.80" endPos="18.80" friendlyPos="1" lines="K1">
+        <access lane="-135554716#0_0" pos="9.94" friendlyPos="1" length="22.54"/>
+        <access lane="-135554718#0_0" pos="6.33" friendlyPos="1" length="27.28"/>
+        <access lane="1278896162#1_0" pos="56.10" friendlyPos="1" length="10.73"/>
+        <access lane="135554718#0_0" pos="0.00" friendlyPos="1" length="22.60"/>
+        <access lane="1454687999#1_0" pos="0.00" friendlyPos="1" length="26.56"/>
+    </busStop>
+    <busStop id="13340651085" name="Muffatstraße" lane="1454687998_0" startPos="46.81" endPos="61.81" friendlyPos="1" lines="K1"/>
+    <busStop id="13340723176" name="Mariahilf-Grenzstation" lane="156247939#4_1" startPos="161.34" endPos="176.34" friendlyPos="1" lines="K1"/>
+    <busStop id="13973265305" name="Passau, Hbf. (10)" lane="390408259#1_1" startPos="1.29" endPos="16.29" friendlyPos="1" lines="10 11 9 K4 8"/>
+    <busStop id="13973265316" name="Passau, Dr.-Geiger-Weg" lane="7988500#1_1" startPos="8.30" endPos="23.30" friendlyPos="1" lines="K4"/>
+    <busStop id="13973265317" name="Passau, Holzheimerstraße" lane="1533358202#4_1" startPos="41.68" endPos="56.68" friendlyPos="1" lines="K4">
+        <access lane="-135564277_0" pos="68.81" friendlyPos="1" length="68.12"/>
+        <access lane="-1533358202#4_0" pos="186.97" friendlyPos="1" length="6.30"/>
+        <access lane="-277770860_0" pos="7.59" friendlyPos="1" length="12.76"/>
+        <access lane="135564277_0" pos="160.06" friendlyPos="1" length="73.00"/>
+        <access lane="277770860_0" pos="48.97" friendlyPos="1" length="7.96"/>
+    </busStop>
+    <busStop id="13973265318" name="Passau, Bernhard-Setzer-Straße" lane="1533358202#1_1" startPos="38.08" endPos="53.08" friendlyPos="1" lines="K4">
+        <access lane="-1533358202#1_0" pos="53.46" friendlyPos="1" length="6.31"/>
+        <access lane="-153645479#0_0" pos="14.09" friendlyPos="1" length="9.20"/>
+        <access lane="-153645479#1_0" pos="28.63" friendlyPos="1" length="55.82"/>
+        <access lane="153645479#0_0" pos="51.36" friendlyPos="1" length="14.00"/>
+        <access lane="153645479#1_0" pos="0.00" friendlyPos="1" length="56.19"/>
+    </busStop>
+    <busStop id="13973265319" name="Passau, Bahnhofstraße" lane="27392131#1_1" startPos="32.67" endPos="47.67" friendlyPos="1" lines="10 11 9 K4 8"/>
+    <busStop id="13976270685" name="Schmiedgasse" lane="38589351#1_1" startPos="25.05" endPos="40.05" friendlyPos="1" lines="4 3 K1 K2"/>
+    <busStop id="13976270686" name="Schwendistraße" lane="24683072#2_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="4 3"/>
+    <busStop id="13976270689" name="Auenweg" lane="108277212#0_1" startPos="38.34" endPos="53.34" friendlyPos="1" lines="4 3"/>
+    <busStop id="13976270690" name="Kremser Straße" lane="136006440#14_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="4 3"/>
+    <busStop id="13976270691" name="Jesuitenschlößl" lane="1409160950#1_2" startPos="18.50" endPos="33.50" friendlyPos="1" lines="4 3"/>
+    <busStop id="13976270692" name="Jahnstraße" lane="37421654#0_1" startPos="0.67" endPos="15.67" friendlyPos="1" lines="4 K1 K2 3"/>
+    <busStop id="13976270694" name="Passau, Obere Schneckenbergstraße" lane="27332796#1_1" startPos="45.17" endPos="60.17" friendlyPos="1" lines="3"/>
+    <busStop id="13977703010" name="Rosensteig" lane="71438718#2_0" startPos="13.46" endPos="28.46" friendlyPos="1" lines="4">
+        <access lane="-1317094790_0" pos="78.51" friendlyPos="1" length="264.50"/>
+        <access lane="1317094790_0" pos="0.00" friendlyPos="1" length="260.64"/>
+        <access lane="200098178_0" pos="0.00" friendlyPos="1" length="176.92"/>
+        <access lane="84453929_0" pos="23.95" friendlyPos="1" length="258.32"/>
+    </busStop>
+    <busStop id="13977703011" name="Achatiusstraße" lane="71438718#1_0" startPos="12.89" endPos="27.89" friendlyPos="1" lines="4">
+        <access lane="-1077122129#1_0" pos="40.94" friendlyPos="1" length="253.29"/>
+        <access lane="1077122129#1_0" pos="0.00" friendlyPos="1" length="255.89"/>
+        <access lane="200098178_0" pos="114.96" friendlyPos="1" length="104.71"/>
+        <access lane="84453929_0" pos="23.95" friendlyPos="1" length="89.56"/>
+        <access lane="84453968_0" pos="0.00" friendlyPos="1" length="214.37"/>
+    </busStop>
+    <busStop id="13980045357" name="Passau, Kachletstraße" lane="746526221#6_0" startPos="33.50" endPos="48.50" friendlyPos="1" lines="6">
+        <access lane="-148594626_0" pos="145.30" friendlyPos="1" length="89.23"/>
+        <access lane="-746526221#5_0" pos="0.00" friendlyPos="1" length="76.84"/>
+        <access lane="-746526221#6_0" pos="133.12" friendlyPos="1" length="6.30"/>
+        <access lane="1451324784_0" pos="26.19" friendlyPos="1" length="103.42"/>
+        <access lane="148594626_0" pos="27.12" friendlyPos="1" length="94.07"/>
+    </busStop>
+    <busStop id="13980045358" name="Passau, Stelzlhof" lane="1110719623_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="6">
+        <access lane="-102448579#0_0" pos="11.48" friendlyPos="1" length="78.11"/>
+        <access lane="-102448579#1_0" pos="21.76" friendlyPos="1" length="96.63"/>
+        <access lane="-251814806#0_0" pos="38.83" friendlyPos="1" length="74.16"/>
+        <access lane="102448579#0_0" pos="114.09" friendlyPos="1" length="83.04"/>
+        <access lane="251814806#0_0" pos="29.17" friendlyPos="1" length="78.96"/>
+    </busStop>
+    <busStop id="13980045359" name="Passau, Stelzlhof" lane="1110719620_0" startPos="64.55" endPos="79.55" friendlyPos="1" lines="6">
+        <access lane="-102448579#0_0" pos="13.00" friendlyPos="1" length="85.70"/>
+        <access lane="-102448579#1_0" pos="21.76" friendlyPos="1" length="107.04"/>
+        <access lane="-251814806#0_0" pos="41.47" friendlyPos="1" length="87.91"/>
+        <access lane="102448579#0_0" pos="113.47" friendlyPos="1" length="90.50"/>
+        <access lane="251814806#0_0" pos="26.53" friendlyPos="1" length="92.71"/>
+    </busStop>
+    <busStop id="13980045360" name="Lüftlbergstraße" lane="11773611_0" startPos="508.96" endPos="523.96" friendlyPos="1" lines="6">
+        <access lane="-79512703_0" pos="0.20" friendlyPos="1" length="66.50"/>
+        <access lane="-79512704_0" pos="20.11" friendlyPos="1" length="25.37"/>
+        <access lane="79512702_0" pos="15.99" friendlyPos="1" length="41.13"/>
+        <access lane="79512703_0" pos="0.00" friendlyPos="1" length="70.45"/>
+        <access lane="79512704_0" pos="17.54" friendlyPos="1" length="30.17"/>
+    </busStop>
+    <busStop id="13980045361" name="Lüftlbergstraße" lane="30330137_0" startPos="529.92" endPos="544.92" friendlyPos="1" lines="6">
+        <access lane="-79512703_0" pos="0.20" friendlyPos="1" length="58.31"/>
+        <access lane="-79512704_0" pos="22.16" friendlyPos="1" length="12.04"/>
+        <access lane="79512702_0" pos="15.99" friendlyPos="1" length="30.79"/>
+        <access lane="79512703_0" pos="0.00" friendlyPos="1" length="62.67"/>
+        <access lane="79512704_0" pos="15.49" friendlyPos="1" length="16.84"/>
+    </busStop>
+    <busStop id="13981391048" name="Bockhofweg" lane="9934788_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="7">
+        <access lane="-401914227#1_0" pos="0.00" friendlyPos="1" length="13.22"/>
+        <access lane="1073394721_0" pos="150.34" friendlyPos="1" length="7.38"/>
+        <access lane="401914223_0" pos="0.20" friendlyPos="1" length="19.43"/>
+        <access lane="401914227#1_0" pos="0.17" friendlyPos="1" length="10.41"/>
+        <access lane="96355675#1_0" pos="0.00" friendlyPos="1" length="11.67"/>
+    </busStop>
+    <busStop id="13981750084" name="Schärdinger Straße" lane="156247939#0_1" startPos="36.60" endPos="51.60" friendlyPos="1" lines="K1"/>
+    <busStop id="13981750086" name="Anger" lane="23378357#1_0" startPos="0.00" endPos="2.97" friendlyPos="1" lines="K1"/>
+    <busStop id="13981750087" name="Passau, Donauweg" lane="9934785#1_0" startPos="0.00" endPos="0.20" friendlyPos="1" lines="K1">
+        <access lane="-38928987#0_0" pos="0.00" friendlyPos="1" length="97.66"/>
+        <access lane="-73499024_0" pos="42.52" friendlyPos="1" length="85.22"/>
+        <access lane="-79513116_0" pos="52.85" friendlyPos="1" length="12.84"/>
+        <access lane="73499024_0" pos="10.94" friendlyPos="1" length="90.10"/>
+        <access lane="79513116_0" pos="0.00" friendlyPos="1" length="15.59"/>
+    </busStop>
+    <busStop id="13987132243" name="Kirchenplatz" lane="37091829#0_0" startPos="10.98" endPos="25.98" friendlyPos="1" lines="K2">
+        <access lane="-37091829#0_0" pos="0.00" friendlyPos="1" length="6.72"/>
+        <access lane="120540137_0" pos="0.00" friendlyPos="1" length="20.27"/>
+        <access lane="169070752#0_0" pos="0.00" friendlyPos="1" length="16.55"/>
+        <access lane="37091828#5_0" pos="27.86" friendlyPos="1" length="8.13"/>
+        <access lane="9717134_0" pos="35.39" friendlyPos="1" length="12.81"/>
+    </busStop>
+    <busStop id="13987132246" name="Voglau" lane="108277250#9_0" startPos="23.84" endPos="38.84" friendlyPos="1" lines="K2">
+        <access lane="-65198982_0" pos="29.67" friendlyPos="1" length="14.97"/>
+        <access lane="65198980_0" pos="0.00" friendlyPos="1" length="8.02"/>
+        <access lane="67396533#0_0" pos="0.00" friendlyPos="1" length="56.95"/>
+        <access lane="67396533#1_0" pos="0.00" friendlyPos="1" length="62.32"/>
+        <access lane="67396535_0" pos="29.09" friendlyPos="1" length="62.52"/>
+    </busStop>
+    <busStop id="13987132247" name="Passau, Saming/Zollamt" lane="1409201535#0_0" startPos="0.00" endPos="10.20" friendlyPos="1" lines="K2">
+        <access lane="-1002424628_0" pos="0.00" friendlyPos="1" length="18.19"/>
+        <access lane="-135293064_0" pos="321.35" friendlyPos="1" length="19.74"/>
+        <access lane="1002424626_0" pos="40.10" friendlyPos="1" length="67.80"/>
+        <access lane="1002424628_0" pos="32.10" friendlyPos="1" length="13.87"/>
+        <access lane="135293064_0" pos="0.00" friendlyPos="1" length="15.93"/>
+    </busStop>
+    <busStop id="13987132248" name="Passau, Mühltal" lane="24727886#5_0" startPos="52.92" endPos="67.92" friendlyPos="1" lines="K2">
+        <access lane="-1002424615_0" pos="0.00" friendlyPos="1" length="82.07"/>
+        <access lane="-1002424616_0" pos="2.52" friendlyPos="1" length="52.65"/>
+        <access lane="-1002424618_0" pos="6.79" friendlyPos="1" length="89.55"/>
+        <access lane="1002424615_0" pos="18.78" friendlyPos="1" length="77.30"/>
+        <access lane="1002424616_0" pos="10.10" friendlyPos="1" length="47.85"/>
+    </busStop>
+    <busStop id="13987132249" name="Linzer Straße" lane="1523662474#3_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="K2">
+        <access lane="-96358604_0" pos="22.26" friendlyPos="1" length="168.97"/>
+        <access lane="-96358634#1_0" pos="0.00" friendlyPos="1" length="149.93"/>
+        <access lane="-96358636#0_0" pos="118.46" friendlyPos="1" length="15.84"/>
+        <access lane="96358634#1_0" pos="19.89" friendlyPos="1" length="149.74"/>
+        <access lane="96358636#0_0" pos="0.00" friendlyPos="1" length="11.51"/>
+    </busStop>
+    <busStop id="13987132250" name="Rathaus" lane="108322891#0_1" startPos="17.66" endPos="32.66" friendlyPos="1" lines="K2 K3"/>
+    <busStop id="13987881838" name="Passau, Eduard-Hamm-Straße" lane="32129548#3_0" startPos="45.82" endPos="60.82" friendlyPos="1" lines="K3">
+        <access lane="-135269807_0" pos="35.54" friendlyPos="1" length="91.08"/>
+        <access lane="-32129548#3_0" pos="57.64" friendlyPos="1" length="6.29"/>
+        <access lane="-61910216#1_0" pos="60.06" friendlyPos="1" length="30.77"/>
+        <access lane="1079506614_0" pos="0.00" friendlyPos="1" length="89.27"/>
+        <access lane="61910216#1_0" pos="141.61" friendlyPos="1" length="27.77"/>
+    </busStop>
+    <busStop id="13987881839" name="Passau, Untere Schneckenbergstraße" lane="27332929#13_0" startPos="73.86" endPos="88.86" friendlyPos="1" lines="K3"/>
+    <busStop id="13987881844" name="Untere Schneckenbergstraße A" lane="27332929#10_0" startPos="14.31" endPos="29.31" friendlyPos="1" lines="K3"/>
+    <busStop id="13987881845" name="Untere Schneckenbergstraße B" lane="27332929#6_0" startPos="40.39" endPos="55.39" friendlyPos="1" lines="K3"/>
+    <busStop id="13994483827" name="Passau, Bischof-Altmann-Straße" lane="7609624#0_1" startPos="5.27" endPos="20.27" friendlyPos="1" lines="K3"/>
+    <busStop id="13994483830" name="Passau, Ingling" lane="1536115939_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="K3">
+        <access lane="-1282737011#1_0" pos="87.42" friendlyPos="1" length="11.31"/>
+        <access lane="-220345789#5_0" pos="0.00" friendlyPos="1" length="18.87"/>
+        <access lane="1282737011#1_0" pos="23.40" friendlyPos="1" length="16.11"/>
+        <access lane="1282737012#1_0" pos="13.74" friendlyPos="1" length="41.88"/>
+        <access lane="220345789#5_0" pos="174.76" friendlyPos="1" length="20.44"/>
+    </busStop>
+    <busStop id="1416895619" name="Bäckerholz" lane="150943947#0_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="3">
+        <access lane="-136090811_0" pos="0.00" friendlyPos="1" length="70.06"/>
+        <access lane="-147924793_0" pos="31.36" friendlyPos="1" length="109.43"/>
+        <access lane="136090811_0" pos="80.99" friendlyPos="1" length="71.73"/>
+        <access lane="147924793_0" pos="0.00" friendlyPos="1" length="104.67"/>
+        <access lane="147924795_0" pos="81.08" friendlyPos="1" length="151.72"/>
+    </busStop>
+    <busStop id="1492229040" name="Oetkersiedlung" lane="71438718#3_0" startPos="4.40" endPos="19.40" friendlyPos="1" lines="4">
+        <access lane="151366583_0" pos="0.00" friendlyPos="1" length="79.29"/>
+        <access lane="84453953_0" pos="57.26" friendlyPos="1" length="85.23"/>
+        <access lane="84453954_0" pos="0.00" friendlyPos="1" length="60.99"/>
+        <access lane="84453970_0" pos="0.00" friendlyPos="1" length="115.81"/>
+        <access lane="98363348_0" pos="28.23" friendlyPos="1" length="149.61"/>
+    </busStop>
+    <busStop id="1492367442" name="Kirchenplatz" lane="169070752#0_1" startPos="0.00" endPos="0.20" friendlyPos="1" lines="4 K1 K2 3"/>
+    <busStop id="1492369919" name="Achleiten" lane="100431595#4_0" startPos="33.97" endPos="48.97" friendlyPos="1" lines="4 3">
+        <access lane="-100437005#4_0" pos="0.00" friendlyPos="1" length="6.93"/>
+        <access lane="-100437005#5_0" pos="369.60" friendlyPos="1" length="13.22"/>
+        <access lane="-175491242#2_0" pos="0.00" friendlyPos="1" length="4.30"/>
+        <access lane="100437005#4_0" pos="158.37" friendlyPos="1" length="9.54"/>
+        <access lane="175491242#2_0" pos="0.20" friendlyPos="1" length="6.58"/>
+    </busStop>
+    <busStop id="1492612721" name="Johann-Bergler-Straße" lane="183260794#1_1" startPos="8.82" endPos="23.82" friendlyPos="1" lines="4 3"/>
+    <busStop id="1503984042" name="Schulbergstraße" lane="72865053#0_0" startPos="8.36" endPos="23.36" friendlyPos="1" lines="6122/19 6130 6131">
+        <access lane="-1454419259_0" pos="63.22" friendlyPos="1" length="152.80"/>
+        <access lane="-72477577#0_0" pos="83.08" friendlyPos="1" length="167.24"/>
+        <access lane="-80175733#2_0" pos="38.51" friendlyPos="1" length="191.34"/>
+        <access lane="1454419259_0" pos="0.00" friendlyPos="1" length="157.30"/>
+        <access lane="72477577#0_0" pos="0.00" friendlyPos="1" length="166.81"/>
+    </busStop>
+    <busStop id="1503984052" name="Laimgrub" lane="157384760_0" startPos="20.84" endPos="35.84" friendlyPos="1" lines="1">
+        <access lane="-1454419259_0" pos="29.64" friendlyPos="1" length="163.85"/>
+        <access lane="-72477573_0" pos="0.00" friendlyPos="1" length="88.63"/>
+        <access lane="-72477577#0_0" pos="83.08" friendlyPos="1" length="138.22"/>
+        <access lane="72477573_0" pos="86.50" friendlyPos="1" length="91.63"/>
+        <access lane="72477577#0_0" pos="0.00" friendlyPos="1" length="141.05"/>
+    </busStop>
+    <busStop id="1503999470" name="Abteistraße" lane="320162566#2_0" startPos="78.72" endPos="93.72" friendlyPos="1" lines="1">
+        <access lane="-72488378_0" pos="25.15" friendlyPos="1" length="90.08"/>
+        <access lane="-72490858#0_0" pos="17.86" friendlyPos="1" length="89.53"/>
+        <access lane="-89424975_0" pos="100.08" friendlyPos="1" length="62.45"/>
+        <access lane="72488378_0" pos="0.00" friendlyPos="1" length="87.85"/>
+        <access lane="89424975_0" pos="0.00" friendlyPos="1" length="61.59"/>
+    </busStop>
+    <busStop id="1504035666" name="Ilzbrücke" lane="1347382891_1" startPos="23.37" endPos="38.37" friendlyPos="1" lines="6135"/>
+    <busStop id="1608644965" name="Evangelische Kirche" lane="150943945#1_1" startPos="0.00" endPos="13.69" friendlyPos="1" lines="3"/>
+    <busStop id="1638034295" name="Zahnradfabrik Werk 1" lane="150943410#3_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="3"/>
+    <busStop id="1638047783" name="Garhammerweg" lane="27332796#4_1" startPos="5.80" endPos="20.80" friendlyPos="1" lines="3"/>
+    <busStop id="1638047784" name="Jägersteig" lane="150943947#3_0" startPos="0.00" endPos="14.14" friendlyPos="1" lines="3">
+        <access lane="-128164060#5_0" pos="0.00" friendlyPos="1" length="28.54"/>
+        <access lane="-136090814#0_0" pos="60.60" friendlyPos="1" length="23.79"/>
+        <access lane="128164060#5_0" pos="4.17" friendlyPos="1" length="18.17"/>
+        <access lane="136090809_0" pos="102.91" friendlyPos="1" length="21.91"/>
+        <access lane="136090814#0_0" pos="0.00" friendlyPos="1" length="28.47"/>
+    </busStop>
+    <busStop id="1638897583" name="Zahnradfabrik Werk 1" lane="151044891#1_0" startPos="42.65" endPos="57.65" friendlyPos="1" lines="3 1 6101/001"/>
+    <busStop id="1638897583@389737" name="Zahnradfabrik Werk 1" lane="151044891#1_0" startPos="42.65" endPos="57.65" friendlyPos="1" lines="1"/>
+    <busStop id="1638897590" name="Zahnradfabrik, Werk 1" lane="151044891#1_0" startPos="42.50" endPos="57.50" friendlyPos="1" lines="3 1 6101/001"/>
+    <busStop id="1638897590@389736" name="Zahnradfabrik, Werk 1" lane="151044891#1_0" startPos="42.50" endPos="57.50" friendlyPos="1" lines="1"/>
+    <busStop id="1638912565" name="Breslauer Straße" lane="313742465#0_1" startPos="0.85" endPos="15.85" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="1638922321" name="Nagelschmiedgasse" lane="88841002#2_1" startPos="80.99" endPos="95.99" friendlyPos="1" lines="6135"/>
+    <busStop id="1638932584" name="Rathaus" lane="108322891#0_1" startPos="19.41" endPos="34.41" friendlyPos="1" lines="6135"/>
+    <busStop id="1639081949" name="Witikostraße" lane="157380038#0_0" startPos="3.22" endPos="18.22" friendlyPos="1" lines="6122/19 K2 6130 6131">
+        <access lane="-11773600_0" pos="27.34" friendlyPos="1" length="23.01"/>
+        <access lane="-9637790#1_0" pos="0.00" friendlyPos="1" length="21.92"/>
+        <access lane="11773600_0" pos="0.00" friendlyPos="1" length="34.95"/>
+        <access lane="139016224_0" pos="128.96" friendlyPos="1" length="47.01"/>
+        <access lane="9637790#1_0" pos="64.14" friendlyPos="1" length="34.20"/>
+    </busStop>
+    <busStop id="1641256218" name="Augustinergasse" lane="108277170#1_1" startPos="13.53" endPos="28.53" friendlyPos="1" lines="4 K1 K2 3"/>
+    <busStop id="1641256227" name="Mozartstraße" lane="1409160394_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="K1">
+        <access lane="-100444254#2_0" pos="0.00" friendlyPos="1" length="37.21"/>
+        <access lane="-1409160374#0_0" pos="0.00" friendlyPos="1" length="26.63"/>
+        <access lane="100444254#2_0" pos="34.89" friendlyPos="1" length="41.83"/>
+        <access lane="1278896162#0_0" pos="1.67" friendlyPos="1" length="9.74"/>
+        <access lane="135254240_0" pos="0.00" friendlyPos="1" length="49.54"/>
+    </busStop>
+    <busStop id="17064590" name="Passau, Aufischer" lane="99217161#0_0" startPos="54.70" endPos="69.70" friendlyPos="1" lines="3 K3"/>
+    <busStop id="1766198081" name="Auenweg" lane="108277212#0_1" startPos="36.99" endPos="51.99" friendlyPos="1" lines="670"/>
+    <busStop id="1809193907" name="Wörth" lane="129997892#1_0" startPos="192.36" endPos="207.36" friendlyPos="1" lines="6">
+        <access lane="-693917941_0" pos="74.83" friendlyPos="1" length="317.77"/>
+        <access lane="693917941_0" pos="274.44" friendlyPos="1" length="312.97"/>
+    </busStop>
+    <busStop id="1917278843" name="Rathaus" lane="7864016#1_2" startPos="9.06" endPos="24.06" friendlyPos="1" lines="Oberhausbus"/>
+    <busStop id="1936532938" name="Schmiedgasse" lane="38589351#1_1" startPos="24.93" endPos="39.93" friendlyPos="1" lines="670"/>
+    <busStop id="2167432260" name="Passau, Maierhof" lane="746526221#1_0" startPos="92.11" endPos="107.11" friendlyPos="1" lines="6">
+        <access lane="-136326620_0" pos="211.08" friendlyPos="1" length="60.53"/>
+        <access lane="-148594626_0" pos="0.82" friendlyPos="1" length="116.34"/>
+        <access lane="-746526221#1_0" pos="68.29" friendlyPos="1" length="6.32"/>
+        <access lane="136326620_0" pos="139.46" friendlyPos="1" length="63.53"/>
+        <access lane="148594626_0" pos="159.65" friendlyPos="1" length="121.14"/>
+    </busStop>
+    <busStop id="2413642564" name="Rindermarkt" lane="749412331_1" startPos="0.00" endPos="12.39" friendlyPos="1" lines="City-Bus"/>
+    <busStop id="2441642048" name="Westerburgerstraße" lane="26217398#0_1" startPos="6.90" endPos="21.90" friendlyPos="1" lines="7 6 5"/>
+    <busStop id="255946042" name="Graf-Salm-Straße" lane="729683251_1" startPos="43.56" endPos="58.56" friendlyPos="1" lines="9 8"/>
+    <busStop id="2559626456" name="Ries-Rennweg" lane="1111754423#1_0" startPos="2.21" endPos="17.21" friendlyPos="1" lines="7710/000048 7">
+        <access lane="-108019167_0" pos="510.05" friendlyPos="1" length="68.81"/>
+        <access lane="-389290841_0" pos="50.40" friendlyPos="1" length="60.22"/>
+        <access lane="-389290842_0" pos="45.17" friendlyPos="1" length="20.08"/>
+        <access lane="389290841_0" pos="0.00" friendlyPos="1" length="64.67"/>
+        <access lane="389290842_0" pos="0.00" friendlyPos="1" length="24.84"/>
+    </busStop>
+    <busStop id="267837460" name="Wörthstraße" lane="49145289#1_1" startPos="0.00" endPos="7.67" friendlyPos="1" lines="9 8"/>
+    <busStop id="268289479" name="Hörnerweg" lane="136006440#6_1" startPos="0.00" endPos="3.75" friendlyPos="1" lines="4 3"/>
+    <busStop id="280240900" name="Weinleitenweg" lane="89990547#3_1" startPos="16.12" endPos="31.12" friendlyPos="1" lines="9 8"/>
+    <busStop id="280241166" name="Apfelkoch" lane="72875605#4_1" startPos="0.00" endPos="2.97" friendlyPos="1" lines="9 K3 8"/>
+    <busStop id="297613355" name="Am Schanzl (Turm)" lane="1349224153#1_0" startPos="10.03" endPos="25.03" friendlyPos="1" lines="2 6122/19 4 3 K2 K3 100 1 6131">
+        <access lane="-1232438998_0" pos="18.68" friendlyPos="1" length="5.32"/>
+        <access lane="-1272600488#2_0" pos="18.17" friendlyPos="1" length="19.91"/>
+        <access lane="1272600488#2_0" pos="13.98" friendlyPos="1" length="22.91"/>
+        <access lane="1349224151_0" pos="15.61" friendlyPos="1" length="10.12"/>
+        <access lane="1349224155#1_0" pos="18.44" friendlyPos="1" length="26.34"/>
+    </busStop>
+    <busStop id="300319161" name="Am Schanzl (Busbucht)" lane="27355971#0_0" startPos="15.49" endPos="30.49" friendlyPos="1" lines="6122/19 7 7710/000048 K1 6 5"/>
+    <busStop id="334242478" name="Josef-Wenzl-Straße" lane="11773596#0_1" startPos="1.82" endPos="16.82" friendlyPos="1" lines="2 1"/>
+    <busStop id="334242484" name="Am Hochpegel" lane="30382735#0_0" startPos="5.38" endPos="20.38" friendlyPos="1" lines="2 1">
+        <access lane="-29265582#5_0" pos="0.00" friendlyPos="1" length="32.53"/>
+        <access lane="-29265582#6_0" pos="2.90" friendlyPos="1" length="32.19"/>
+        <access lane="29265582#5_0" pos="32.92" friendlyPos="1" length="20.47"/>
+        <access lane="29265582#6_0" pos="0.00" friendlyPos="1" length="20.12"/>
+        <access lane="30389077_0" pos="0.20" friendlyPos="1" length="35.79"/>
+    </busStop>
+    <busStop id="334440331" name="Englmeierstraße" lane="1272893277#1_0" startPos="18.07" endPos="33.07" friendlyPos="1" lines="2 1">
+        <access lane="-30382700#0_0" pos="17.60" friendlyPos="1" length="174.30"/>
+        <access lane="-80175733#2_0" pos="35.82" friendlyPos="1" length="137.49"/>
+        <access lane="-80175733#3_0" pos="16.37" friendlyPos="1" length="161.71"/>
+        <access lane="80175733#2_0" pos="61.67" friendlyPos="1" length="142.29"/>
+        <access lane="80175733#3_0" pos="0.00" friendlyPos="1" length="162.22"/>
+    </busStop>
+    <busStop id="335986457" name="Ilzbrücke" lane="1347382891_1" startPos="18.48" endPos="33.48" friendlyPos="1" lines="6130 6101/001 6131"/>
+    <busStop id="335990743" name="Hängebrücke" lane="154657137_0" startPos="572.92" endPos="587.92" friendlyPos="1" lines="2 4 3 100 1">
+        <access lane="-401915522_0" pos="32.39" friendlyPos="1" length="14.64"/>
+        <access lane="-813811675#2_0" pos="30.58" friendlyPos="1" length="16.77"/>
+        <access lane="401782286#1_0" pos="35.71" friendlyPos="1" length="11.83"/>
+        <access lane="401915522_0" pos="26.88" friendlyPos="1" length="17.64"/>
+        <access lane="813811675#2_0" pos="162.88" friendlyPos="1" length="13.77"/>
+    </busStop>
+    <busStop id="3383649979" name="Hochstraße" lane="7616069#4_1" startPos="0.00" endPos="0.20" friendlyPos="1" lines="K3"/>
+    <busStop id="3383649982" name="Wörthstraße" lane="7616072#3_0" startPos="363.92" endPos="378.92" friendlyPos="1" lines="K3">
+        <access lane="-7616072#3_0" pos="0.00" friendlyPos="1" length="6.45"/>
+        <access lane="-7616072#4_0" pos="56.61" friendlyPos="1" length="8.74"/>
+        <access lane="34753057_0" pos="0.00" friendlyPos="1" length="7.02"/>
+        <access lane="34753062_0" pos="0.00" friendlyPos="1" length="6.92"/>
+        <access lane="34753063_0" pos="0.00" friendlyPos="1" length="10.98"/>
+    </busStop>
+    <busStop id="347168456" name="Kainzenweg" lane="813802906_1" startPos="9.56" endPos="24.56" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="364344621" name="Leopoldstraße" lane="264781335#3_2" startPos="1.09" endPos="16.09" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="364344628" name="Giselastraße" lane="264781335#9_2" startPos="95.48" endPos="110.48" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="364344633" name="St. Anton" lane="1536115942#4_2" startPos="0.00" endPos="11.07" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="364344641" name="Schulzentrum / AOK" lane="664252402#0_2" startPos="8.49" endPos="23.49" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="3715175211" name="Passau, Hbf. (11)" lane="27392123_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="6147">
+        <access lane="-108277185#2_0" pos="36.42" friendlyPos="1" length="7.28"/>
+        <access lane="-1173765300_0" pos="4.49" friendlyPos="1" length="0.92"/>
+        <access lane="27355979_0" pos="7.74" friendlyPos="1" length="9.03"/>
+        <access lane="367435370_0" pos="2.49" friendlyPos="1" length="7.01"/>
+        <access lane="367608093_0" pos="51.50" friendlyPos="1" length="2.63"/>
+    </busStop>
+    <busStop id="3715175223" name="Passau, Hbf. (2)" lane="1173765306#1_1" startPos="1.31" endPos="16.31" friendlyPos="1" lines="6105"/>
+    <busStop id="395569574" name="Lüftlberg" lane="154656379#0_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="K1">
+        <access lane="-102448580_0" pos="0.00" friendlyPos="1" length="9.74"/>
+        <access lane="-102448581#2_0" pos="0.00" friendlyPos="1" length="59.72"/>
+        <access lane="-167783631#1_0" pos="0.00" friendlyPos="1" length="30.61"/>
+        <access lane="102448580_0" pos="35.71" friendlyPos="1" length="9.74"/>
+        <access lane="167783631#1_0" pos="46.36" friendlyPos="1" length="25.94"/>
+    </busStop>
+    <busStop id="4126855867" name="Passau, Kohlbruck" lane="313757721#1_0" startPos="0.00" endPos="13.79" friendlyPos="1" lines="6105 6106">
+        <access lane="1217795751_0" pos="0.20" friendlyPos="1" length="36.61"/>
+        <access lane="1217795752_0" pos="0.20" friendlyPos="1" length="1.67"/>
+        <access lane="73312649#0_0" pos="27.75" friendlyPos="1" length="4.39"/>
+        <access lane="73312649#1_0" pos="0.51" friendlyPos="1" length="3.12"/>
+        <access lane="73312679#1_0" pos="0.20" friendlyPos="1" length="32.72"/>
+    </busStop>
+    <busStop id="4126861692" name="Passau, Traminer Straße" lane="6757254_1" startPos="24.53" endPos="39.53" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="4229489688" name="Passau, Kohlbruck" lane="313757721#1_0" startPos="0.00" endPos="13.79" friendlyPos="1" lines="6209">
+        <access lane="1217795752_0" pos="0.00" friendlyPos="1" length="13.16"/>
+        <access lane="73312649#0_0" pos="27.75" friendlyPos="1" length="17.02"/>
+        <access lane="73312649#1_0" pos="1.92" friendlyPos="1" length="11.99"/>
+        <access lane="73312679#0_0" pos="2.06" friendlyPos="1" length="30.23"/>
+        <access lane="73312679#1_0" pos="0.20" friendlyPos="1" length="28.00"/>
+    </busStop>
+    <busStop id="4714252625" name="Passau, Hbf. (1)" lane="1173765306#1_1" startPos="8.49" endPos="23.49" friendlyPos="1" lines="6122/19 6105"/>
+    <busStop id="4714252628" name="Witikostraße" lane="157380038#0_0" startPos="4.03" endPos="19.03" friendlyPos="1" lines="6135">
+        <access lane="-11773600_0" pos="27.34" friendlyPos="1" length="21.83"/>
+        <access lane="-9637790#1_0" pos="0.00" friendlyPos="1" length="27.01"/>
+        <access lane="11773600_0" pos="0.00" friendlyPos="1" length="34.43"/>
+        <access lane="139016224_0" pos="128.96" friendlyPos="1" length="48.07"/>
+        <access lane="9637790#1_0" pos="64.14" friendlyPos="1" length="38.07"/>
+    </busStop>
+    <busStop id="4714252629" name="Schulbergstraße" lane="72865053#0_0" startPos="9.72" endPos="24.72" friendlyPos="1" lines="6135">
+        <access lane="-1454419259_0" pos="63.22" friendlyPos="1" length="149.77"/>
+        <access lane="-72477577#0_0" pos="83.08" friendlyPos="1" length="168.75"/>
+        <access lane="-80175733#2_0" pos="33.80" friendlyPos="1" length="186.05"/>
+        <access lane="1454419259_0" pos="0.00" friendlyPos="1" length="154.13"/>
+        <access lane="72477577#0_0" pos="0.00" friendlyPos="1" length="168.12"/>
+    </busStop>
+    <busStop id="4714253508" name="Passau, Hbf. (8)" lane="1173765296_1" startPos="12.84" endPos="27.84" friendlyPos="1" lines="6121/18 6110 6101/001 6209 6105 6106"/>
+    <busStop id="4714253509" name="Passau, ZOB" lane="48923956#1_0" startPos="17.29" endPos="32.29" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="506699277" name="Schönleitnerweg" lane="26823479#6_1" startPos="64.42" endPos="79.42" friendlyPos="1" lines="2 9 8 1 6209"/>
+    <busStop id="506699280" name="Schönleitnerweg" lane="26823479#6_1" startPos="64.42" endPos="79.42" friendlyPos="1" lines="6105 6106"/>
+    <busStop id="506699288" name="Klinikum" lane="211432507#0_1" startPos="13.76" endPos="28.76" friendlyPos="1" lines="9 K3 8"/>
+    <busStop id="514738087" name="Universität" lane="154955356#4_1" startPos="14.72" endPos="29.72" friendlyPos="1" lines="9 8"/>
+    <busStop id="514738106" name="Passau, Hbf. (9)" lane="1173765296_1" startPos="29.44" endPos="44.44" friendlyPos="1" lines="10 9 8 11 K4 100 6209"/>
+    <busStop id="57647857" name="Kachlet" lane="1099849747_0" startPos="52.83" endPos="67.83" friendlyPos="1" lines="11 9 8">
+        <access lane="-1099849749#0_0" pos="23.48" friendlyPos="1" length="11.91"/>
+        <access lane="-1099849749#1_0" pos="26.69" friendlyPos="1" length="44.60"/>
+        <access lane="-32824826#0_0" pos="452.71" friendlyPos="1" length="14.91"/>
+        <access lane="1099849748_0" pos="0.00" friendlyPos="1" length="41.35"/>
+        <access lane="1099849750_0" pos="43.44" friendlyPos="1" length="10.93"/>
+    </busStop>
+    <busStop id="57866399" name="Nagelschmiedgasse" lane="88841002#2_1" startPos="80.65" endPos="95.65" friendlyPos="1" lines="City-Bus 7599 K2 K3 6130 6101/001 6131"/>
+    <busStop id="57869798" name="Römerplatz" lane="1531942190#0_1" startPos="8.20" endPos="23.20" friendlyPos="1" lines="K2 6131 100"/>
+    <busStop id="595030" name="Am Schanzl" lane="72865940#0_0" startPos="0.00" endPos="1.30" friendlyPos="1" lines="2 5 4 K1 6 K3 3 1 7 6121/18 6110 6130 6101/001 7710/000048 6131 6148">
+        <access lane="-1272603956#1_0" pos="0.00" friendlyPos="1" length="32.04"/>
+        <access lane="-192670439#0_0" pos="7.61" friendlyPos="1" length="29.86"/>
+        <access lane="1280233250_0" pos="9.79" friendlyPos="1" length="6.59"/>
+        <access lane="1349224154_0" pos="14.82" friendlyPos="1" length="23.20"/>
+        <access lane="1349224155#0_0" pos="5.20" friendlyPos="1" length="26.29"/>
+    </busStop>
+    <busStop id="595054" name="Passau, Parkhaus Bahnhofstraße" lane="1185727578_0" startPos="70.52" endPos="85.52" friendlyPos="1" lines="10 9 8 11">
+        <access lane="-133369436#1_0" pos="78.01" friendlyPos="1" length="72.68"/>
+        <access lane="-295417214#1_0" pos="91.44" friendlyPos="1" length="6.45"/>
+        <access lane="1017106331_0" pos="219.11" friendlyPos="1" length="27.18"/>
+        <access lane="133369436#1_0" pos="106.20" friendlyPos="1" length="67.88"/>
+        <access lane="295417214#1_0" pos="77.78" friendlyPos="1" length="9.45"/>
+    </busStop>
+    <busStop id="603030416" name="Lindau" lane="96590897#1_0" startPos="248.62" endPos="263.62" friendlyPos="1" lines="7599">
+        <access lane="-153360831#1_0" pos="9.05" friendlyPos="1" length="33.49"/>
+        <access lane="-420222188#4_0" pos="151.62" friendlyPos="1" length="13.84"/>
+        <access lane="153360831#1_0" pos="28.05" friendlyPos="1" length="28.69"/>
+        <access lane="37862051#1_0" pos="307.10" friendlyPos="1" length="28.90"/>
+        <access lane="420222188#4_0" pos="308.13" friendlyPos="1" length="18.71"/>
+    </busStop>
+    <busStop id="60637997" name="Kohlbruck/Brücke" lane="8093561_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="5 6">
+        <access lane="1217795751_0" pos="0.20" friendlyPos="1" length="50.24"/>
+        <access lane="1217795752_0" pos="0.20" friendlyPos="1" length="31.27"/>
+        <access lane="73312649#0_0" pos="14.72" friendlyPos="1" length="20.47"/>
+        <access lane="73312649#1_0" pos="0.00" friendlyPos="1" length="32.25"/>
+        <access lane="73312679#1_0" pos="0.20" friendlyPos="1" length="46.72"/>
+    </busStop>
+    <busStop id="60767989" name="Passavia" lane="73317841#7_0" startPos="5.38" endPos="20.38" friendlyPos="1" lines="5 6">
+        <access lane="-1057086700#0_0" pos="36.33" friendlyPos="1" length="96.89"/>
+        <access lane="-242276114_0" pos="91.92" friendlyPos="1" length="24.89"/>
+        <access lane="-98209688_0" pos="56.74" friendlyPos="1" length="40.47"/>
+        <access lane="242276114_0" pos="0.00" friendlyPos="1" length="29.58"/>
+        <access lane="98209688_0" pos="64.52" friendlyPos="1" length="35.67"/>
+    </busStop>
+    <busStop id="61196795" name="Haibach" lane="835236146#2_0" startPos="96.88" endPos="111.88" friendlyPos="1" lines="4 3">
+        <access lane="-100437005#1_0" pos="15.72" friendlyPos="1" length="8.80"/>
+        <access lane="-175491235_0" pos="56.73" friendlyPos="1" length="33.13"/>
+        <access lane="-835236145_0" pos="16.11" friendlyPos="1" length="11.85"/>
+        <access lane="100437005#1_0" pos="105.71" friendlyPos="1" length="11.80"/>
+        <access lane="175491235_0" pos="0.00" friendlyPos="1" length="37.22"/>
+    </busStop>
+    <busStop id="6140602300" name="Passau, Hbf. (13)" lane="655396745_1" startPos="5.56" endPos="20.56" friendlyPos="1" lines="N881"/>
+    <busStop id="616834745" name="Giselastraße" lane="264781335#9_2" startPos="95.48" endPos="110.48" friendlyPos="1" lines="2 K3 1 6209"/>
+    <busStop id="620882486" name="Passau, Danziger Straße" lane="7654607#3_1" startPos="2.27" endPos="17.27" friendlyPos="1" lines="7 K4 6 5"/>
+    <busStop id="620882487" name="Passau, Dr.-Geiger-Weg" lane="7654607#9_1" startPos="43.70" endPos="58.70" friendlyPos="1" lines="7 K4 6 5"/>
+    <busStop id="620882489" name="Kraftstraße" lane="26217398#5_1" startPos="12.52" endPos="27.52" friendlyPos="1" lines="7 6 5"/>
+    <busStop id="620882492" name="Sailerwöhr" lane="26217398#20_1" startPos="2.61" endPos="17.61" friendlyPos="1" lines="7 6 5"/>
+    <busStop id="620882493" name="Auerspergstraße" lane="26217398#25_1" startPos="6.96" endPos="21.96" friendlyPos="1" lines="7 6 5"/>
+    <busStop id="620882496" name="Lambergstraße" lane="7938074#1_1" startPos="51.67" endPos="66.67" friendlyPos="1" lines="7 6 5"/>
+    <busStop id="620882500" name="Leopoldstraße" lane="7938074#7_1" startPos="56.46" endPos="71.46" friendlyPos="1" lines="7 6 5"/>
+    <busStop id="620900508" name="Römerplatz" lane="7864512#1_1" startPos="0.00" endPos="9.99" friendlyPos="1" lines="7599 K3"/>
+    <busStop id="6210628284" name="Sturmsölden" lane="38928987#28_1" startPos="107.80" endPos="122.80" friendlyPos="1" lines="7 5"/>
+    <busStop id="626111415" name="Passau, Stelzhamerstraße" lane="1211769013_1" startPos="5.41" endPos="20.41" friendlyPos="1" lines="6148 6147"/>
+    <busStop id="68714921" name="Ilzbrücke" lane="1110731624_0" startPos="23.95" endPos="38.95" friendlyPos="1" lines="2 6122/19 4 K2 100 1 6131">
+        <access lane="-663880247_0" pos="16.25" friendlyPos="1" length="7.78"/>
+        <access lane="-8010346_0" pos="4.20" friendlyPos="1" length="34.45"/>
+        <access lane="-8027922_0" pos="42.86" friendlyPos="1" length="41.07"/>
+        <access lane="663880247_0" pos="29.07" friendlyPos="1" length="10.78"/>
+        <access lane="8010346_0" pos="0.00" friendlyPos="1" length="47.99"/>
+    </busStop>
+    <busStop id="7006629640" name="Oberhaus" lane="60398823_0" startPos="179.85" endPos="194.85" friendlyPos="1" lines="Oberhausbus"/>
+    <busStop id="7006674999" name="Domplatz" lane="24586074#2_1" startPos="0.00" endPos="2.73" friendlyPos="1" lines="City-Bus"/>
+    <busStop id="7008117773" name="Residenzplatz" lane="106671696#1_1" startPos="0.00" endPos="12.05" friendlyPos="1" lines="City-Bus"/>
+    <busStop id="7008380704" name="Rathausplatz" lane="7864016#1_2" startPos="9.06" endPos="24.06" friendlyPos="1" lines="Oberhausbus"/>
+    <busStop id="751886353" name="Oberhausmuseum" lane="60398823_0" startPos="179.85" endPos="194.85" friendlyPos="1" lines="Oberhausbus"/>
+    <busStop id="753520955" name="Mühltalstraße" lane="7347445#1_1" startPos="87.29" endPos="102.29" friendlyPos="1" lines="4 K2 3"/>
+    <busStop id="7553299149" name="Ries-Wasserturm" lane="73943965#0_1" startPos="131.37" endPos="146.37" friendlyPos="1" lines="5">
+        <access lane="-1448173259#2_0" pos="402.69" friendlyPos="1" length="4.96"/>
+        <access lane="-157572411#0_0" pos="90.45" friendlyPos="1" length="131.41"/>
+        <access lane="-73943965#0_0" pos="87.63" friendlyPos="1" length="2.40"/>
+        <access lane="1448173259#2_0" pos="141.04" friendlyPos="1" length="7.96"/>
+        <access lane="157572411#0_0" pos="0.00" friendlyPos="1" length="130.93"/>
+    </busStop>
+    <busStop id="75847235" name="Landrichterstraße" lane="43477769#1_0" startPos="130.69" endPos="145.69" friendlyPos="1" lines="4">
+        <access lane="-73908850_0" pos="38.63" friendlyPos="1" length="130.62"/>
+        <access lane="1027376622_0" pos="5.98" friendlyPos="1" length="144.52"/>
+        <access lane="115395313_0" pos="31.17" friendlyPos="1" length="99.02"/>
+        <access lane="71438710#1_0" pos="223.50" friendlyPos="1" length="8.94"/>
+        <access lane="73908850_0" pos="0.00" friendlyPos="1" length="134.16"/>
+    </busStop>
+    <busStop id="7837317909" name="Passau, Untere Schneckenbergstraße C" lane="27332929#0_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="K3"/>
+    <busStop id="81080408" name="Plantage" lane="38928987#11_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="7 5"/>
+    <busStop id="83690900" name="Leopoldstraße" lane="264781335#3_2" startPos="3.16" endPos="18.16" friendlyPos="1" lines="2 K3 1 6209"/>
+    <busStop id="83692945" name="St. Anton" lane="1536115942#3_2" startPos="32.00" endPos="47.00" friendlyPos="1" lines="2 1 6209"/>
+    <busStop id="83698004" name="Schulzentrum / AOK" lane="664252402#0_2" startPos="8.49" endPos="23.49" friendlyPos="1" lines="2 1 6209"/>
+    <busStop id="83699722" name="Kainzenweg" lane="313742463#0_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="2 1 6209"/>
+    <busStop id="864720544" name="Waldschmidtstraße" lane="30382711#1_0" startPos="13.38" endPos="28.38" friendlyPos="1" lines="2 1">
+        <access lane="-30382702_0" pos="21.24" friendlyPos="1" length="15.85"/>
+        <access lane="-30382708#1_0" pos="0.00" friendlyPos="1" length="52.99"/>
+        <access lane="30382695#0_0" pos="0.00" friendlyPos="1" length="65.31"/>
+        <access lane="30382702_0" pos="0.00" friendlyPos="1" length="20.37"/>
+        <access lane="30382708#1_0" pos="12.51" friendlyPos="1" length="53.52"/>
+    </busStop>
+    <busStop id="864720570" name="Säumerweg" lane="72865057_0" startPos="24.10" endPos="39.10" friendlyPos="1" lines="2 6130 6131">
+        <access lane="-234286278#0_0" pos="2.92" friendlyPos="1" length="60.00"/>
+        <access lane="-778618338_0" pos="41.43" friendlyPos="1" length="40.02"/>
+        <access lane="234286278#0_0" pos="0.00" friendlyPos="1" length="55.35"/>
+        <access lane="234286278#1_0" pos="0.00" friendlyPos="1" length="63.07"/>
+        <access lane="778618338_0" pos="15.13" friendlyPos="1" length="33.12"/>
+    </busStop>
+    <busStop id="864720584" name="Christdobl" lane="1212231293#1_1" startPos="190.19" endPos="205.19" friendlyPos="1" lines="2 6122/19 4 K2 100 1 6131"/>
+    <busStop id="864720589" name="Säumerweg" lane="72865057_0" startPos="22.60" endPos="37.60" friendlyPos="1" lines="6135">
+        <access lane="-234286278#0_0" pos="2.92" friendlyPos="1" length="61.91"/>
+        <access lane="-778618338_0" pos="41.43" friendlyPos="1" length="38.31"/>
+        <access lane="234286278#0_0" pos="0.00" friendlyPos="1" length="57.13"/>
+        <access lane="234286278#1_0" pos="0.00" friendlyPos="1" length="62.19"/>
+        <access lane="778618338_0" pos="15.13" friendlyPos="1" length="31.91"/>
+    </busStop>
+    <busStop id="864720658" name="Prinz-Eugen-Straße" lane="9637790#1_1" startPos="42.55" endPos="57.55" friendlyPos="1" lines="2 1"/>
+    <busStop id="864720683" name="Rathaus" lane="108322891#0_1" startPos="34.60" endPos="49.60" friendlyPos="1" lines="City-Bus 7599 6130 6101/001 6131"/>
+    <busStop id="864752710" name="Passau, ZOB" lane="48923956#1_0" startPos="18.66" endPos="33.66" friendlyPos="1" lines="7 6105"/>
+    <busStop id="864752719" name="Passau, ZOB" lane="48923957#0_0" startPos="25.49" endPos="40.49" friendlyPos="1" lines="9 8 6106"/>
+    <busStop id="864752736" name="Passau, ZOB" lane="48923962#0_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="4 3"/>
+    <busStop id="864752771" name="Passau, ZOB" lane="48923952_0" startPos="10.86" endPos="25.86" friendlyPos="1" lines="10"/>
+    <busStop id="864752780" name="Passau, ZOB" lane="48923957#0_0" startPos="10.89" endPos="25.89" friendlyPos="1" lines="5 6"/>
+    <busStop id="864752790" name="Passau, ZOB" lane="388880471_0" startPos="0.00" endPos="0.20" friendlyPos="1" lines="6131"/>
+    <busStop id="864752814" name="Passau, ZOB" lane="48923952_0" startPos="33.35" endPos="48.35" friendlyPos="1" lines="K2 K1 K4 K3 6135"/>
+    <busStop id="864752823" name="Passau, ZOB" lane="48923958#1_0" startPos="13.27" endPos="28.27" friendlyPos="1" lines="2 1"/>
+    <busStop id="864752834" name="Passau, ZOB" lane="48923957#0_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="7"/>
+    <busStop id="864752853" name="Passau, ZOB" lane="48923956#1_0" startPos="30.55" endPos="45.55" friendlyPos="1" lines="6 5"/>
+    <busStop id="864752864" name="Passau, ZOB" lane="48923956#1_0" startPos="2.07" endPos="17.07" friendlyPos="1" lines="9 8 6106"/>
+    <busStop id="864752887" name="Passau, ZOB" lane="48923958#1_0" startPos="4.10" endPos="19.10" friendlyPos="1" lines="4 3 6209 6105 6106"/>
+    <busStop id="864752892" name="Passau, ZOB" lane="48923952_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="11"/>
+    <busStop id="864886640" name="Passau, Stelzhamerstraße" lane="1211769013_1" startPos="5.36" endPos="20.36" friendlyPos="1" lines="10 11 9 8"/>
+    <busStop id="865262924" name="Firmiangut" lane="137448410#1_1" startPos="18.06" endPos="33.06" friendlyPos="1" lines="1"/>
+    <busStop id="865262951" name="Eggendobl" lane="327067841_1" startPos="0.00" endPos="13.90" friendlyPos="1" lines="7 6121/18 7710/000048 6110 6 K1 5"/>
+    <busStop id="865263168" name="Lindau" lane="72492792#0_1" startPos="24.18" endPos="39.18" friendlyPos="1" lines="3 K3 1">
+        <access lane="-1296607215#2_0" pos="0.00" friendlyPos="1" length="57.78"/>
+        <access lane="-153360831#1_0" pos="0.00" friendlyPos="1" length="44.75"/>
+        <access lane="1296607214_0" pos="0.20" friendlyPos="1" length="66.20"/>
+        <access lane="1296607215#2_0" pos="5.31" friendlyPos="1" length="53.14"/>
+        <access lane="153360831#1_0" pos="37.10" friendlyPos="1" length="48.74"/>
+    </busStop>
+    <busStop id="865390281" name="Ries" lane="73704289#0_0" startPos="0.00" endPos="9.04" friendlyPos="1" lines="5"/>
+    <busStop id="865390282" name="Passau, Äußere Spitalhofstraße" lane="137898810_1" startPos="17.39" endPos="32.39" friendlyPos="1" lines="K4 7"/>
+    <busStop id="865390319" name="Passau, Holzmannstraße" lane="1052136413_2" startPos="0.00" endPos="15.00" friendlyPos="1" lines="10 K4 7"/>
+    <busStop id="865390335" name="Eggendobl" lane="121880279#0_1" startPos="176.39" endPos="191.39" friendlyPos="1" lines="5 K1 6 7 6121/18 6110 7710/000048"/>
+    <busStop id="865463058" name="Dr.-Emil-Brichta-Straße" lane="313757717_2" startPos="11.63" endPos="26.63" friendlyPos="1" lines="2 1"/>
+    <busStop id="869558307" name="Dr.-Ernst-Derra-Straße" lane="73317825#2_2" startPos="108.22" endPos="123.22" friendlyPos="1" lines="6 5"/>
+    <busStop id="869558412" name="Kohlbruck" lane="153181405_0" startPos="18.94" endPos="33.94" friendlyPos="1" lines="5 6">
+        <access lane="-157572481#0_0" pos="2.49" friendlyPos="1" length="205.20"/>
+        <access lane="-157572481#1_0" pos="50.53" friendlyPos="1" length="209.66"/>
+        <access lane="157572481#0_0" pos="0.00" friendlyPos="1" length="209.71"/>
+        <access lane="42454548_0" pos="0.00" friendlyPos="1" length="53.98"/>
+        <access lane="42454878_0" pos="98.11" friendlyPos="1" length="51.73"/>
+    </busStop>
+    <busStop id="869558465" name="Söldenpeterweg" lane="8109358#4_0" startPos="12.69" endPos="27.69" friendlyPos="1" lines="9">
+        <access lane="-919797750_0" pos="0.00" friendlyPos="1" length="98.13"/>
+        <access lane="747219916_0" pos="0.00" friendlyPos="1" length="124.56"/>
+        <access lane="747219917_0" pos="0.00" friendlyPos="1" length="132.24"/>
+        <access lane="747219918_0" pos="0.00" friendlyPos="1" length="107.82"/>
+        <access lane="919797750_0" pos="29.35" friendlyPos="1" length="102.90"/>
+    </busStop>
+    <busStop id="869558491" name="Gretli-Fuchs-Straße" lane="73317825#1_2" startPos="26.92" endPos="41.92" friendlyPos="1" lines="6 5"/>
+    <busStop id="869558570" name="Kubinstraße" lane="73317828#1_1" startPos="0.00" endPos="7.28" friendlyPos="1" lines="5 6"/>
+    <busStop id="869558744" name="Kohlbruck/Erlebnisbad" lane="73317825#7_2" startPos="32.26" endPos="47.26" friendlyPos="1" lines="2 9 6 1 5 8"/>
+    <busStop id="869558801" name="Betty-Pfleger-Straße" lane="8093580#6_0" startPos="19.18" endPos="34.18" friendlyPos="1" lines="6 5">
+        <access lane="1217807722_0" pos="0.00" friendlyPos="1" length="6.32"/>
+        <access lane="27405215#0_0" pos="0.00" friendlyPos="1" length="51.96"/>
+        <access lane="664200138#7_0" pos="28.65" friendlyPos="1" length="9.67"/>
+        <access lane="664200138#8_0" pos="0.00" friendlyPos="1" length="10.92"/>
+        <access lane="664200147_0" pos="0.00" friendlyPos="1" length="49.26"/>
+    </busStop>
+    <busStop id="869558813" name="Donau-Schwaben-Straße" lane="73317841#12_0" startPos="11.56" endPos="26.56" friendlyPos="1" lines="5 6">
+        <access lane="-27042217_0" pos="89.25" friendlyPos="1" length="33.36"/>
+        <access lane="-294237725_0" pos="28.79" friendlyPos="1" length="73.57"/>
+        <access lane="27042217_0" pos="1.52" friendlyPos="1" length="38.16"/>
+        <access lane="294237725_0" pos="0.00" friendlyPos="1" length="71.32"/>
+        <access lane="294237727_0" pos="0.00" friendlyPos="1" length="87.27"/>
+    </busStop>
+    <busStop id="869558820" name="Kubinstraße" lane="73312724#1_1" startPos="0.00" endPos="6.82" friendlyPos="1" lines="6 5"/>
+    <busStop id="869650520" name="Breslauer Straße" lane="313742462#1_1" startPos="18.29" endPos="33.29" friendlyPos="1" lines="2 1 6209"/>
+    <busStop id="869650533" name="Breslauer Straße" lane="313742465#0_1" startPos="1.67" endPos="16.67" friendlyPos="1" lines="2 1"/>
+    <busStop id="871152549" name="Hacklstein" lane="1185727588_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="6148 6147"/>
+    <busStop id="871152550" name="Kachlet" lane="1099849747_0" startPos="32.43" endPos="47.43" friendlyPos="1" lines="6148 6147">
+        <access lane="-1099849749#0_0" pos="46.89" friendlyPos="1" length="24.94"/>
+        <access lane="-32824826#0_0" pos="428.98" friendlyPos="1" length="27.94"/>
+        <access lane="-7841523#1_0" pos="26.63" friendlyPos="1" length="43.69"/>
+        <access lane="1099849750_0" pos="21.11" friendlyPos="1" length="3.02"/>
+        <access lane="7841523#1_0" pos="56.02" friendlyPos="1" length="46.69"/>
+    </busStop>
+    <busStop id="871152575" name="Augustinergasse" lane="154955358_1" startPos="5.60" endPos="20.60" friendlyPos="1" lines="9 8"/>
+    <busStop id="871152626" name="Passau, Steinbachmühle" lane="151096030#10_0" startPos="1.81" endPos="16.81" friendlyPos="1" lines="10 11 9 8">
+        <access lane="-1454635709_0" pos="0.00" friendlyPos="1" length="79.43"/>
+        <access lane="-27252226_0" pos="72.27" friendlyPos="1" length="22.32"/>
+        <access lane="1454635709_0" pos="46.75" friendlyPos="1" length="74.67"/>
+        <access lane="27252226_0" pos="0.00" friendlyPos="1" length="26.58"/>
+        <access lane="34912242#0_0" pos="0.00" friendlyPos="1" length="90.41"/>
+    </busStop>
+    <busStop id="871152653" name="Hacklstein" lane="1185727588_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="11 9 8"/>
+    <busStop id="872833279" name="Ries" lane="72928258_0" startPos="0.00" endPos="9.67" friendlyPos="1" lines="5">
+        <access lane="-1111767774_0" pos="15.71" friendlyPos="1" length="9.86"/>
+        <access lane="-1448173259#2_0" pos="0.25" friendlyPos="1" length="31.46"/>
+        <access lane="-72928240_0" pos="0.00" friendlyPos="1" length="28.63"/>
+        <access lane="1448173259#2_0" pos="542.79" friendlyPos="1" length="28.46"/>
+        <access lane="73704286_0" pos="0.00" friendlyPos="1" length="13.71"/>
+    </busStop>
+    <busStop id="872833288" name="Schulstraße" lane="72928256#5_0" startPos="11.76" endPos="26.76" friendlyPos="1" lines="7 K1 6 5">
+        <access lane="-147684975#2_0" pos="0.00" friendlyPos="1" length="41.29"/>
+        <access lane="-150888445_0" pos="197.43" friendlyPos="1" length="58.96"/>
+        <access lane="-72928256#4_0" pos="0.00" friendlyPos="1" length="45.37"/>
+        <access lane="-72928256#5_0" pos="42.96" friendlyPos="1" length="6.30"/>
+        <access lane="147684975#2_0" pos="13.62" friendlyPos="1" length="37.38"/>
+    </busStop>
+    <busStop id="872833328" name="Grillenöd" lane="38928987#24_1" startPos="12.20" endPos="27.20" friendlyPos="1" lines="7 5"/>
+    <busStop id="872833336" name="Gertraudstraße" lane="38928987#17_1" startPos="37.30" endPos="52.30" friendlyPos="1" lines="7 5"/>
+    <busStop id="872833429" name="Glockenstraße" lane="38928987#6_1" startPos="0.00" endPos="15.00" friendlyPos="1" lines="7 5"/>
+    <busStop id="872833459" name="Fürstenweg" lane="72928256#1_0" startPos="13.27" endPos="28.27" friendlyPos="1" lines="7 6 5">
+        <access lane="-72928256#0_0" pos="0.00" friendlyPos="1" length="46.04"/>
+        <access lane="-72928256#1_0" pos="212.68" friendlyPos="1" length="6.38"/>
+        <access lane="-73499012#0_0" pos="213.87" friendlyPos="1" length="28.64"/>
+        <access lane="73499012#0_0" pos="12.02" friendlyPos="1" length="23.84"/>
+        <access lane="96350536_0" pos="254.29" friendlyPos="1" length="66.82"/>
+    </busStop>
+    <busStop id="874761680" name="Birkhamerstraße" lane="8109351#2_0" startPos="43.27" endPos="58.27" friendlyPos="1" lines="9 8">
+        <access lane="-122797025_0" pos="0.00" friendlyPos="1" length="151.82"/>
+        <access lane="-27405971_0" pos="104.29" friendlyPos="1" length="93.60"/>
+        <access lane="-924458049_0" pos="0.00" friendlyPos="1" length="89.26"/>
+        <access lane="27405971_0" pos="0.00" friendlyPos="1" length="88.83"/>
+        <access lane="924458049_0" pos="66.89" friendlyPos="1" length="92.97"/>
+    </busStop>
+    <busStop id="874761893" name="Ries-Wasserturm" lane="73943965#0_1" startPos="181.33" endPos="196.33" friendlyPos="1" lines="6121/18 7710/000048 6110">
+        <access lane="-1448173259#2_0" pos="352.90" friendlyPos="1" length="5.75"/>
+        <access lane="-73943965#0_0" pos="37.35" friendlyPos="1" length="2.40"/>
+        <access lane="-73943965#1_0" pos="209.29" friendlyPos="1" length="76.65"/>
+        <access lane="1448173259#2_0" pos="190.67" friendlyPos="1" length="8.75"/>
+        <access lane="157572411#0_0" pos="0.00" friendlyPos="1" length="197.32"/>
+    </busStop>
+    <busStop id="874761975" name="Königsberger Straße" lane="8109361#12_0" startPos="1.08" endPos="16.08" friendlyPos="1" lines="9 8">
+        <access lane="-27041845_0" pos="0.00" friendlyPos="1" length="23.09"/>
+        <access lane="-27404424#0_0" pos="34.96" friendlyPos="1" length="53.56"/>
+        <access lane="27041845_0" pos="104.59" friendlyPos="1" length="18.39"/>
+        <access lane="27404422_0" pos="1.01" friendlyPos="1" length="48.76"/>
+        <access lane="27404423_0" pos="23.57" friendlyPos="1" length="63.00"/>
+    </busStop>
+    <busStop id="874762090" name="Breslauer Straße" lane="8109356#5_0" startPos="5.99" endPos="20.99" friendlyPos="1" lines="8">
+        <access lane="-27264441_0" pos="1.18" friendlyPos="1" length="72.31"/>
+        <access lane="-919797751_0" pos="24.97" friendlyPos="1" length="30.54"/>
+        <access lane="27264441_0" pos="10.24" friendlyPos="1" length="77.11"/>
+        <access lane="734119714_0" pos="62.44" friendlyPos="1" length="76.78"/>
+        <access lane="919797751_0" pos="0.00" friendlyPos="1" length="25.90"/>
+    </busStop>
+    <busStop id="874762106" name="Vornholz" lane="8109351#4_0" startPos="6.66" endPos="21.66" friendlyPos="1" lines="9 8">
+        <access lane="-122797026_0" pos="22.29" friendlyPos="1" length="69.48"/>
+        <access lane="122797026_0" pos="0.00" friendlyPos="1" length="67.45"/>
+        <access lane="122797032_0" pos="0.00" friendlyPos="1" length="24.04"/>
+        <access lane="122797033_0" pos="23.05" friendlyPos="1" length="26.56"/>
+        <access lane="122797034_0" pos="8.20" friendlyPos="1" length="23.39"/>
+    </busStop>
+    <busStop id="874762126" name="Simmerlingweg" lane="26589224#0_0" startPos="3.32" endPos="18.32" friendlyPos="1" lines="9 8 5 6">
+        <access lane="-1002683498#0_0" pos="12.36" friendlyPos="1" length="29.60"/>
+        <access lane="-1002683498#1_0" pos="8.35" friendlyPos="1" length="53.92"/>
+        <access lane="-896220652#3_0" pos="0.00" friendlyPos="1" length="51.70"/>
+        <access lane="-98114366#0_0" pos="20.56" friendlyPos="1" length="53.42"/>
+        <access lane="1002683498#0_0" pos="0.00" friendlyPos="1" length="25.29"/>
+    </busStop>
+    <trainStop id="-5225575205" name="Passau Hbf" lane="-28445231#0_0" startPos="154.47" endPos="354.47" friendlyPos="1" lines="RE 3">
+        <access lane="1185509057_0" pos="0.00" friendlyPos="1" length="14.12"/>
+        <access lane="1185509058#0_0" pos="0.00" friendlyPos="1" length="5.45"/>
+        <access lane="1185509058#1_0" pos="0.00" friendlyPos="1" length="15.59"/>
+        <access lane="1185509060_0" pos="0.61" friendlyPos="1" length="39.32"/>
+        <access lane="367435351_0" pos="8.62" friendlyPos="1" length="21.73"/>
+    </trainStop>
+    <trainStop id="2541104524" name="Passau Hbf" lane="96103236#0_0" startPos="0.00" endPos="200.00" friendlyPos="1" lines="RB 46">
+        <access lane="1185509057_0" pos="0.00" friendlyPos="1" length="15.63"/>
+        <access lane="1185509058#0_0" pos="3.09" friendlyPos="1" length="17.42"/>
+        <access lane="1185509058#1_0" pos="3.27" friendlyPos="1" length="6.70"/>
+        <access lane="1185509060_0" pos="0.61" friendlyPos="1" length="15.51"/>
+        <access lane="367435345_0" pos="15.83" friendlyPos="1" length="21.02"/>
+    </trainStop>
+    <trainStop id="2875973801" name="Passau Hbf" lane="28445208#1_0" startPos="66.14" endPos="266.14" friendlyPos="1" lines="ICE 39 ICE 91">
+        <access lane="1185509059_0" pos="0.68" friendlyPos="1" length="5.47"/>
+        <access lane="1185509060_0" pos="0.00" friendlyPos="1" length="13.10"/>
+        <access lane="1185509061_0" pos="1.47" friendlyPos="1" length="10.61"/>
+        <access lane="367435345_0" pos="15.83" friendlyPos="1" length="11.51"/>
+        <access lane="462820454#1_0" pos="1.76" friendlyPos="1" length="14.31"/>
+    </trainStop>
+    <trainStop id="2875973802" name="Passau Hbf" lane="247179222#0_0" startPos="0.00" endPos="200.00" friendlyPos="1" lines="12888 RE 3">
+        <access lane="1185509058#1_0" pos="3.27" friendlyPos="1" length="18.12"/>
+        <access lane="1185509059_0" pos="0.00" friendlyPos="1" length="11.13"/>
+        <access lane="1185509060_0" pos="0.61" friendlyPos="1" length="3.78"/>
+        <access lane="1185509061_0" pos="1.47" friendlyPos="1" length="25.05"/>
+        <access lane="367435345_0" pos="15.83" friendlyPos="1" length="9.81"/>
+    </trainStop>
+</additional>
