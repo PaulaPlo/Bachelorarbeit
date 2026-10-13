@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.log
+*.tmp
+
+# SUMO Outputs
+tripinfos.xml
+stopinfos.xml
+stats.xml
+vehroutes.xml
+
+# Komprimierte OSM-Dateien
+*.xml.gz
+
+# VS Code
+.vscode/
