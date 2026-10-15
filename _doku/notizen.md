@@ -1,6 +1,5 @@
 ======= STAND DER TECHNIK ===================================================================================
-======= AUFBAU DER VERKEHRSSIUMLATION =======================================================================
- 
+======= AUFBAU DER VERKEHRSSIUMLATION ======================================================================
 TraCI: Traffic COntrol Interface
 Programmierschnittstelle zwischen Python und Sumo
 

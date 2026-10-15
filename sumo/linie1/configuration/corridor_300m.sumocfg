@@ -7,7 +7,7 @@
 
     <input>
         <net-file value="../corridor/corridor_300m.net.xml"/>
-        <route-files value="../route/linie1.rou.xml"/>
+        <route-files value="../route/linie1.rou.xml, ../demand/routes_300m.rou.xml"/>
         <additional-files value="../infrastructure/corridor_300m_stops.add.xml, output.add.xml"/>
     </input>
 
