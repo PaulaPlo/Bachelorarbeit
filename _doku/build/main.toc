@@ -1,0 +1,42 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{2}{}%
+\contentsline {section}{\numberline {1.1}Verkehrssimulation}{2}{}%
+\contentsline {section}{\numberline {1.2}Erzeugung von Fahr- und Einsatzprofilen}{2}{}%
+\contentsline {section}{\numberline {1.3}Grundlagen der Fahrzeuglängsdynamik}{2}{}%
+\contentsline {section}{\numberline {1.4}Fahrermodelle und Geschwindigkeitsregelung}{2}{}%
+\contentsline {section}{\numberline {1.5}Elektrifizierter Busantrieb}{2}{}%
+\contentsline {section}{\numberline {1.6}Systemgrenzen}{2}{}%
+\contentsline {section}{\numberline {1.7}Anforderungen}{2}{}%
+\contentsline {section}{\numberline {1.8}Gesamtarchitektur}{2}{}%
+\contentsline {section}{\numberline {1.9}Schnittstellen}{2}{}%
+\contentsline {chapter}{\numberline {2}Aufbau der Verkehrssimulation}{3}{}%
+\contentsline {section}{\numberline {2.1}Auswahl der Untersuchungsgebiets}{3}{}%
+\contentsline {section}{\numberline {2.2}Aufbau des SUMO-Netzes}{3}{}%
+\contentsline {section}{\numberline {2.3}Modellierung der Linie 1, Stadt Passau}{3}{}%
+\contentsline {section}{\numberline {2.4}Modellierung des Umgebungsverkehrs}{3}{}%
+\contentsline {section}{\numberline {2.5}Anbindung über TraCI}{3}{}%
+\contentsline {section}{\numberline {2.6}Erzeugts Ausgangsgrößen}{3}{}%
+\contentsline {section}{\numberline {2.7}Validierung der Verkehrssimulation}{3}{}%
+\contentsline {section}{\numberline {2.8}Anforderungen an das Fahrermodell}{3}{}%
+\contentsline {section}{\numberline {2.9}Eingangsdaten}{3}{}%
+\contentsline {section}{\numberline {2.10}Modellierung der Fahrwiderstände}{3}{}%
+\contentsline {section}{\numberline {2.11}Reglerstruktur}{3}{}%
+\contentsline {section}{\numberline {2.12}Reglerauslegung}{3}{}%
+\contentsline {section}{\numberline {2.13}Validierung des Fahrermodells}{3}{}%
+\contentsline {chapter}{\numberline {3}Implementierung in die ECU}{4}{}%
+\contentsline {section}{\numberline {3.1}Systemarchitektur}{4}{}%
+\contentsline {section}{\numberline {3.2}Schnittstellen}{4}{}%
+\contentsline {section}{\numberline {3.3}Implementierung des Fahrermodells}{4}{}%
+\contentsline {section}{\numberline {3.4}Signalfluss und Begrenzungen}{4}{}%
+\contentsline {section}{\numberline {3.5}Funktionstest}{4}{}%
+\contentsline {chapter}{\numberline {4}Ergebnisse und Bewertung}{5}{}%
+\contentsline {section}{\numberline {4.1}Ergebnisse der Verkehrssimulation}{5}{}%
+\contentsline {section}{\numberline {4.2}Güte des Fahrermodells}{5}{}%
+\contentsline {section}{\numberline {4.3}Drehmoment- und Belastungsverläufe}{5}{}%
+\contentsline {section}{\numberline {4.4}Einfluss unterschiedlicher Verkehrssituationen}{5}{}%
+\contentsline {section}{\numberline {4.5}Diskussion}{5}{}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{6}{}%
+\contentsline {section}{\numberline {5.1}Zusammenfassung der Ergebnisse}{6}{}%
+\contentsline {section}{\numberline {5.2}Grenzen der Arbeit}{6}{}%
+\contentsline {section}{\numberline {5.3}Ausblick}{6}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
