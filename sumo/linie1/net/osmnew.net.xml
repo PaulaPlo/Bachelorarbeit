@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-10-12T07:59:14.399091+01:00 by Eclipse SUMO netedit 1.27.0
+<!-- generated on 2026-10-19T08:54:25.263697+01:00 by Eclipse SUMO netedit 1.27.0
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumocfg-file value="C:\Users\Z0186129\OneDrive - ZF Friedrichshafen AG\Desktop\Bachelorarbeit\Bachelorarbeit VS Code\sumo\simulation.sumocfg"/>
-        <sumo-net-file value="C:\Users\Z0186129\OneDrive - ZF Friedrichshafen AG\Desktop\2026-10-12-07-06-37\osm.net.xml.gz"/>
+        <additional-files value="C:\Users\Z0186129\OneDrive - ZF Friedrichshafen AG\Desktop\Bachelorarbeit\bachelorarbeit_vs\sumo\linie1\infrastructure\osm_stops.add.xml"/>
+        <route-files value="C:\Users\Z0186129\OneDrive - ZF Friedrichshafen AG\Desktop\Bachelorarbeit\bachelorarbeit_vs\sumo\linie1\route\linie1.rou.xml"/>
+        <sumo-net-file value="C:\Users\Z0186129\OneDrive - ZF Friedrichshafen AG\Desktop\Bachelorarbeit\bachelorarbeit_vs\sumo\linie1\net\osmnew.net.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\Z0186129\OneDrive - ZF Friedrichshafen AG\Desktop\2026-10-12-07-06-37\osm.net.xml.gz"/>
+        <output-file value="C:\Users\Z0186129\OneDrive - ZF Friedrichshafen AG\Desktop\Bachelorarbeit\bachelorarbeit_vs\sumo\linie1\net\osmnew.net.xml"/>
         <output.street-names value="true"/>
     </output>
 
