@@ -1,8 +1,8 @@
 import xml.etree.ElementTree as ET
 
 # Route einlesen
-route_file = "linie1.rou.xml"
-net_file = "osmnew.net.xml"
+route_file = "../../route/linie1.rou.xml"
+net_file = "../../configuration/osmnew.net.xml"
 
 # Route-Edges sammeln
 route_tree = ET.parse(route_file)

@@ -37,6 +37,19 @@ infrastructure --> Haltestellen, Detektoren, Additional Files
 net --> Straßennetz
 output --> Simulationsergebnisse
 
+
+Corridor-Festlegung:
+Tiefe 0: Linie 1 --> Tiefe 1: direkte Einmündungen/Nachbar-Edges --> Tiefe 2: Nachbarn dieser Edges --> Tiefe 3: nochmal deren Nachbarn
+outgoing: alle Edges, auf die man von A weiterfahren kann
+incomig: alle Edges, von denen man nach B fahren kann
+- pyhton Datei ausführen
+- txt in net convertieren: netconvert --sumo-net-file "../../net/osmnew.net.xml" --keep-edges.input-file "keep_edges_depth3.txt" -o "corridor_depth3.net.xml"
+
+Einbezug des Höhenprofils/der Topographie:
+Datengrundlage: Digitales Geländemogell (DGM/DEM), möglichst als GeoTIFF
+- convert-Befehl: netconvert --sumo-net-file "corridor_depth3.net.xml" --heightmap.geotiff "passau_dgm1.tif" -o "corridor_depth3_elevation.net.xml"
+
+
 ======= FAHRERMODELLENTWICKLUNG =============================================================================
 
 Relevante Größen für das Fahrermodell:
